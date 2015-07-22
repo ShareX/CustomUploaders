@@ -1,5 +1,5 @@
 ﻿{
-  "Name": "Stick Notes",
+  "Name": "paste.kde.org Sticky Notes",
   "RequestType": "POST",
   "RequestURL": "https://paste.kde.org/api/json/create",
   "FileFormName": "",
