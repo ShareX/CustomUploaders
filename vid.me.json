@@ -1,0 +1,16 @@
+﻿{
+  "Name": "vid.me",
+  "RequestType": "POST",
+  "RequestURL": "https://api.vid.me/video/upload",
+  "FileFormName": "filedata",
+  "Arguments": {
+    "private": "true"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"url\":\"(?<code>\\w+)\""
+  ],
+  "URL": "https://vid.me/$1,code$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}

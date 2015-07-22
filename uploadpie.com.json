@@ -1,0 +1,17 @@
+﻿{
+  "Name": "uploadpie.com",
+  "RequestType": "POST",
+  "RequestURL": "http://uploadpie.com",
+  "FileFormName": "uploadedfile",
+  "Arguments": {
+    "upload": "1",
+    "expire": "4"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "value=\"(.+?)\""
+  ],
+  "URL": "$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}

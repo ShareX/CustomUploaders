@@ -1,0 +1,14 @@
+﻿{
+  "Name": "imgur.com",
+  "RequestType": "POST",
+  "RequestURL": "http://imgur.com/upload",
+  "FileFormName": "Filedata",
+  "Arguments": {},
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"hash\":\"(.+?)\""
+  ],
+  "URL": "http://imgur.com/$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}

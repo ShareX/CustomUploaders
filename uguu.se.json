@@ -1,0 +1,15 @@
+﻿{
+  "Name": "uguu.se",
+  "RequestType": "POST",
+  "RequestURL": "http://uguu.se/api.php?d=upload",
+  "FileFormName": "file",
+  "Arguments": {
+    "name": "",
+    "randomname": ""
+  },
+  "ResponseType": "Text",
+  "RegexList": [],
+  "URL": "",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}

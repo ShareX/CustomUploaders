@@ -1,0 +1,12 @@
+﻿{
+  "Name": "upl.io",
+  "RequestType": "POST",
+  "RequestURL": "http://upl.io",
+  "FileFormName": "file",
+  "Arguments": {},
+  "ResponseType": "Text",
+  "RegexList": [],
+  "URL": "",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}

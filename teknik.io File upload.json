@@ -1,0 +1,17 @@
+﻿{
+  "Name": "teknik.io File upload",
+  "RequestType": "POST",
+  "RequestURL": "https://api.teknik.io/upload/post",
+  "FileFormName": "file",
+  "Arguments": {
+    "get_delete_key": "yes"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"delete_key\":\"(?<delKey>\\w+)\"",
+    "\"name\":\"(?<name>\\w+\\.\\w+)\""
+  ],
+  "URL": "https://u.teknik.io/$2,name$",
+  "ThumbnailURL": "",
+  "DeletionURL": "https://u.teknik.io/$2,name$/$1,delKey$"
+}

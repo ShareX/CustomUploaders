@@ -1,0 +1,14 @@
+﻿{
+  "Name": "1339.cf",
+  "RequestType": "POST",
+  "RequestURL": "http://1339.cf/upload.php",
+  "FileFormName": "files[]",
+  "Arguments": {},
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"url\":\"(.+?)\""
+  ],
+  "URL": "http://a.1339.cf/$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "tinyurl.com",
+  "RequestType": "GET",
+  "RequestURL": "http://tinyurl.com/create.php",
+  "FileFormName": "",
+  "Arguments": {
+    "url": "$input$"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "<blockquote><b>(http://.+?)</b><div"
+  ],
+  "URL": "$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}

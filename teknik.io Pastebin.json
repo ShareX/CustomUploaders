@@ -1,0 +1,18 @@
+﻿{
+  "Name": "teknik.io Pastebin",
+  "RequestType": "POST",
+  "RequestURL": "https://api.teknik.io/paste",
+  "FileFormName": "",
+  "Arguments": {
+    "code": "$input$",
+    "password": "",
+    "title": "%unix"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"id\":(?<id>\\d+)"
+  ],
+  "URL": "https://p.teknik.io/$1,id$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Name": "Stick Notes",
+  "RequestType": "POST",
+  "RequestURL": "https://paste.kde.org/api/json/create",
+  "FileFormName": "",
+  "Arguments": {
+    "data": "$input$",
+    "language": "text",
+    "title": "Test",
+    "private": "true",
+    "expire": "31536000"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"id\": *\"(.+)\"",
+    "\"hash\": *\"(.+)\""
+  ],
+  "URL": "https://paste.kde.org/$1,1$/$2,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}

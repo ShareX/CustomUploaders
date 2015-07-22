@@ -1,0 +1,18 @@
+﻿{
+  "Name": "cubeupload.com User",
+  "RequestType": "POST",
+  "RequestURL": "http://cubeupload.com/upload_json.php",
+  "FileFormName": "fileinput[0]",
+  "Arguments": {
+    "userHash": "Your user hash here",
+    "userID": "Your user ID here"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"file_name\":\"(.+?)\"",
+    "\"user_name\":\"(.+?)\""
+  ],
+  "URL": "http://u.cubeupload.com/$2,1$/$1,1$",
+  "ThumbnailURL": "http://u.cubeupload.com/$2,1$/t/$1,1$",
+  "DeletionURL": ""
+}
