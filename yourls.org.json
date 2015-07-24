@@ -1,0 +1,17 @@
+﻿{
+  "Name": "yourls.org",
+  "RequestType": "POST",
+  "RequestURL": "http://yourls.org/yourls-api.php",
+  "FileFormName": "",
+  "Arguments": {
+    "signature": "Your signature",
+    "action": "shorturl",
+    "url": "$input$",
+    "format": "simple"
+  },
+  "ResponseType": "Text",
+  "RegexList": [],
+  "URL": "",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}
