@@ -7,7 +7,7 @@
     "content": "$input$",
     "expiry_days": "365"
   },
-  "ResponseType": "RedirectionURL",
+  "ResponseType": "Text",
   "RegexList": [],
   "URL": "",
   "ThumbnailURL": "",

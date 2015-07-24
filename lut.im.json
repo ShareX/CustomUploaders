@@ -11,10 +11,10 @@
   "ResponseType": "Text",
   "RegexList": [
     "\"short\":\"(?<short>\\w+\\/\\w+)\"",
-    "\"token\":\"(?<token>\\w+)\"",
-    "\"real_short\":\"(?<real_short>\\w+)\""
+    "\"real_short\":\"(?<real_short>\\w+)\"",
+    "\"token\":\"(?<token>\\w+)\""
   ],
   "URL": "https://lut.im/$1,short$",
   "ThumbnailURL": "",
-  "DeletionURL": "https://lut.im/d/$3,real_short$/$2,token$"
+  "DeletionURL": "https://lut.im/d/$2,real_short$/$3,token$"
 }

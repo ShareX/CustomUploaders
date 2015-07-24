@@ -8,7 +8,7 @@
   },
   "ResponseType": "Text",
   "RegexList": [
-    "<blockquote><b>(http://.+?)</b><div"
+    "\"indent\"><b>(http://.+?)</b><div"
   ],
   "URL": "$1,1$",
   "ThumbnailURL": "",
