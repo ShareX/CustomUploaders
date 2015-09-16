@@ -1,0 +1,16 @@
+﻿{
+  "Name": "sr.ht",
+  "RequestType": "POST",
+  "RequestURL": "https://sr.ht/api/upload",
+  "FileFormName": "file",
+  "Arguments": {
+    "key": "Your API key here"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"url\": *\"(.+?)\""
+  ],
+  "URL": "$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}
