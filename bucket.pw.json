@@ -1,0 +1,14 @@
+ {
+  "Name": "BucketPW",
+  "RequestType": "POST",
+  "RequestURL": "https://bucket.pw/upload.php",
+  "FileFormName": "files[]",
+  "Arguments": {},
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"url\":\"(.+?)\""
+  ],
+  "URL": "https://dl.bucket.pw/$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}
