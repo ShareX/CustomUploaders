@@ -1,0 +1,14 @@
+{
+  "Name": "Mixtape.moe",
+  "RequestType": "POST",
+  "RequestURL": "https://mixtape.moe/upload.php",
+  "FileFormName": "files[]",
+  "Arguments": {},
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"url\":\".+\\/([^\"]+)\""
+  ],
+  "URL": "https://my.mixtape.moe/$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}
