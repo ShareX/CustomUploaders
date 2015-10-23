@@ -1,0 +1,14 @@
+﻿{
+  "Name": "pantsu.cat",
+  "RequestType": "POST",
+  "RequestURL": "https://pantsu.cat/upload.php",
+  "FileFormName": "files[]",
+  "Arguments": {},
+  "ResponseType": "Text",
+  "RegexList": [
+    "\\\"url\\\":\\\".+\\\\/([^\\\"]+)\\\""
+  ],
+  "URL": "https://i.pantsu.cat/$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}
