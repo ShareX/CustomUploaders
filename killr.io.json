@@ -1,0 +1,16 @@
+{
+  "Name": "killr.io",
+  "RequestType": "POST",
+  "RequestURL": "https://killr.io",
+  "FileFormName": "",
+  "Arguments": {
+    "code": "$input$"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"slug\": *\"(.+?)\""
+  ],
+  "URL": "https://killr.io/$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}
