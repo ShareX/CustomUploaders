@@ -1,0 +1,18 @@
+{
+  "Name": "Ghostbin",
+  "RequestType": "POST",
+  "RequestURL": "https://ghostbin.com/paste/new",
+  "FileFormName": "",
+  "Arguments": {
+    "lang": "text",
+    "text": "$input$",
+    "expire": "-1"
+  },
+  "ResponseType": "RedirectionURL",
+  "RegexList": [
+    "Sharei"
+  ],
+  "URL": "",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}
