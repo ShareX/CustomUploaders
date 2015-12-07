@@ -7,11 +7,10 @@
     "apikey": "FA424427F03624EC6FE8CFCAD5127C7D",
     "familysafe": "1"
   },
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"imageid\":\"(.+?)\""
-  ],
-  "URL": "http://someimage.com/$1,1$",
-  "ThumbnailURL": "",
+  "RegexList": [],
+  "URL": "$json:imagelink$",
+  "ThumbnailURL": "$json:thumblink$",
   "DeletionURL": ""
 }

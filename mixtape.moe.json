@@ -1,13 +1,13 @@
 ﻿{
-  "Name": "upl.io",
+  "Name": "mixtape.moe",
   "RequestType": "POST",
-  "RequestURL": "https://upl.io",
-  "FileFormName": "file",
+  "RequestURL": "https://mixtape.moe/upload.php",
+  "FileFormName": "files[]",
   "Arguments": {},
   "Headers": {},
   "ResponseType": "Text",
   "RegexList": [],
-  "URL": "",
+  "URL": "$json:files[0].url$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

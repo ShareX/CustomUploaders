@@ -10,12 +10,10 @@
     "private": "true",
     "expire": "31536000"
   },
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"id\": *\"(.+)\"",
-    "\"hash\": *\"(.+)\""
-  ],
-  "URL": "https://paste.kde.org/$1,1$/$2,1$",
+  "RegexList": [],
+  "URL": "https://paste.kde.org/$json:result.id$/$json:result.hash$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

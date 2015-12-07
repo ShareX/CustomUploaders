@@ -4,11 +4,12 @@
   "RequestURL": "https://www.pictshare.net/backend.php",
   "FileFormName": "postimage",
   "Arguments": {},
+  "Headers": {},
   "ResponseType": "Text",
   "RegexList": [
     "\"hash\":\"(.+?)\""
   ],
-  "URL": "http://www.pictshare.net/$1,1$",
-  "ThumbnailURL": "http://www.pictshare.net/300x300/$1,1$",
+  "URL": "http://www.pictshare.net/$json:hash$",
+  "ThumbnailURL": "http://www.pictshare.net/300x300/$json:hash$",
   "DeletionURL": ""
 }

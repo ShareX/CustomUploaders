@@ -1,5 +1,5 @@
-{
-  "Name": "Ghostbin",
+﻿{
+  "Name": "ghostbin.com",
   "RequestType": "POST",
   "RequestURL": "https://ghostbin.com/paste/new",
   "FileFormName": "",
@@ -8,6 +8,7 @@
     "text": "$input$",
     "expire": "-1"
   },
+  "Headers": {},
   "ResponseType": "RedirectionURL",
   "RegexList": [
     "Sharei"

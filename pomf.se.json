@@ -4,11 +4,10 @@
   "RequestURL": "http://pomf.se/upload.php",
   "FileFormName": "files[]",
   "Arguments": {},
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"url\":\"(.+?)\""
-  ],
-  "URL": "http://a.pomf.se/$1,1$",
+  "RegexList": [],
+  "URL": "$json:files[0].url$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

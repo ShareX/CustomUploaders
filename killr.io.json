@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "killr.io",
   "RequestType": "POST",
   "RequestURL": "https://killr.io",
@@ -6,11 +6,10 @@
   "Arguments": {
     "code": "$input$"
   },
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"slug\": *\"(.+?)\""
-  ],
-  "URL": "https://killr.io/$1,1$",
+  "RegexList": [],
+  "URL": "https://killr.io/$json:slug$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

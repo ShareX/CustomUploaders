@@ -6,11 +6,10 @@
   "Arguments": {
     "key": "Your API key here"
   },
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"url\": *\"(.+?)\""
-  ],
-  "URL": "$1,1$",
+  "RegexList": [],
+  "URL": "$json:url$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

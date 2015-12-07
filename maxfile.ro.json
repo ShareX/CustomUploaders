@@ -4,11 +4,10 @@
   "RequestURL": "https://maxfile.ro/static/upload.php",
   "FileFormName": "files[]",
   "Arguments": {},
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"url\":\"(.+?)\""
-  ],
-  "URL": "https://d.maxfile.ro/$1,1$",
+  "RegexList": [],
+  "URL": "https://d.maxfile.ro/$json:files[0].url$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }
