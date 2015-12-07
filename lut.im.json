@@ -10,13 +10,10 @@
     "crypt": "0",
     "keep-exif": "0"
   },
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"short\": *\"(?<short1>\\w+?)\\\\/(?<short2>\\w+)\"",
-    "\"real_short\": *\"(?<real_short>\\w+)\"",
-    "\"token\": *\"(?<token>\\w+)\""
-  ],
-  "URL": "https://lut.im/$1,short1$/$1,short2$",
+  "RegexList": [],
+  "URL": "https://lut.im/$json:msg.short$",
   "ThumbnailURL": "",
-  "DeletionURL": "https://lut.im/d/$2,real_short$/$3,token$"
+  "DeletionURL": "https://lut.im/d/$json:msg.real_short$/$json:msg.token$"
 }

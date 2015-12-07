@@ -10,9 +10,7 @@
   },
   "Headers": {},
   "ResponseType": "RedirectionURL",
-  "RegexList": [
-    "Sharei"
-  ],
+  "RegexList": [],
   "URL": "",
   "ThumbnailURL": "",
   "DeletionURL": ""
