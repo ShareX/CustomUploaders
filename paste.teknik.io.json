@@ -1,12 +1,14 @@
 ﻿{
-  "Name": "teknik.io Pastebin",
+  "Name": "paste.teknik.io",
   "RequestType": "POST",
   "RequestURL": "https://api.teknik.io/paste",
   "FileFormName": "",
   "Arguments": {
     "code": "$input$",
-    "password": "",
-    "title": "%unix"
+    "title": "",
+    "expiry": "f",
+    "format": "text",
+    "password": ""
   },
   "Headers": {},
   "ResponseType": "Text",

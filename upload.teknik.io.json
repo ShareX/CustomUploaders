@@ -1,5 +1,5 @@
 ﻿{
-  "Name": "teknik.io File upload",
+  "Name": "upload.teknik.io",
   "RequestType": "POST",
   "RequestURL": "https://api.teknik.io/upload/post",
   "FileFormName": "file",
