@@ -4,6 +4,7 @@
 
 ##How to import?
 
-1. ShareX main window -> Destinations -> Destination settings.
-2. Destination settings window -> Custom uploaders tab -> Import -> From file.
-3. Select downloaded [JSON](https://en.wikipedia.org/wiki/JSON) file from this page to import.
+1. ShareX main window -> Destinations menu -> Destination settings.
+2. Destination settings window -> Custom uploaders tab -> Import menu -> From clipboard or file.
+
+![](http://i.imgur.com/Pkom5z5.png)
