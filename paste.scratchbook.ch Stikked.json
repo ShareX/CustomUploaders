@@ -1,5 +1,5 @@
 ﻿{
-  "Name": "paste.scratchbook.ch Stikked",
+  "Name": "paste.scratchbook.ch (Stikked)",
   "RequestType": "POST",
   "RequestURL": "http://paste.scratchbook.ch/api/create",
   "FileFormName": "",
@@ -8,6 +8,7 @@
     "private": "1",
     "lang": "text"
   },
+  "Headers": {},
   "ResponseType": "Text",
   "RegexList": [],
   "URL": "",
