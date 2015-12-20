@@ -1,9 +1,12 @@
 ﻿{
   "Name": "catbox.moe",
   "RequestType": "POST",
-  "RequestURL": "http://catbox.moe/user/do_anonupload.php",
-  "FileFormName": "filesToUpload",
-  "Arguments": {},
+  "RequestURL": "http://catbox.moe/user/api.php",
+  "FileFormName": "fileToUpload",
+  "Arguments": {
+    "reqtype": "fileupload"
+  },
+  "Headers": {},
   "ResponseType": "Text",
   "RegexList": [],
   "URL": "",
