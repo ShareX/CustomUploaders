@@ -11,7 +11,5 @@
   "RegexList": [
     "value=\"(.+?)\""
   ],
-  "URL": "$1,1$",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "URL": "$1,1$"
 }

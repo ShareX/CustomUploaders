@@ -3,11 +3,6 @@
   "RequestType": "POST",
   "RequestURL": "http://imgur.com/upload",
   "FileFormName": "Filedata",
-  "Arguments": {},
-  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [],
-  "URL": "http://imgur.com/$json:data.hash$",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "URL": "http://imgur.com/$json:data.hash$"
 }

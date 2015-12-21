@@ -3,11 +3,5 @@
   "RequestType": "POST",
   "RequestURL": "https://upl.io",
   "FileFormName": "file",
-  "Arguments": {},
-  "Headers": {},
-  "ResponseType": "Text",
-  "RegexList": [],
-  "URL": "",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "ResponseType": "Text"
 }

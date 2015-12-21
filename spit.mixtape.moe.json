@@ -2,7 +2,6 @@
   "Name": "spit.mixtape.moe",
   "RequestType": "POST",
   "RequestURL": "https://spit.mixtape.moe/api/create",
-  "FileFormName": "",
   "Arguments": {
     "text": "$input$",
     "title": "",
@@ -11,10 +10,5 @@
     "lang": "text",
     "expire": "0"
   },
-  "Headers": {},
-  "ResponseType": "Text",
-  "RegexList": [],
-  "URL": "",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "ResponseType": "Text"
 }

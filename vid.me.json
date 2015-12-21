@@ -6,10 +6,6 @@
   "Arguments": {
     "private": "true"
   },
-  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [],
-  "URL": "$json:url$",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "URL": "$json:url$"
 }

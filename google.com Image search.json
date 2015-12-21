@@ -3,13 +3,9 @@
   "RequestType": "POST",
   "RequestURL": "https://www.google.com/searchbyimage/upload",
   "FileFormName": "encoded_image",
-  "Arguments": {},
-  "Headers": {},
   "ResponseType": "RedirectionURL",
   "RegexList": [
     "/webhp(.+)"
   ],
-  "URL": "https://www.google.com/search$regex:1,1$",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "URL": "https://www.google.com/search$regex:1,1$"
 }

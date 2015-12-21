@@ -7,10 +7,7 @@
     "apikey": "FA424427F03624EC6FE8CFCAD5127C7D",
     "familysafe": "1"
   },
-  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [],
   "URL": "$json:imagelink$",
-  "ThumbnailURL": "$json:thumblink$",
-  "DeletionURL": ""
+  "ThumbnailURL": "$json:thumblink$"
 }

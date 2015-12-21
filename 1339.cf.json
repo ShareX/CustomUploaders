@@ -3,11 +3,6 @@
   "RequestType": "POST",
   "RequestURL": "http://1339.cf/upload.php",
   "FileFormName": "files[]",
-  "Arguments": {},
-  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [],
-  "URL": "http://a.1339.cf/$json:files[0].url$",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "URL": "http://a.1339.cf/$json:files[0].url$"
 }

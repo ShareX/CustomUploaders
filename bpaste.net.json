@@ -2,15 +2,10 @@
   "Name": "bpaste.net",
   "RequestType": "POST",
   "RequestURL": "https://bpaste.net/",
-  "FileFormName": "",
   "Arguments": {
     "code": "$input$",
     "lexer": "text",
     "expiry": "never"
   },
-  "ResponseType": "RedirectionURL",
-  "RegexList": [],
-  "URL": "",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "ResponseType": "RedirectionURL"
 }

@@ -3,11 +3,7 @@
   "RequestType": "POST",
   "RequestURL": "http://www.hnng.moe/upload_d.php",
   "FileFormName": "file",
-  "Arguments": {},
-  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [],
   "URL": "$json:url$",
-  "ThumbnailURL": "",
   "DeletionURL": "$json:deletelink$"
 }

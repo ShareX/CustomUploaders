@@ -2,7 +2,6 @@
   "Name": "lgrh.me",
   "RequestType": "POST",
   "RequestURL": "http://lgrh.me/",
-  "FileFormName": "",
   "Arguments": {
     "url": "$input$",
     "submit": "Shorten"
@@ -11,7 +10,5 @@
   "RegexList": [
     "readonly value=\"(.+?)\""
   ],
-  "URL": "$1,1$",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "URL": "$1,1$"
 }
