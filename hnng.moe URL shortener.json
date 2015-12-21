@@ -1,7 +1,7 @@
 ﻿{
-  "Name": "waa.ai",
-  "RequestType": "POST",
-  "RequestURL": "https://api.waa.ai/shorten",
+  "Name": "hnng.moe (URL shortener)",
+  "RequestType": "GET",
+  "RequestURL": "http://www.hnng.moe/shortapi.php",
   "FileFormName": "",
   "Arguments": {
     "url": "$input$"
@@ -9,7 +9,7 @@
   "Headers": {},
   "ResponseType": "Text",
   "RegexList": [],
-  "URL": "$json:data.url$",
+  "URL": "",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

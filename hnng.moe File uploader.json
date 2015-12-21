@@ -1,13 +1,13 @@
 ﻿{
-  "Name": "upl.io",
+  "Name": "hnng.moe (File uploader)",
   "RequestType": "POST",
-  "RequestURL": "https://upl.io",
+  "RequestURL": "http://www.hnng.moe/upload_d.php",
   "FileFormName": "file",
   "Arguments": {},
   "Headers": {},
   "ResponseType": "Text",
   "RegexList": [],
-  "URL": "",
+  "URL": "$json:url$",
   "ThumbnailURL": "",
-  "DeletionURL": ""
+  "DeletionURL": "$json:deletelink$"
 }

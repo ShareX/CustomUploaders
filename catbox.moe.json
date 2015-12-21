@@ -1,12 +1,12 @@
 ﻿{
-  "Name": "dpaste.com",
+  "Name": "catbox.moe",
   "RequestType": "POST",
-  "RequestURL": "http://dpaste.com/api/v2/",
-  "FileFormName": "",
+  "RequestURL": "http://catbox.moe/user/api.php",
+  "FileFormName": "fileToUpload",
   "Arguments": {
-    "content": "$input$",
-    "expiry_days": "365"
+    "reqtype": "fileupload"
   },
+  "Headers": {},
   "ResponseType": "Text",
   "RegexList": [],
   "URL": "",

@@ -1,12 +1,15 @@
 ﻿{
-  "Name": "paste.scratchbook.ch (Stikked)",
+  "Name": "spit.mixtape.moe",
   "RequestType": "POST",
-  "RequestURL": "http://paste.scratchbook.ch/api/create",
+  "RequestURL": "https://spit.mixtape.moe/api/create",
   "FileFormName": "",
   "Arguments": {
     "text": "$input$",
+    "title": "",
+    "name": "",
     "private": "1",
-    "lang": "text"
+    "lang": "text",
+    "expire": "0"
   },
   "Headers": {},
   "ResponseType": "Text",

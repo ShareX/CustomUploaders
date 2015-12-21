@@ -4,11 +4,10 @@
   "RequestURL": "http://imgur.com/upload",
   "FileFormName": "Filedata",
   "Arguments": {},
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"hash\":\"(.+?)\""
-  ],
-  "URL": "http://imgur.com/$1,1$",
+  "RegexList": [],
+  "URL": "http://imgur.com/$json:data.hash$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

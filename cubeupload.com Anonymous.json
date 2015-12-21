@@ -1,5 +1,5 @@
 ﻿{
-  "Name": "cubeupload.com Anonymous",
+  "Name": "cubeupload.com (Anonymous)",
   "RequestType": "POST",
   "RequestURL": "http://cubeupload.com/upload_json.php",
   "FileFormName": "fileinput[0]",
@@ -7,11 +7,10 @@
     "userHash": "false",
     "userID": "false"
   },
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"file_name\":\"(.+?)\""
-  ],
-  "URL": "http://i.cubeupload.com/$1,1$",
-  "ThumbnailURL": "http://i.cubeupload.com/t/$1,1$",
+  "RegexList": [],
+  "URL": "http://i.cubeupload.com/$json:file_name$",
+  "ThumbnailURL": "http://i.cubeupload.com/t/$json:file_name$",
   "DeletionURL": ""
 }

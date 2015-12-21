@@ -1,17 +1,15 @@
 ﻿{
-  "Name": "paste.scratchbook.ch (Stikked)",
+  "Name": "killr.io",
   "RequestType": "POST",
-  "RequestURL": "http://paste.scratchbook.ch/api/create",
+  "RequestURL": "https://killr.io",
   "FileFormName": "",
   "Arguments": {
-    "text": "$input$",
-    "private": "1",
-    "lang": "text"
+    "code": "$input$"
   },
   "Headers": {},
   "ResponseType": "Text",
   "RegexList": [],
-  "URL": "",
+  "URL": "https://killr.io/$json:slug$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

@@ -1,13 +1,15 @@
 ﻿{
-  "Name": "maxfile.ro",
+  "Name": "gexii.com",
   "RequestType": "POST",
-  "RequestURL": "https://maxfile.ro/static/upload.php",
+  "RequestURL": "http://gexii.com/upload.php",
   "FileFormName": "files[]",
   "Arguments": {},
   "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [],
-  "URL": "https://d.maxfile.ro/$json:files[0].url$",
+  "RegexList": [
+    "Image 1:.+?value='(.+)'"
+  ],
+  "URL": "$regex:1,1$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

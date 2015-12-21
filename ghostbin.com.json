@@ -1,15 +1,15 @@
 ﻿{
-  "Name": "paste.scratchbook.ch (Stikked)",
+  "Name": "ghostbin.com",
   "RequestType": "POST",
-  "RequestURL": "http://paste.scratchbook.ch/api/create",
+  "RequestURL": "https://ghostbin.com/paste/new",
   "FileFormName": "",
   "Arguments": {
+    "lang": "text",
     "text": "$input$",
-    "private": "1",
-    "lang": "text"
+    "expire": "-1"
   },
   "Headers": {},
-  "ResponseType": "Text",
+  "ResponseType": "RedirectionURL",
   "RegexList": [],
   "URL": "",
   "ThumbnailURL": "",

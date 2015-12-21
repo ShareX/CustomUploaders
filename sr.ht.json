@@ -1,13 +1,15 @@
 ﻿{
-  "Name": "upl.io",
+  "Name": "sr.ht",
   "RequestType": "POST",
-  "RequestURL": "https://upl.io",
+  "RequestURL": "https://sr.ht/api/upload",
   "FileFormName": "file",
-  "Arguments": {},
+  "Arguments": {
+    "key": "Your API key here"
+  },
   "Headers": {},
   "ResponseType": "Text",
   "RegexList": [],
-  "URL": "",
+  "URL": "$json:url$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

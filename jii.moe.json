@@ -1,13 +1,13 @@
 ﻿{
-  "Name": "upl.io",
+  "Name": "jii.moe",
   "RequestType": "POST",
-  "RequestURL": "https://upl.io",
+  "RequestURL": "https://jii.moe/api/v1/upload",
   "FileFormName": "file",
   "Arguments": {},
   "Headers": {},
   "ResponseType": "Text",
   "RegexList": [],
-  "URL": "",
+  "URL": "$json:url$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }

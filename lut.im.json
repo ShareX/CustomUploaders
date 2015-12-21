@@ -6,15 +6,14 @@
   "Arguments": {
     "format": "json",
     "delete-day": "0",
-    "first-view": "0"
+    "first-view": "0",
+    "crypt": "0",
+    "keep-exif": "0"
   },
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"short\":\"(?<short>\\w+\\/\\w+)\"",
-    "\"token\":\"(?<token>\\w+)\"",
-    "\"real_short\":\"(?<real_short>\\w+)\""
-  ],
-  "URL": "https://lut.im/$1,short$",
+  "RegexList": [],
+  "URL": "https://lut.im/$json:msg.short$",
   "ThumbnailURL": "",
-  "DeletionURL": "https://lut.im/d/$3,real_short$/$2,token$"
+  "DeletionURL": "https://lut.im/d/$json:msg.real_short$/$json:msg.token$"
 }

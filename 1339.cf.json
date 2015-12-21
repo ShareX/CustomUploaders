@@ -4,11 +4,10 @@
   "RequestURL": "http://1339.cf/upload.php",
   "FileFormName": "files[]",
   "Arguments": {},
+  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "\"url\":\"(.+?)\""
-  ],
-  "URL": "http://a.1339.cf/$1,1$",
+  "RegexList": [],
+  "URL": "http://a.1339.cf/$json:files[0].url$",
   "ThumbnailURL": "",
   "DeletionURL": ""
 }
