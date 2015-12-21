@@ -1,19 +1,16 @@
 {
   "Name": "jesusfuck.me",
   "RequestType": "POST",
-  "RequestURL": "http://jesusfuck.me/api.php",
+  "RequestURL": "https://jesusfuck.me/api.php",
   "FileFormName": "imagefile",
   "Arguments": {
     "private": "true",
-    "format": "xml"
+    "format": "json"
   },
   "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [
-    "<img_delete_id>([\\s\\S]+)<\\/img_delete_id>",
-    "<img_url>([\\s\\S]+)<\\/img_url>"
-  ],
-  "URL": "$2,1$",
-  "ThumbnailURL": "",
-  "DeletionURL": "http://jesusfuck.me/?d=$1,1$"
+  "RegexList": [],
+  "URL": "$json:data.img_url$",
+  "ThumbnailURL": "$json:data.thumb_url$",
+  "DeletionURL": "http://jesusfuck.me/?d=$json:data.img_delete_id$"
 }
