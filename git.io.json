@@ -2,6 +2,7 @@
   "Name": "git.io",
   "RequestType": "POST",
   "RequestURL": "http://git.io/create",
+  "FileFormName": "",
   "Arguments": {
     "url": "$input$"
   },
@@ -9,5 +10,7 @@
   "RegexList": [
     ".+"
   ],
-  "URL": "http://git.io/$1$"
+  "URL": "http://git.io/$1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "Name": "jesusfuck.me",
   "RequestType": "POST",
   "RequestURL": "https://jesusfuck.me/api.php",
@@ -7,7 +7,9 @@
     "private": "true",
     "format": "json"
   },
+  "Headers": {},
   "ResponseType": "Text",
+  "RegexList": [],
   "URL": "$json:data.img_url$",
   "ThumbnailURL": "$json:data.thumb_url$",
   "DeletionURL": "http://jesusfuck.me/?d=$json:data.img_delete_id$"

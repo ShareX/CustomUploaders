@@ -2,10 +2,16 @@
   "Name": "paste.scratchbook.ch (Stikked)",
   "RequestType": "POST",
   "RequestURL": "http://paste.scratchbook.ch/api/create",
+  "FileFormName": "",
   "Arguments": {
     "text": "$input$",
     "private": "1",
     "lang": "text"
   },
-  "ResponseType": "Text"
+  "Headers": {},
+  "ResponseType": "Text",
+  "RegexList": [],
+  "URL": "",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }

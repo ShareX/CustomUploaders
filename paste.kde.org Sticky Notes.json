@@ -2,6 +2,7 @@
   "Name": "paste.kde.org (Sticky Notes)",
   "RequestType": "POST",
   "RequestURL": "https://paste.kde.org/api/json/create",
+  "FileFormName": "",
   "Arguments": {
     "data": "$input$",
     "language": "text",
@@ -9,6 +10,10 @@
     "private": "true",
     "expire": "31536000"
   },
+  "Headers": {},
   "ResponseType": "Text",
-  "URL": "https://paste.kde.org/$json:result.id$/$json:result.hash$"
+  "RegexList": [],
+  "URL": "https://paste.kde.org/$json:result.id$/$json:result.hash$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }

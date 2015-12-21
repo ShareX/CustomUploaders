@@ -2,6 +2,7 @@
   "Name": "paste.teknik.io",
   "RequestType": "POST",
   "RequestURL": "https://api.teknik.io/paste",
+  "FileFormName": "",
   "Arguments": {
     "code": "$input$",
     "title": "",
@@ -9,6 +10,10 @@
     "format": "text",
     "password": ""
   },
+  "Headers": {},
   "ResponseType": "Text",
-  "URL": "$json:[0].results.paste.url$"
+  "RegexList": [],
+  "URL": "$json:[0].results.paste.url$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }

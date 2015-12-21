@@ -2,9 +2,14 @@
   "Name": "dpaste.com",
   "RequestType": "POST",
   "RequestURL": "http://dpaste.com/api/v2/",
+  "FileFormName": "",
   "Arguments": {
     "content": "$input$",
     "expiry_days": "365"
   },
-  "ResponseType": "Text"
+  "ResponseType": "Text",
+  "RegexList": [],
+  "URL": "",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }

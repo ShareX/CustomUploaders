@@ -3,6 +3,11 @@
   "RequestType": "POST",
   "RequestURL": "https://mixtape.moe/upload.php",
   "FileFormName": "files[]",
+  "Arguments": {},
+  "Headers": {},
   "ResponseType": "Text",
-  "URL": "$json:files[0].url$"
+  "RegexList": [],
+  "URL": "$json:files[0].url$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }

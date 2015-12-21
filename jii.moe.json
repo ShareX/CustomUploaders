@@ -3,6 +3,11 @@
   "RequestType": "POST",
   "RequestURL": "https://jii.moe/api/v1/upload",
   "FileFormName": "file",
+  "Arguments": {},
+  "Headers": {},
   "ResponseType": "Text",
-  "URL": "$json:url$"
+  "RegexList": [],
+  "URL": "$json:url$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }

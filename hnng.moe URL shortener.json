@@ -2,8 +2,14 @@
   "Name": "hnng.moe (URL shortener)",
   "RequestType": "GET",
   "RequestURL": "http://www.hnng.moe/shortapi.php",
+  "FileFormName": "",
   "Arguments": {
     "url": "$input$"
   },
-  "ResponseType": "Text"
+  "Headers": {},
+  "ResponseType": "Text",
+  "RegexList": [],
+  "URL": "",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }

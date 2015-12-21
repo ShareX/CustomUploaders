@@ -11,5 +11,6 @@
     "\\/v\\/(?<code>\\w+)\\/file\\.html"
   ],
   "URL": "http://www40.zippyshare.com/v/$1,code$/file.html",
-  "ThumbnailURL": "http://www40.zippyshare.com/thumb/$1,code$/file.html"
+  "ThumbnailURL": "http://www40.zippyshare.com/thumb/$1,code$/file.html",
+  "DeletionURL": ""
 }

@@ -2,9 +2,14 @@
   "Name": "waa.ai",
   "RequestType": "POST",
   "RequestURL": "https://api.waa.ai/shorten",
+  "FileFormName": "",
   "Arguments": {
     "url": "$input$"
   },
+  "Headers": {},
   "ResponseType": "Text",
-  "URL": "$json:data.url$"
+  "RegexList": [],
+  "URL": "$json:data.url$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }

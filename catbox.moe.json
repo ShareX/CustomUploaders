@@ -6,5 +6,10 @@
   "Arguments": {
     "reqtype": "fileupload"
   },
-  "ResponseType": "Text"
+  "Headers": {},
+  "ResponseType": "Text",
+  "RegexList": [],
+  "URL": "",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }

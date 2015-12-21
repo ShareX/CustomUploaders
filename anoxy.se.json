@@ -3,9 +3,12 @@
   "RequestType": "POST",
   "RequestURL": "http://anoxy.se/ajax/upload/process_uploads.php",
   "FileFormName": "file[0]",
+  "Arguments": {},
   "ResponseType": "Text",
   "RegexList": [
     "\"id\":(\\d+)?,"
   ],
-  "URL": "http://anoxy.se/download.php?id=$1,1$"
+  "URL": "http://anoxy.se/download.php?id=$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
 }
