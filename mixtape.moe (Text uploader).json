@@ -1,5 +1,5 @@
 ﻿{
-  "Name": "spit.mixtape.moe",
+  "Name": "mixtape.moe (Text uploader)",
   "RequestType": "POST",
   "RequestURL": "https://spit.mixtape.moe/api/create",
   "FileFormName": "",
