@@ -1,11 +1,9 @@
 {
-  "Name": "vocaroo",
+  "Name": "vocaroo.com",
   "RequestType": "POST",
   "RequestURL": "http://s1.vocaroo.com/media/upload.php?respond_from_www_main",
   "FileFormName": "upload_data",
-  "Arguments": {
-    "filename": "%unix"
-  },
+  "Arguments": {},
   "Headers": {},
   "ResponseType": "Text",
   "RegexList": [],
