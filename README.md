@@ -29,7 +29,7 @@ Please use current custom uploader naming format for consistency; name and file 
 example.com.json
 ```
 
-If one domain have more than one service or profile then add that info near it with paranthesis:
+If one domain has more than one service or profile then add that info near it with paranthesis:
 
 ````
 example.com (Image uploader).json
