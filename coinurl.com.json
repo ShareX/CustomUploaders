@@ -2,14 +2,9 @@
   "Name": "coinurl.com",
   "RequestType": "GET",
   "RequestURL": "https://coinurl.com/api.php",
-  "FileFormName": "",
   "Arguments": {
     "uuid": "YOUR_UUID_HERE",
     "url": "$input$"
   },
-  "ResponseType": "Text",
-  "RegexList": [],
-  "URL": "",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "ResponseType": "Text"
 }

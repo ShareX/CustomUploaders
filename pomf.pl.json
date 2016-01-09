@@ -3,11 +3,6 @@
   "RequestType": "POST",
   "RequestURL": "http://pomf.pl/upload.php",
   "FileFormName": "files[]",
-  "Arguments": {},
-  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [],
-  "URL": "http://i.pomf.pl/$json:files[0].url$",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "URL": "http://i.pomf.pl/$json:files[0].url$"
 }

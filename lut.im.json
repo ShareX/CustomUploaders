@@ -10,10 +10,7 @@
     "crypt": "0",
     "keep-exif": "0"
   },
-  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [],
   "URL": "https://lut.im/$json:msg.short$",
-  "ThumbnailURL": "",
   "DeletionURL": "https://lut.im/d/$json:msg.real_short$/$json:msg.token$"
 }

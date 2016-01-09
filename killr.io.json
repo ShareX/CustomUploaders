@@ -2,14 +2,9 @@
   "Name": "killr.io",
   "RequestType": "POST",
   "RequestURL": "https://killr.io",
-  "FileFormName": "",
   "Arguments": {
     "code": "$input$"
   },
-  "Headers": {},
   "ResponseType": "Text",
-  "RegexList": [],
-  "URL": "https://killr.io/$json:slug$",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "URL": "https://killr.io/$json:slug$"
 }

@@ -2,7 +2,6 @@
   "Name": "tinyurl.com",
   "RequestType": "GET",
   "RequestURL": "http://tinyurl.com/create.php",
-  "FileFormName": "",
   "Arguments": {
     "url": "$input$"
   },
@@ -10,7 +9,5 @@
   "RegexList": [
     "\"indent\"><b>(http://.+?)</b><div"
   ],
-  "URL": "$1,1$",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "URL": "$1,1$"
 }

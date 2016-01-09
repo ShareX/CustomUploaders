@@ -7,9 +7,5 @@
     "key": "Your API key goes here",
     "format": "redirect"
   },
-  "ResponseType": "RedirectionURL",
-  "RegexList": [],
-  "URL": "",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "ResponseType": "RedirectionURL"
 }

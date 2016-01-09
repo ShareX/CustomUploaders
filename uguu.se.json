@@ -7,9 +7,5 @@
     "name": "",
     "randomname": ""
   },
-  "ResponseType": "Text",
-  "RegexList": [],
-  "URL": "",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "ResponseType": "Text"
 }

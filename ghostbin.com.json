@@ -2,16 +2,10 @@
   "Name": "ghostbin.com",
   "RequestType": "POST",
   "RequestURL": "https://ghostbin.com/paste/new",
-  "FileFormName": "",
   "Arguments": {
     "lang": "text",
     "text": "$input$",
     "expire": "-1"
   },
-  "Headers": {},
-  "ResponseType": "RedirectionURL",
-  "RegexList": [],
-  "URL": "",
-  "ThumbnailURL": "",
-  "DeletionURL": ""
+  "ResponseType": "RedirectionURL"
 }
