@@ -1,0 +1,10 @@
+{
+  "Name": "Lithi.io",
+  "RequestType": "POST",
+  "RequestURL": "https://lithi.io/upload.php",
+  "FileFormName": "file",
+  "Arguments": {
+    "key": "PUBLIC"
+  },
+  "ResponseType": "Text",
+}
