@@ -1,5 +1,5 @@
 {
-  "Name": "Lithi.io",
+  "Name": "lithi.io",
   "RequestType": "POST",
   "RequestURL": "https://lithi.io/upload.php",
   "FileFormName": "file",
