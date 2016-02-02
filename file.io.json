@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "file.io",
   "RequestType": "POST",
   "RequestURL": "https://file.io/?expires=1w",

@@ -1,12 +1,12 @@
 ﻿{
   "Name": "teknik.io (File uploader)",
   "RequestType": "POST",
-  "RequestURL": "https://api.teknik.io/upload/post",
+  "RequestURL": "https://api.teknik.io/v1/Upload",
   "FileFormName": "file",
   "Arguments": {
-    "get_delete_key": "yes"
+    "genDeletionKey": "true"
   },
   "ResponseType": "Text",
-  "URL": "$json:[0].results.file.url$",
-  "DeletionURL": "$json:[0].results.file.url$/$json:[0].results.file.delete_key$"
+  "URL": "$json:result.url$",
+  "DeletionURL": "$json:result.url$/$json:result.deletionKey$"
 }

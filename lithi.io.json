@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "lithi.io",
   "RequestType": "POST",
   "RequestURL": "https://lithi.io/upload.php",
@@ -6,5 +6,5 @@
   "Arguments": {
     "key": "PUBLIC"
   },
-  "ResponseType": "Text",
+  "ResponseType": "Text"
 }
