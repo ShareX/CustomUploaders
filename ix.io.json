@@ -3,9 +3,5 @@
   "RequestType": "POST",
   "RequestURL": "http://ix.io",
   "FileFormName": "f:1",
-  "ResponseType": "Text",
-  "RegexList": [
-    "(.+)"
-  ],
-  "URL": "$1$"
+  "ResponseType": "Text"
 }
