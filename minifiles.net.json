@@ -1,0 +1,14 @@
+{
+  "Name": "minifiles",
+  "RequestType": "POST",
+  "RequestURL": "https://minifiles.net/upload.php",
+  "FileFormName": "files[]",
+  "Arguments": {
+    "{}": ""
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\\\"url\\\":\"(.+?)\""
+  ],
+  "URL": "https://minifiles.net/files/$1,1$"
+}
