@@ -1,0 +1,9 @@
+{
+  "Name": "yabumi.cc",
+  "RequestType": "POST",
+  "RequestURL": "https://yabumi.cc/api/images.json",
+  "FileFormName": "imagedata",
+  "ResponseType": "Text",
+  "URL": "$json:url$",
+  "DeletionURL": "$json:editUrl$"
+}
