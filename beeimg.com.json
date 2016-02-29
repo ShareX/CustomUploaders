@@ -1,5 +1,5 @@
 ﻿{
-  "Name": "BeeIMG",
+  "Name": "beeimg.com",
   "RequestType": "POST",
   "RequestURL": "https://beeimg.com/api/upload/file/json/",
   "FileFormName": "file",
