@@ -17,8 +17,6 @@ If you need help while making custom uploader you can check here:
 
 https://github.com/ShareX/ShareX/wiki/Custom%20Uploader
 
-Or you can ask for help in [#ShareX IRC channel](http://webchat.freenode.net/?channels=%23ShareX).
-
 But easiest way to learn is checking other example custom uploaders to see how those work.
 
 ###Rules
