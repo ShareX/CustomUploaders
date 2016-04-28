@@ -1,0 +1,8 @@
+{
+  "Name": "fuwa.se",
+  "RequestType": "POST",
+  "RequestURL": "https://fuwa.se/api/upload",
+  "FileFormName": "files[]",
+  "ResponseType": "Text",
+  "URL": "$json:files[0].url$"
+}
