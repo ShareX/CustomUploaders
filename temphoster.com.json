@@ -1,0 +1,15 @@
+{
+  "Name": "temphoster.com",
+  "RequestType": "POST",
+  "RequestURL": "http://temphoster.com/index.php",
+  "FileFormName": "file",
+  "Arguments": {
+    "album": "0",
+    "agree": "1"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "1(.*)"
+  ],
+  "URL": "$regex:1,1$"
+}
