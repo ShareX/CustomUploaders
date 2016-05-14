@@ -1,5 +1,5 @@
 ﻿{
-  "Name": "BitURL (URL Shortener)",
+  "Name": "biturl.io (URL shortener)",
   "RequestType": "GET",
   "RequestURL": "https://biturl.io/api.php",
   "Arguments": {
