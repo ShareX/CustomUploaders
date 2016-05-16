@@ -1,10 +1,11 @@
-﻿{
-  "Name": "biturl.io (URL shortener)",
+{
+  "Name": "BitURL (URL Shortener)",
   "RequestType": "GET",
   "RequestURL": "https://biturl.io/api.php",
   "Arguments": {
     "key": "YourKeyHere",
     "url": "$input$"
   },
-  "ResponseType": "Text"
+  "ResponseType": "Text",
+  "URL": "$json:response$"
 }
