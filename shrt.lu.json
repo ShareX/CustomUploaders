@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "shrt.lu",
   "RequestType": "GET",
   "RequestURL": "http://shrt.lu/api/create",

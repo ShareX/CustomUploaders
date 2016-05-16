@@ -6,5 +6,6 @@
     "key": "YourKeyHere",
     "url": "$input$"
   },
-  "ResponseType": "Text"
+  "ResponseType": "Text",
+  "URL": "$json:response$"
 }
