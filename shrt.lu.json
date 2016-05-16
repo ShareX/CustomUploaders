@@ -1,0 +1,10 @@
+{
+  "Name": "Shrt.lu",
+  "RequestType": "GET",
+  "RequestURL": "http://shrt.lu/api/create",
+  "Arguments": {
+    "format": "text",
+    "url": "$input$"
+  },
+  "ResponseType": "Text"
+}
