@@ -1,0 +1,8 @@
+﻿{
+  "Name": "clyp.it",
+  "RequestType": "POST",
+  "RequestURL": "https://upload.clyp.it/upload",
+  "FileFormName": "audioFile",
+  "ResponseType": "Text",
+  "URL": "$json:Url$"
+}
