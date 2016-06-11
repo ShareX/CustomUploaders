@@ -1,11 +1,7 @@
 {
-  "Name": "Transfer.sh",
+  "Name": "transfer.sh",
   "RequestType": "POST",
   "RequestURL": "https://transfer.sh/",
   "FileFormName": "file",
-  "ResponseType": "Text",
-  "RegexList": [
-    "[^,]*$"
-  ],
-  "URL": "$1$"
+  "ResponseType": "Text"
 }
