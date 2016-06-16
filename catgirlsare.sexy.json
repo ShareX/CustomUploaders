@@ -1,0 +1,11 @@
+{
+  "Name": "Catgirlsare.sexy",
+  "RequestType": "POST",
+  "RequestURL": "https://catgirlsare.sexy/api/upload",
+  "FileFormName": "file",
+  "Arguments": {
+    "key": "[insert user key here]"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:..url$"
+}
