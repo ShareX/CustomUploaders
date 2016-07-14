@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "put.re",
   "RequestType": "POST",
   "RequestURL": "https://api.put.re/upload",

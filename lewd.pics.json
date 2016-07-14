@@ -1,10 +1,10 @@
-{
+﻿{
   "Name": "lewd.pics",
   "RequestType": "POST",
   "RequestURL": "https://lewd.pics/p/",
   "FileFormName": "fileToUpload",
   "Arguments": {
-    "curl2": "1",
+    "curl2": "1"
   },
   "ResponseType": "Text"
 }

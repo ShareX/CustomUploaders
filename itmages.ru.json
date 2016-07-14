@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "itmages.ru",
   "RequestType": "POST",
   "RequestURL": "http://itmages.ru/api/v3/pictures",
