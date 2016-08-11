@@ -4,5 +4,5 @@
   "RequestURL": "https://null.vg/upload.php",
   "FileFormName": "files[]",
   "ResponseType": "Text",
-  "URL": "https://dev.null.vg/$json:files[0].url$"
+  "URL": "$json:files[0].url$"
 }
