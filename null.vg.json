@@ -1,0 +1,8 @@
+{
+  "Name": "null.vg",
+  "RequestType": "POST",
+  "RequestURL": "http://null.vg/upload.php",
+  "FileFormName": "files[]",
+  "ResponseType": "Text",
+  "URL": "http://dev.null.vg/$json:files[0].url$"
+}
