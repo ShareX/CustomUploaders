@@ -1,7 +1,0 @@
-﻿{
-  "Name": "catn.tk",
-  "RequestType": "POST",
-  "RequestURL": "http://catn.tk/upload.php",
-  "FileFormName": "file",
-  "ResponseType": "RedirectionURL"
-}
