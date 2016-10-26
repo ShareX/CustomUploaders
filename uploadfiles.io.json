@@ -1,0 +1,8 @@
+{
+  "Name": "uploadfiles.io",
+  "RequestType": "POST",
+  "RequestURL": "https://up.uploadfiles.io/upload",
+  "FileFormName": "file",
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}
