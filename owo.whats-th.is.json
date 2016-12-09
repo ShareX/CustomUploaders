@@ -4,8 +4,5 @@
   "RequestURL": "https://api.whats-th.is/upload/pomf?key=YOUR_API_KEY",
   "FileFormName": "files[]",
   "ResponseType": "Text",
-  "RegexList": [
-    "\"url\":\"(.+?)\""
-  ],
-  "URL": "http://owo.whats-th.is/$regex:1,1$"
+  "URL": "https://owo.whats-th.is/$json:files[0].url$"
 }
