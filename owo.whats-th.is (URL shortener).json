@@ -1,7 +1,7 @@
 {
   "Name": "owo.whats-th.is (URL shortener)",
   "RequestType": "GET",
-  "RequestURL": "https://api.whats-th.is/shorten/polr",
+  "RequestURL": "https://api.awau.moe/shorten/polr",
   "Arguments": {
     "key": "YOUR_API_KEY",
     "url": "$input$",
