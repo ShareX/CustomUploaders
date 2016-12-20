@@ -1,0 +1,11 @@
+{
+  "Name": "teknik.io (URL shortener)",
+  "RequestType": "POST",
+  "RequestURL": "https://api.teknik.io/v1/Shorten",
+  "Arguments": {
+    "url": "$input$",
+    "doNotTrack": "true"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:result.shortUrl$"
+}
