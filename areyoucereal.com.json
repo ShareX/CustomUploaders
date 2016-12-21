@@ -1,0 +1,7 @@
+﻿{
+  "Name": "areyoucereal.com",
+  "RequestType": "POST",
+  "RequestURL": "https://areyoucereal.com/api/upload",
+  "FileFormName": "file",
+  "ResponseType": "Text"
+}
