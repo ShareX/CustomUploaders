@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "Magnolia.moe (File uploader)",
   "RequestType": "POST",
   "RequestURL": "http://www.magnolia.moe/upload_d.php",

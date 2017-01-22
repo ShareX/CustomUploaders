@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "teknik.io (URL shortener)",
   "RequestType": "POST",
   "RequestURL": "https://api.teknik.io/v1/Shorten",
