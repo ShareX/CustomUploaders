@@ -1,5 +1,6 @@
 ﻿{
   "Name": "yourls.org",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://yourls.org/yourls-api.php",
   "Arguments": {

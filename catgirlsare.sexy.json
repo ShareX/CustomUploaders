@@ -1,5 +1,6 @@
 ﻿{
   "Name": "catgirlsare.sexy",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://catgirlsare.sexy/api/upload",
   "FileFormName": "file",

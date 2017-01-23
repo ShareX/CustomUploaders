@@ -1,5 +1,6 @@
 ﻿{
   "Name": "temphoster.com",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://temphoster.com/index.php",
   "FileFormName": "file",

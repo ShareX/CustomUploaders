@@ -1,5 +1,6 @@
 ﻿{
   "Name": "epvpimg.com",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://epvpimg.com/upload/",
   "FileFormName": "files",

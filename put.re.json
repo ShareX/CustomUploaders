@@ -1,5 +1,6 @@
 ﻿{
   "Name": "put.re",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://api.put.re/upload",
   "FileFormName": "file",

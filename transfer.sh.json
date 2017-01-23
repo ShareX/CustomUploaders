@@ -1,5 +1,6 @@
 ﻿{
   "Name": "transfer.sh",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://transfer.sh/",
   "FileFormName": "file",

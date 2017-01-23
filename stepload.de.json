@@ -1,5 +1,6 @@
 ﻿{
   "Name": "stepload.de",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "stepload.de",
   "FileFormName": "files",

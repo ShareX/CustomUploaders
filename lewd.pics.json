@@ -1,5 +1,6 @@
 ﻿{
   "Name": "lewd.pics",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://lewd.pics/p/",
   "FileFormName": "fileToUpload",

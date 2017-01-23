@@ -1,5 +1,6 @@
 ﻿{
   "Name": "teknik.io (Text uploader)",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://api.teknik.io/v1/Paste",
   "Arguments": {

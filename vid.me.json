@@ -1,5 +1,6 @@
 ﻿{
   "Name": "vid.me",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://api.vid.me/video/upload",
   "FileFormName": "filedata",

@@ -1,5 +1,6 @@
 ﻿{
   "Name": "biturl.io (Image uploader)",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://biturl.io/upload.php",
   "FileFormName": "file",

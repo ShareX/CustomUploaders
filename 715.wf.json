@@ -1,5 +1,6 @@
 ﻿{
   "Name": "715.wf",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://715.wf/sharex/upload.php",
   "FileFormName": "image",

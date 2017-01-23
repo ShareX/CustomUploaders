@@ -1,5 +1,6 @@
 ﻿{
   "Name": "ix.io",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://ix.io",
   "FileFormName": "f:1",

@@ -1,5 +1,6 @@
 ﻿{
   "Name": "codefuture.co.uk",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://www.codefuture.co.uk/projects/imagehost/pro/api.php",
   "FileFormName": "imagefile",

@@ -1,5 +1,6 @@
 ﻿{
   "Name": "cubeupload.com (User)",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://cubeupload.com/upload_json.php",
   "FileFormName": "fileinput[0]",

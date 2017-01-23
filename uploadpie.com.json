@@ -1,5 +1,6 @@
 ﻿{
   "Name": "uploadpie.com",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://uploadpie.com",
   "FileFormName": "uploadedfile",

@@ -1,5 +1,6 @@
 ﻿{
   "Name": "catbox.moe",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://catbox.moe/user/api.php",
   "FileFormName": "fileToUpload",

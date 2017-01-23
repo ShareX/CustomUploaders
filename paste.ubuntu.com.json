@@ -1,5 +1,6 @@
 ﻿{
   "Name": "paste.ubuntu.com",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://paste.ubuntu.com/",
   "Arguments": {

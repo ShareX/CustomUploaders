@@ -1,5 +1,6 @@
 ﻿{
   "Name": "lgrh.me",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://lgrh.me/",
   "Arguments": {

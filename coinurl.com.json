@@ -1,5 +1,6 @@
 ﻿{
   "Name": "coinurl.com",
+  "DestinationType": "None",
   "RequestType": "GET",
   "RequestURL": "https://coinurl.com/api.php",
   "Arguments": {

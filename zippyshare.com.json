@@ -1,5 +1,6 @@
 ﻿{
   "Name": "zippyshare.com",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://www40.zippyshare.com/upload",
   "FileFormName": "file_0",

@@ -1,5 +1,6 @@
 ﻿{
   "Name": "jesusfuck.me",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://jesusfuck.me/api.php",
   "FileFormName": "imagefile",

@@ -1,5 +1,6 @@
 ﻿{
   "Name": "someimage.com",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://someimage.com/api/2/image/upload",
   "FileFormName": "file",

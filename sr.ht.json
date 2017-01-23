@@ -1,5 +1,6 @@
 ﻿{
   "Name": "sr.ht",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://sr.ht/api/upload",
   "FileFormName": "file",

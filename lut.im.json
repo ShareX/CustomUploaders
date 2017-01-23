@@ -1,5 +1,6 @@
 ﻿{
   "Name": "lut.im",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://lut.im/",
   "FileFormName": "file",

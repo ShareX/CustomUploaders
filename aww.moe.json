@@ -1,5 +1,6 @@
 ﻿{
   "Name": "aww.moe",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://aww.moe/upload.php",
   "FileFormName": "files[]",

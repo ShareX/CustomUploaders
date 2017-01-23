@@ -1,5 +1,6 @@
 ﻿{
   "Name": "digitaaldelen.nl",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://digitaaldelen.nl/index.php",
   "FileFormName": "file",

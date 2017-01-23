@@ -1,5 +1,6 @@
 ﻿{
   "Name": "tinyurl.com",
+  "DestinationType": "None",
   "RequestType": "GET",
   "RequestURL": "http://tinyurl.com/create.php",
   "Arguments": {

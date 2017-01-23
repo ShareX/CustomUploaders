@@ -1,5 +1,6 @@
 ﻿{
   "Name": "paste.kde.org (Sticky Notes)",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://paste.kde.org/api/json/create",
   "Arguments": {

@@ -1,5 +1,6 @@
 ﻿{
   "Name": "sm.ms",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://sm.ms/api/upload",
   "FileFormName": "smfile",

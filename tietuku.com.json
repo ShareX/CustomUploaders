@@ -1,5 +1,6 @@
 ﻿{
   "Name": "tietuku.com",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://up.tietuku.com/",
   "FileFormName": "file",

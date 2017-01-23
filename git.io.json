@@ -1,5 +1,6 @@
 ﻿{
   "Name": "git.io",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://git.io/create",
   "Arguments": {

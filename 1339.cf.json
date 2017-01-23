@@ -1,5 +1,6 @@
 ﻿{
   "Name": "1339.cf",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://1339.cf/upload.php",
   "FileFormName": "files[]",

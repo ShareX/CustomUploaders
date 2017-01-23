@@ -1,5 +1,6 @@
 ﻿{
   "Name": "fuwa.se",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://fuwa.se/api/upload",
   "FileFormName": "files[]",

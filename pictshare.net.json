@@ -1,5 +1,6 @@
 ﻿{
   "Name": "pictshare.net",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://www.pictshare.net/backend.php",
   "FileFormName": "postimage",

@@ -1,5 +1,6 @@
 ﻿{
   "Name": "framapic.org",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://framapic.org/",
   "FileFormName": "file",

@@ -1,5 +1,6 @@
 ﻿{
   "Name": "maxfile.ro",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://maxfile.ro/static/upload.php",
   "FileFormName": "files[]",

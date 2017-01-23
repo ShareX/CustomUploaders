@@ -1,5 +1,6 @@
 ﻿{
   "Name": "mixtape.moe (File uploader)",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://mixtape.moe/upload.php",
   "FileFormName": "files[]",

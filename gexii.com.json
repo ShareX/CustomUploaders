@@ -1,5 +1,6 @@
 ﻿{
   "Name": "gexii.com",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://gexii.com/upload.php",
   "FileFormName": "files[]",

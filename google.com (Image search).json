@@ -1,5 +1,6 @@
 ﻿{
   "Name": "google.com (Image search)",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://www.google.com/searchbyimage/upload",
   "FileFormName": "encoded_image",

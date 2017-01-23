@@ -1,5 +1,6 @@
 ﻿{
   "Name": "itmages.ru",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://itmages.ru/api/v3/pictures",
   "FileFormName": "file",

@@ -1,5 +1,6 @@
 ﻿{
   "Name": "ada-young.appspot.com",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://ada-young.appspot.com/pastebin/api/v1/create",
   "Arguments": {

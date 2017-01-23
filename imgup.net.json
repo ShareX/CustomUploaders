@@ -1,5 +1,6 @@
 ﻿{
   "Name": "imgup.net",
+  "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "http://imgup.net/upload",
   "FileFormName": "image[image][]",
