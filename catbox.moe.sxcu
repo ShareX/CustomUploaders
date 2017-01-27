@@ -1,8 +1,8 @@
 ﻿{
   "Name": "catbox.moe",
-  "DestinationType": "None",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestType": "POST",
-  "RequestURL": "http://catbox.moe/user/api.php",
+  "RequestURL": "https://catbox.moe/user/api.php",
   "FileFormName": "fileToUpload",
   "Arguments": {
     "reqtype": "fileupload"
