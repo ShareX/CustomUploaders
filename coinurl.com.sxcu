@@ -1,0 +1,11 @@
+﻿{
+  "Name": "coinurl.com",
+  "DestinationType": "None",
+  "RequestType": "GET",
+  "RequestURL": "https://coinurl.com/api.php",
+  "Arguments": {
+    "uuid": "YOUR_UUID_HERE",
+    "url": "$input$"
+  },
+  "ResponseType": "Text"
+}

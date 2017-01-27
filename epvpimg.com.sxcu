@@ -1,0 +1,11 @@
+﻿{
+  "Name": "epvpimg.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://epvpimg.com/upload/",
+  "FileFormName": "files",
+  "ResponseType": "Text",
+  "URL": "$json:[0].url$",
+  "ThumbnailURL": "$json:[0].thumbnail_url$",
+  "DeletionURL": "$json:[0].delete_url$"
+}

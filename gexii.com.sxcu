@@ -1,0 +1,12 @@
+﻿{
+  "Name": "gexii.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://gexii.com/upload.php",
+  "FileFormName": "files[]",
+  "ResponseType": "Text",
+  "RegexList": [
+    "Image 1:.+?value='(.+)'"
+  ],
+  "URL": "$regex:1,1$"
+}

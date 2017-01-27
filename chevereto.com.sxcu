@@ -1,0 +1,12 @@
+﻿{
+  "Name": "chevereto.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://demo.chevereto.com/api/1/upload",
+  "FileFormName": "source",
+  "Arguments": {
+    "key": "Your API key goes here",
+    "format": "redirect"
+  },
+  "ResponseType": "RedirectionURL"
+}

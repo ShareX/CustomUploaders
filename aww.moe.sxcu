@@ -1,0 +1,9 @@
+﻿{
+  "Name": "aww.moe",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://aww.moe/upload.php",
+  "FileFormName": "files[]",
+  "ResponseType": "Text",
+  "URL": "https://aww.moe/$json:files[0].url$"
+}

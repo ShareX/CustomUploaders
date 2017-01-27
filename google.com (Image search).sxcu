@@ -1,0 +1,12 @@
+﻿{
+  "Name": "google.com (Image search)",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://www.google.com/searchbyimage/upload",
+  "FileFormName": "encoded_image",
+  "ResponseType": "RedirectionURL",
+  "RegexList": [
+    "/webhp(.+)"
+  ],
+  "URL": "https://www.google.com/search$regex:1,1$"
+}

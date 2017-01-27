@@ -1,0 +1,14 @@
+﻿{
+  "Name": "someimage.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://someimage.com/api/2/image/upload",
+  "FileFormName": "file",
+  "Arguments": {
+    "apikey": "FA424427F03624EC6FE8CFCAD5127C7D",
+    "familysafe": "1"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:imagelink$",
+  "ThumbnailURL": "$json:thumblink$"
+}

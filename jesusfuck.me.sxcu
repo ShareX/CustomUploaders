@@ -1,0 +1,15 @@
+﻿{
+  "Name": "jesusfuck.me",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://jesusfuck.me/api.php",
+  "FileFormName": "imagefile",
+  "Arguments": {
+    "private": "true",
+    "format": "json"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:data.img_url$",
+  "ThumbnailURL": "$json:data.thumb_url$",
+  "DeletionURL": "http://jesusfuck.me/?d=$json:data.img_delete_id$"
+}

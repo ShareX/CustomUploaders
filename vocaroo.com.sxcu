@@ -1,0 +1,10 @@
+﻿{
+  "Name": "vocaroo.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://s1.vocaroo.com/media/upload.php?respond_from_www_main",
+  "FileFormName": "upload_data",
+  "ResponseType": "Text",
+  "URL": "$json:media_link$",
+  "DeletionURL": "http://vocaroo.com/delete/$json:media_id$/$json:delete_token$"
+}

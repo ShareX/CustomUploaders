@@ -1,0 +1,8 @@
+﻿{
+  "Name": "kuuv.io",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://kuuv.io/upload.php",
+  "FileFormName": "upl",
+  "ResponseType": "Text"
+}

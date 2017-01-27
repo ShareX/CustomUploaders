@@ -1,9 +1,0 @@
-﻿{
-  "Name": "itmages.ru",
-  "RequestType": "POST",
-  "RequestURL": "http://itmages.ru/api/v3/pictures",
-  "FileFormName": "file",
-  "ResponseType": "Text",
-  "URL": "http://$json:success.storage$.static.itmages.ru/$json:success.picture$",
-  "ThumbnailURL": "http://$json:success.storage$.static.itmages.ru/$json:success.thumbnail$"
-}

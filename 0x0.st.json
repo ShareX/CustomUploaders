@@ -1,7 +1,0 @@
-﻿{
-  "Name": "0x0.st",
-  "RequestType": "POST",
-  "RequestURL": "http://0x0.st",
-  "FileFormName": "file",
-  "ResponseType": "Text"
-}

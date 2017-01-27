@@ -1,0 +1,15 @@
+﻿{
+  "Name": "lgrh.me",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://lgrh.me/",
+  "Arguments": {
+    "url": "$input$",
+    "submit": "Shorten"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "readonly value=\"(.+?)\""
+  ],
+  "URL": "$1,1$"
+}

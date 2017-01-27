@@ -1,0 +1,15 @@
+﻿{
+  "Name": "paste.kde.org (Sticky Notes)",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://paste.kde.org/api/json/create",
+  "Arguments": {
+    "data": "$input$",
+    "language": "text",
+    "title": "Test",
+    "private": "true",
+    "expire": "31536000"
+  },
+  "ResponseType": "Text",
+  "URL": "https://paste.kde.org/$json:result.id$/$json:result.hash$"
+}

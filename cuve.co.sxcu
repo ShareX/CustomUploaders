@@ -1,0 +1,12 @@
+﻿{
+  "Name": "cuve.co",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://api.cuve.co/upload",
+  "FileFormName": "Data",
+  "Arguments": {
+    "AuthKey": "YOUR API KEY"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}

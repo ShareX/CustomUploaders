@@ -1,0 +1,11 @@
+﻿{
+  "Name": "beeimg.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://beeimg.com/api/upload/file/json/",
+  "FileFormName": "file",
+  "ResponseType": "Text",
+  "URL": "$json:files.url$",
+  "ThumbnailURL": "$json:files.thumbnail_url$",
+  "DeletionURL": "$json:files.delete_url$"
+}

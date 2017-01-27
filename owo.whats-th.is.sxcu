@@ -1,0 +1,9 @@
+﻿{
+  "Name": "owo.whats-th.is",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://api.whats-th.is/upload/pomf?key=YOUR_API_KEY",
+  "FileFormName": "files[]",
+  "ResponseType": "Text",
+  "URL": "https://owo.whats-th.is/$json:files[0].url$"
+}

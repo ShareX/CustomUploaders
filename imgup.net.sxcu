@@ -1,0 +1,16 @@
+﻿{
+  "Name": "imgup.net",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://imgup.net/upload",
+  "FileFormName": "image[image][]",
+  "Arguments": {
+    "_method": "put"
+  },
+  "Headers": {
+    "Accept": "application/json"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:direct_link$",
+  "ThumbnailURL": "$json:thumb_link$"
+}

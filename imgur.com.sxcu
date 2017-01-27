@@ -1,0 +1,9 @@
+﻿{
+  "Name": "imgur.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://imgur.com/upload",
+  "FileFormName": "Filedata",
+  "ResponseType": "Text",
+  "URL": "http://imgur.com/$json:data.hash$"
+}

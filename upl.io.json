@@ -1,7 +1,0 @@
-﻿{
-  "Name": "upl.io",
-  "RequestType": "POST",
-  "RequestURL": "https://upl.io",
-  "FileFormName": "file",
-  "ResponseType": "Text"
-}

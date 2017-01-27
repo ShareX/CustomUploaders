@@ -1,0 +1,9 @@
+﻿{
+  "Name": "pewd.cf",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://pewd.cf",
+  "FileFormName": "file",
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}

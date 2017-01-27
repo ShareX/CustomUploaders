@@ -1,0 +1,15 @@
+﻿{
+  "Name": "codefuture.co.uk",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://www.codefuture.co.uk/projects/imagehost/pro/api.php",
+  "FileFormName": "imagefile",
+  "Arguments": {
+    "private": "true",
+    "format": "json"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:data.img_url$",
+  "ThumbnailURL": "$json:data.thumb_url$",
+  "DeletionURL": "http://www.codefuture.co.uk/projects/imagehost/pro/?d=$json:data.img_delete_id$"
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "puush.me",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://puush.me/api/up",
+  "FileFormName": "f",
+  "Arguments": {
+    "k": "YOUR API KEY",
+    "z": "poop"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "(?<=,)(.+?)(?=,)"
+  ],
+  "URL": "$1$"
+}

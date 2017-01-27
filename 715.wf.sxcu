@@ -1,0 +1,15 @@
+﻿{
+  "Name": "715.wf",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://715.wf/sharex/upload.php",
+  "FileFormName": "image",
+  "Arguments": {
+    "password": "kanker"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "(?=images/).*"
+  ],
+  "URL": "http://715.wf/sharex/$1$"
+}

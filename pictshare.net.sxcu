@@ -1,0 +1,10 @@
+﻿{
+  "Name": "pictshare.net",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://www.pictshare.net/backend.php",
+  "FileFormName": "postimage",
+  "ResponseType": "Text",
+  "URL": "http://www.pictshare.net/$json:hash$",
+  "ThumbnailURL": "http://www.pictshare.net/300x300/$json:hash$"
+}

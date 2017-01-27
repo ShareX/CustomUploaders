@@ -1,0 +1,12 @@
+﻿{
+  "Name": "bpaste.net",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://bpaste.net/",
+  "Arguments": {
+    "code": "$input$",
+    "lexer": "text",
+    "expiry": "never"
+  },
+  "ResponseType": "RedirectionURL"
+}

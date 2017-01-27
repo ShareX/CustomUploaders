@@ -1,0 +1,12 @@
+﻿{
+  "Name": "paste.ubuntu.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://paste.ubuntu.com/",
+  "Arguments": {
+    "poster": "ShareX",
+    "syntax": "text",
+    "content": "$input$"
+  },
+  "ResponseType": "RedirectionURL"
+}

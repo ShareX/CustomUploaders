@@ -1,0 +1,13 @@
+﻿{
+  "Name": "tietuku.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://up.tietuku.com/",
+  "FileFormName": "file",
+  "Arguments": {
+    "Token": "Your Token Here"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:linkurl$",
+  "ThumbnailURL": "$json:t_url$"
+}

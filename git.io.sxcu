@@ -1,0 +1,14 @@
+﻿{
+  "Name": "git.io",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://git.io/create",
+  "Arguments": {
+    "url": "$input$"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    ".+"
+  ],
+  "URL": "http://git.io/$1$"
+}

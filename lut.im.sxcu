@@ -1,0 +1,17 @@
+﻿{
+  "Name": "lut.im",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://lut.im/",
+  "FileFormName": "file",
+  "Arguments": {
+    "format": "json",
+    "delete-day": "0",
+    "first-view": "0",
+    "crypt": "0",
+    "keep-exif": "0"
+  },
+  "ResponseType": "Text",
+  "URL": "https://lut.im/$json:msg.short$",
+  "DeletionURL": "https://lut.im/d/$json:msg.real_short$/$json:msg.token$"
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Name": "hnng.moe (URL shortener)",
+  "DestinationType": "None",
+  "RequestType": "GET",
+  "RequestURL": "http://www.hnng.moe/shortapi.php",
+  "Arguments": {
+    "url": "$input$"
+  },
+  "ResponseType": "Text"
+}

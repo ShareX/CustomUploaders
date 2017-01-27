@@ -1,0 +1,9 @@
+﻿{
+  "Name": "pomf.pl",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://pomf.pl/upload.php",
+  "FileFormName": "files[]",
+  "ResponseType": "Text",
+  "URL": "http://i.pomf.pl/$json:files[0].url$"
+}

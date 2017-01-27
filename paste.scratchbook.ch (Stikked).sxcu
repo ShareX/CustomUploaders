@@ -1,0 +1,12 @@
+﻿{
+  "Name": "paste.scratchbook.ch (Stikked)",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://paste.scratchbook.ch/api/create",
+  "Arguments": {
+    "text": "$input$",
+    "private": "1",
+    "lang": "text"
+  },
+  "ResponseType": "Text"
+}

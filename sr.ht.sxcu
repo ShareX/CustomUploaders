@@ -1,0 +1,12 @@
+﻿{
+  "Name": "sr.ht",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://sr.ht/api/upload",
+  "FileFormName": "file",
+  "Arguments": {
+    "key": "Your API key here"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}

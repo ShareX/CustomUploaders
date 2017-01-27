@@ -1,0 +1,15 @@
+﻿{
+  "Name": "mixtape.moe (Text uploader)",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://spit.mixtape.moe/api/create",
+  "Arguments": {
+    "text": "$input$",
+    "title": "",
+    "name": "",
+    "private": "1",
+    "lang": "text",
+    "expire": "0"
+  },
+  "ResponseType": "Text"
+}

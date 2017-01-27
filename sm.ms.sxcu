@@ -1,0 +1,14 @@
+﻿{
+  "Name": "sm.ms",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://sm.ms/api/upload",
+  "FileFormName": "smfile",
+  "Arguments": {
+    "ssl": "false",
+    "format": "json"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:data.url$",
+  "DeletionURL": "$json:data.delete$"
+}

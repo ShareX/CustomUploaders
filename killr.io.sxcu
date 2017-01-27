@@ -1,0 +1,11 @@
+﻿{
+  "Name": "killr.io",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://killr.io",
+  "Arguments": {
+    "code": "$input$"
+  },
+  "ResponseType": "Text",
+  "URL": "https://killr.io/$json:slug$"
+}

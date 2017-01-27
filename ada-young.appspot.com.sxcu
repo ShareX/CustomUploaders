@@ -1,0 +1,12 @@
+﻿{
+  "Name": "ada-young.appspot.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://ada-young.appspot.com/pastebin/api/v1/create",
+  "Arguments": {
+    "auth": "AUTH KEY pasted from here: https://ada-young.appspot.com/pastebin/api/v1/echo",
+    "content": "$input$",
+    "format": "plain"
+  },
+  "ResponseType": "RedirectionURL"
+}

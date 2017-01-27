@@ -1,0 +1,13 @@
+﻿{
+  "Name": "lookpic.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://lookpic.com/upload.php",
+  "FileFormName": "image",
+  "ResponseType": "Text",
+  "RegexList": [
+    "value='<a href=\"(.+?)\".+<img src=\"(.+?)\""
+  ],
+  "URL": "$1,1$",
+  "ThumbnailURL": "$1,2$"
+}

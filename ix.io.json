@@ -1,7 +1,0 @@
-﻿{
-  "Name": "ix.io",
-  "RequestType": "POST",
-  "RequestURL": "http://ix.io",
-  "FileFormName": "f:1",
-  "ResponseType": "Text"
-}

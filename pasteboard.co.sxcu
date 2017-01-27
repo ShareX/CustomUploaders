@@ -1,0 +1,9 @@
+﻿{
+  "Name": "pasteboard.co",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://pasteboard.co/upload",
+  "FileFormName": "file",
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}

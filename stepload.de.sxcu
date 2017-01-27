@@ -1,0 +1,9 @@
+﻿{
+  "Name": "stepload.de",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "stepload.de",
+  "FileFormName": "files",
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}

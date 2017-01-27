@@ -1,0 +1,14 @@
+﻿{
+  "Name": "cubeupload.com (Anonymous)",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://cubeupload.com/upload_json.php",
+  "FileFormName": "fileinput[0]",
+  "Arguments": {
+    "userHash": "false",
+    "userID": "false"
+  },
+  "ResponseType": "Text",
+  "URL": "http://i.cubeupload.com/$json:file_name$",
+  "ThumbnailURL": "http://i.cubeupload.com/t/$json:file_name$"
+}

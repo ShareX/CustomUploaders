@@ -1,0 +1,9 @@
+﻿{
+  "Name": "file.io",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://file.io/?expires=1w",
+  "FileFormName": "file",
+  "ResponseType": "Text",
+  "URL": "$json:link$"
+}

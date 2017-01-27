@@ -1,0 +1,11 @@
+﻿{
+  "Name": "waa.ai",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://api.waa.ai/shorten",
+  "Arguments": {
+    "url": "$input$"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:data.url$"
+}

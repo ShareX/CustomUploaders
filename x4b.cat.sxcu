@@ -1,0 +1,12 @@
+﻿{
+  "Name": "x4b.cat",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://x4b.cat/up",
+  "FileFormName": "x4b_upload[]",
+  "ResponseType": "Text",
+  "RegexList": [
+    "crypt.cat\\/([^\\<]+)"
+  ],
+  "URL": "https://crypt.cat/$regex:1,1$"
+}

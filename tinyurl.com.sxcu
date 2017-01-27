@@ -1,0 +1,14 @@
+﻿{
+  "Name": "tinyurl.com",
+  "DestinationType": "None",
+  "RequestType": "GET",
+  "RequestURL": "http://tinyurl.com/create.php",
+  "Arguments": {
+    "url": "$input$"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"indent\"><b>(http://.+?)</b><div"
+  ],
+  "URL": "$1,1$"
+}

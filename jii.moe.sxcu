@@ -1,0 +1,9 @@
+﻿{
+  "Name": "jii.moe",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://jii.moe/api/v1/upload",
+  "FileFormName": "file",
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "cubeupload.com (User)",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://cubeupload.com/upload_json.php",
+  "FileFormName": "fileinput[0]",
+  "Arguments": {
+    "userHash": "Your user hash here",
+    "userID": "Your user ID here"
+  },
+  "ResponseType": "Text",
+  "URL": "http://u.cubeupload.com/$json:user_name$/$json:file_name$",
+  "ThumbnailURL": "http://u.cubeupload.com/$json:user_name$/t/$json:file_name$"
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Name": "hnng.moe (File uploader)",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://www.hnng.moe/upload_d.php",
+  "FileFormName": "file",
+  "ResponseType": "Text",
+  "URL": "$json:url$",
+  "DeletionURL": "$json:deletelink$"
+}

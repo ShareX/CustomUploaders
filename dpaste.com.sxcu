@@ -1,0 +1,11 @@
+﻿{
+  "Name": "dpaste.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://dpaste.com/api/v2/",
+  "Arguments": {
+    "content": "$input$",
+    "expiry_days": "365"
+  },
+  "ResponseType": "Text"
+}

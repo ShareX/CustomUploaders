@@ -1,0 +1,16 @@
+﻿{
+  "Name": "zippyshare.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://www40.zippyshare.com/upload",
+  "FileFormName": "file_0",
+  "Arguments": {
+    "private": "true"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\\/v\\/(?<code>\\w+)\\/file\\.html"
+  ],
+  "URL": "http://www40.zippyshare.com/v/$1,code$/file.html",
+  "ThumbnailURL": "http://www40.zippyshare.com/thumb/$1,code$/file.html"
+}

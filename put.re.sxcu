@@ -1,0 +1,11 @@
+﻿{
+  "Name": "put.re",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://api.put.re/upload",
+  "FileFormName": "file",
+  "ResponseType": "Text",
+  "URL": "$json:data.link$",
+  "ThumbnailURL": "$json:data.thumbnailLink$",
+  "DeletionURL": "$json:data.deleteLink$"
+}

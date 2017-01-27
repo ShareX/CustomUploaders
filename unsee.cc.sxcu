@@ -1,0 +1,12 @@
+﻿{
+  "Name": "unsee.cc",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://unsee.cc/upload/",
+  "FileFormName": "image[]",
+  "Arguments": {
+    "time": "0"
+  },
+  "ResponseType": "Text",
+  "URL": "https://unsee.cc/$json:hash$"
+}
