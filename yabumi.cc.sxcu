@@ -1,10 +1,13 @@
-﻿{
+{
   "Name": "yabumi.cc",
   "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://yabumi.cc/api/images.json",
   "FileFormName": "imagedata",
   "ResponseType": "Text",
-  "URL": "$json:url$",
+  "RegexList": [
+    "\"url\": \"https://yabumi.cc/[0-9a-fA-F]{24}\\.(?<ext>png|jpg|gif|svg|psd|pdf)\","
+  ],
+  "URL": "https://yabumi.cc/api/images/$json:id$.$regex:1,ext$",
   "DeletionURL": "$json:editUrl$"
 }
