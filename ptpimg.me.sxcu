@@ -1,0 +1,12 @@
+{
+  "Name": "ptpimg.me",
+  "DestinationType": "ImageUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://ptpimg.me/upload.php",
+  "FileFormName": "file-upload[0]",
+  "Arguments": {
+    "api_key": "YOUR API KEY HERE"
+  },
+  "ResponseType": "Text",
+  "URL": "https://ptpimg.me/$json:[0].code$.$json:[0].ext$"
+}
