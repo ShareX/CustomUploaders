@@ -1,6 +1,6 @@
 {
   "Name": "yabumi.cc",
-  "DestinationType": "None",
+  "DestinationType": "ImageUploader",
   "RequestType": "POST",
   "RequestURL": "https://yabumi.cc/api/images.json",
   "FileFormName": "imagedata",
