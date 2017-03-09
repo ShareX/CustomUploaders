@@ -1,0 +1,12 @@
+{
+  "Name": "0x0f.su",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://0x0f.su/api.php?d=upload-tool",
+  "FileFormName": "file",
+  "Arguments": {
+    "name": "",
+    "randomname": ""
+  },
+  "ResponseType": "Text"
+}
