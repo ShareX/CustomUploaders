@@ -1,0 +1,8 @@
+{
+  "Name": "x0.at",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://x0.at/",
+  "FileFormName": "file",
+  "ResponseType": "Text"
+}
