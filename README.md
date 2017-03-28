@@ -20,7 +20,7 @@ example.com.json
 
 If one domain has more than one service or profile then add that info near it with paranthesis:
 
-````
+```
 example.com (Image uploader).json
 example.com (URL shortener).json
 ```
@@ -31,5 +31,7 @@ or
 example.com (Anonymous).json
 example.com (User).json
 ```
+
+`DestinationType` setting must be configured so users can double click your `.sxcu` file and easily use it without require any additional configuration.
 
 If your upload response is [JSON](https://en.wikipedia.org/wiki/JSON) then use new [JsonPath](http://goessner.net/articles/JsonPath/) syntax instead of [Regex](https://en.wikipedia.org/wiki/Regular_expression) syntax to parse it.
