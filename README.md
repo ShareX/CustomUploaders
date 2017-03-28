@@ -1,8 +1,8 @@
-##Custom uploaders
+## Custom uploaders
 
 [ShareX](https://github.com/ShareX/ShareX) has custom uploader support and you can easily import/export these.
 
-##Help
+## Help
 
 If you need help while making custom uploader you can check here:
 
@@ -10,7 +10,7 @@ https://getsharex.com/docs/custom-uploader
 
 But easiest way to learn is checking other example custom uploaders to see how those work.
 
-##Contribution rules
+## Contribution rules
 
 Please use current custom uploader naming format for consistency; name and file name should be just domain with lowercase:
 
