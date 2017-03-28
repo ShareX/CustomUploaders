@@ -32,4 +32,4 @@ example.com (Anonymous).sxcu
 example.com (User).sxcu
 ```
 
-`DestinationType` setting must be configured so users can double click your `.sxcu` file to import and easily use it without require any additional configuration.
+`DestinationType` setting must be configured so users can double click your `.sxcu` file to import and easily use without requiring any additional configuration.
