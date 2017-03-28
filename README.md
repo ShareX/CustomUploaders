@@ -15,23 +15,21 @@ But easiest way to learn is checking other example custom uploaders to see how t
 Please use current custom uploader naming format for consistency; name and file name should be just domain with lowercase:
 
 ```
-example.com.json
+example.com.sxcu
 ```
 
 If one domain has more than one service or profile then add that info near it with paranthesis:
 
 ```
-example.com (Image uploader).json
-example.com (URL shortener).json
+example.com (Image uploader).sxcu
+example.com (URL shortener).sxcu
 ```
 
 or
 
 ```
-example.com (Anonymous).json
-example.com (User).json
+example.com (Anonymous).sxcu
+example.com (User).sxcu
 ```
 
-`DestinationType` setting must be configured so users can double click your `.sxcu` file and easily use it without require any additional configuration.
-
-If your upload response is [JSON](https://en.wikipedia.org/wiki/JSON) then use new [JsonPath](http://goessner.net/articles/JsonPath/) syntax instead of [Regex](https://en.wikipedia.org/wiki/Regular_expression) syntax to parse it.
+`DestinationType` setting must be configured so users can double click your `.sxcu` file to import and easily use it without require any additional configuration.
