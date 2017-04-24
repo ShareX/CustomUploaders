@@ -1,0 +1,12 @@
+﻿{
+  "Name": "needsmorejpeg.com",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "http://needsmorejpeg.com/upload",
+  "FileFormName": "image",
+  "ResponseType": "RedirectionURL",
+  "RegexList": [
+    ".+"
+  ],
+  "URL": "$regex:1$.jpeg"
+}
