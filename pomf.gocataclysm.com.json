@@ -1,0 +1,8 @@
+{
+  "Name": "pomf.gocataclysm.com",
+  "RequestType": "POST",
+  "RequestURL": "http://pomf.gocataclysm.com/upload.php",
+  "FileFormName": "files[]",
+  "ResponseType": "Text",
+  "URL": "http://a.pomf.gocataclysm.com/$json:files[0].url$"
+}
