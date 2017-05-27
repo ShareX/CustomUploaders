@@ -1,0 +1,14 @@
+{
+  "Name": "nigger.cat",
+  "RequestType": "POST",
+  "RequestURL": "http://nigger.cat/upload.php",
+  "FileFormName": "files[]",
+  "Arguments": {},
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"url\":\"(?:.+\\\\/)?(.*?)\""
+  ],
+  "URL": "https://a.nigger.cat/$1,1$",
+  "ThumbnailURL": "",
+  "DeletionURL": ""
+}
