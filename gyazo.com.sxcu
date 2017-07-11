@@ -1,0 +1,17 @@
+{
+  "Name": "Gyazo",
+  "RequestType": "POST",
+  "RequestURL": "https://upload.gyazo.com/api/upload",
+  "FileFormName": "imagedata",
+  "Arguments": {
+    "access_token": "74e83db91130748109328b9aa47c99e1d7c8dcaadc42317dae9e33378f62020a"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"url\":\"(.+?)\"",
+    "\"thumb_url\":\"(.+?)\""
+  ],
+  "URL": "$1,1$",
+  "ThumbnailURL": "$2,1$",
+  "DeletionURL": ""
+}
