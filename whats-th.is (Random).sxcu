@@ -1,0 +1,9 @@
+﻿{
+  "Name": "whats-th.is (Random)",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://api.awau.moe/upload/pomf?key=YOUR_API_KEY",
+  "FileFormName": "files[]",
+  "ResponseType": "Text",
+  "URL": "https://$random:all.foxgirlsare.sexy|bad-me.me|b1nzy-pruned.us|buttsare.sexy|catch-me-outside.how-about-th.at|can-i-ask-dean-on-a.date|cat.girlsare.life|deanis.sexy|fox.girlsare.life|good-me.me|hack-my-mainfra.me|how-about-th.at|i-have-a.fourchin.net|i.not.ovh|i.am-a.ninja|i-hate.dabbot.org|i-was-scammed-by.dabbot.org|im.not.ovh|i.stole-a-me.me|i-need.discord.cards|light-theme-hurts.my-ey.es|my.catgirl.party|nyanyanya.moe|owo.whats-th.is|owo.solutions|paste.dabbot.org|pantsu.review|ping-b1nzy.today|quak.ovh|quak.quak.ovh|requires.discord.gold|it-is.us|take-me-on-a.date|this.is-a.dog|test.deam.pro|totally-not.a-sketchy.site|whyisroadcrossercoolerthan.me|o.lol-sa.me$/$json:files[0].url$"
+}

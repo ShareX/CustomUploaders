@@ -1,6 +1,6 @@
 ﻿{
-  "Name": "owo.whats-th.is",
-  "DestinationType": "None",
+  "Name": "whats-th.is",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestType": "POST",
   "RequestURL": "https://api.awau.moe/upload/pomf?key=YOUR_API_KEY",
   "FileFormName": "files[]",
