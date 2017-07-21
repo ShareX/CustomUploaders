@@ -1,0 +1,9 @@
+﻿{
+  "Name": "fred.moe",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://fred.moe/upload",
+  "FileFormName": "file",
+  "ResponseType": "Text",
+  "URL": "$json:files[0].url$"
+}
