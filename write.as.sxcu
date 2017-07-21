@@ -1,0 +1,16 @@
+﻿{
+  "Name": "write.as",
+  "DestinationType": "TextUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://write.as/api/posts",
+  "Arguments": {
+    "body": "$input$",
+    "title": "",
+    "font": "",
+    "lang": "",
+    "rtl": ""
+  },
+  "ResponseType": "Text",
+  "URL": "https://write.as/$json:data.id$",
+  "ThumbnailURL": "https://write.as/$json:data.id$.txt"
+}
