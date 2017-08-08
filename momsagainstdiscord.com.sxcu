@@ -1,0 +1,13 @@
+{
+  "Name": "MomsAgainstDiscord",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://www.momsagainstdiscord.com/upload?key=",
+  "FileFormName": "files[]",
+  "ResponseType": "Text",
+  "RegexList": [
+    "url: \"(.+)\"",
+    "url: *"
+  ],
+  "URL": "https://www.$random:momsagainstdiscord.com|died-in.space|git-gud.us|plz-notice.me|stole-my-me.me|no-u.me|just-banned.me|mee6.sucks$$json:files.url$"
+}
