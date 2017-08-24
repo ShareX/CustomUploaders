@@ -1,0 +1,14 @@
+﻿{
+  "Name": "dTransfer.Net",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "http://dtransfer.net/en/api/upload",
+  "FileFormName": "files[]",
+  "Arguments": {
+    "store_days": "14",
+    "auto_renew": "1"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:data.link$",
+  "ThumbnailURL": "$json:data.link$"
+}
