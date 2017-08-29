@@ -1,5 +1,6 @@
 {
   "Name": "nothing.domains (File uploader)",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestType": "POST",
   "RequestURL": "https://nothing.domains/api/upload/pomf",
   "FileFormName": "files[]",
