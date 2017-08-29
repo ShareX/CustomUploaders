@@ -1,5 +1,5 @@
 {
-  "Name": "Nothing.Domains",
+  "Name": "nothing.domains (File uploader)",
   "RequestType": "POST",
   "RequestURL": "https://nothing.domains/api/upload/pomf",
   "FileFormName": "files[]",
