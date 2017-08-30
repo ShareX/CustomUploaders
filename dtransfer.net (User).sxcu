@@ -1,6 +1,6 @@
 ﻿{
-  "Name": "dTransfer.Net",
-  "DestinationType": "ImageUploader, FileUploader",
+  "Name": "dtransfer.net (User)",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestType": "POST",
   "RequestURL": "http://dtransfer.net/en/api/upload",
   "FileFormName": "files[]",
@@ -10,6 +10,5 @@
     "auto_renew": "1"
   },
   "ResponseType": "Text",
-  "URL": "$json:data.link$",
-  "ThumbnailURL": "$json:data.link$"
+  "URL": "$json:data.link$"
 }

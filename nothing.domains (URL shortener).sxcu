@@ -1,14 +1,17 @@
-{
-  "Name": "nothing.domains (URL Shortening)",
+﻿{
+  "Name": "nothing.domains (URL shortener)",
   "DestinationType": "URLShortener",
   "RequestType": "GET",
   "RequestURL": "https://nothing.domains/api/url/shorten",
   "Arguments": {
     "url": "$input$"
   },
+  "Headers": {
+    "Authorization": "<API KEY HERE>"
+  },
   "ResponseType": "Text",
   "RegexList": [
     "(.+)"
   ],
-  "URL": "https://<YOUR DOMAIN>/$regex:1;1$"
+  "URL": "https://<YOUR DOMAIN>/$regex:1,1$"
 }
