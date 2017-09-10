@@ -1,0 +1,8 @@
+﻿{
+  "Name": "Discord webhook (URL sharing service)",
+  "DestinationType": "URLSharingService",
+  "RequestURL": "Webhook URL",
+  "Arguments": {
+    "content": "$input$"
+  }
+}

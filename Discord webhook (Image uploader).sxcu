@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Discord webhook (Image uploader)",
+  "DestinationType": "ImageUploader",
+  "RequestURL": "Webhook URL",
+  "FileFormName": "file",
+  "Arguments": {
+    "content": "**[ShareX](https://getsharex.com)**"
+  },
+  "URL": "$json:attachments[0].url$"
+}
