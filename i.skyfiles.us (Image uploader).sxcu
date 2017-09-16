@@ -1,5 +1,5 @@
 {
-  "Name": "SkyFiles",
+  "Name": "i.skyfiles.us",
   "DestinationType": "ImageUploader",
   "RequestType": "POST",
   "RequestURL": "https://i.skyfiles.us/script/upload.php?direct=1",
