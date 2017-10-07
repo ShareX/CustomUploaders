@@ -1,5 +1,5 @@
 {
-  "Name": "Shtn.ga",
+  "Name": "shtn.ga",
   "DestinationType": "URLShortener",
   "RequestType": "GET",
   "RequestURL": "http://shtn.ga/api.php",
