@@ -2,7 +2,7 @@
   "Name": "aurorame.me",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestType": "POST",
-  "RequestURL": "https://aurorame.me/uploadv2.php",
+  "RequestURL": "https://upload.aurorame.me/",
   "FileFormName": "fileform",
   "Arguments": {
     "key": "INSERT_KEY_HERE",
