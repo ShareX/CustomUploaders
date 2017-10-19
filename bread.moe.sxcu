@@ -1,6 +1,6 @@
 ﻿{
   "Name": "bread.moe",
-  "DestinationType": "None",
+  "DestinationType": "ImageUploader",
   "RequestType": "POST",
   "RequestURL": "https://bread.moe/upload.php",
   "FileFormName": "sharex",
