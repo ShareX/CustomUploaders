@@ -2,7 +2,7 @@
   "Name": "shtn.ga",
   "DestinationType": "URLShortener",
   "RequestType": "GET",
-  "RequestURL": "http://shtn.ga/api.php",
+  "RequestURL": "http://shtn.ga/api/index.php",
   "FileFormName": "url",
   "Arguments": {
     "url": "$input$"
