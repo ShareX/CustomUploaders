@@ -1,0 +1,12 @@
+{
+  "Name": "theHosters",
+  "DestinationType": "ImageUploader",
+  "RequestType": "POST",
+  "RequestURL": "http://thehosters.xyz:2052/api/upload",
+  "FileFormName": "sharex",
+  "Headers": {
+    "token": "[add your token here]"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}
