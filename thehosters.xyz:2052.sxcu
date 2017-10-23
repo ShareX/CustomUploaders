@@ -1,5 +1,5 @@
 {
-  "Name": "theHosters",
+  "Name": "thehosters.xyz",
   "DestinationType": "ImageUploader",
   "RequestType": "POST",
   "RequestURL": "http://thehosters.xyz:2052/api/upload",
