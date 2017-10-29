@@ -1,5 +1,5 @@
 {
-  "Name": "NC Network ShareX uploader",
+  "Name": "ncnetwork.me",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestType": "POST",
   "RequestURL": "https://upload.ncnetwork.me",
