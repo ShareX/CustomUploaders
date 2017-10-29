@@ -1,8 +1,8 @@
-﻿{
-  "Name": "aurorame.me",
+{
+  "Name": "NC Network ShareX uploader",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestType": "POST",
-  "RequestURL": "https://upload.aurorame.me/",
+  "RequestURL": "https://upload.ncnetwork.me",
   "FileFormName": "fileform",
   "Arguments": {
     "key": "INSERT_KEY_HERE",
