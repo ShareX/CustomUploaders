@@ -1,0 +1,14 @@
+{
+"Name": "bakka.me",
+"RequestType": "POST",
+"RequestURL": "https://bakka.me/upload.php",
+"FileFormName": "files[]",
+"Arguments": { },
+"ResponseType": "Text",
+"RegexList": [
+"\"url\":\"(?:.+\\\\/)?(.*?)\""
+],
+"URL": "https://a.bakka.me/$1,1$",
+"ThumbnailURL": "",
+"DeletionURL": ""
+}
