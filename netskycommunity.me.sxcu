@@ -1,8 +1,8 @@
 {
-  "Name": "ncnetwork.me",
+  "Name": "netskycommunity.me",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestType": "POST",
-  "RequestURL": "https://upload.ncnetwork.me",
+  "RequestURL": "https://upload.netskycommunity.me",
   "FileFormName": "fileform",
   "Arguments": {
     "key": "INSERT_KEY_HERE",
