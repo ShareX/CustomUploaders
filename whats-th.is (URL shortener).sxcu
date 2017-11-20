@@ -1,0 +1,12 @@
+﻿{
+  "Name": "whats-th.is (URL shortener)",
+  "DestinationType": "URLShortener",
+  "RequestType": "GET",
+  "RequestURL": "https://api.awau.moe/shorten/polr",
+  "Arguments": {
+    "apikey": "YOUR_API_KEY",
+    "action": "shorten",
+    "url": "$input$"
+  },
+  "ResponseType": "Text"
+}
