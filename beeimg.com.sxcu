@@ -1,14 +1,11 @@
 ﻿{
-  "Name": "beeimg.com",
   "DestinationType": "ImageUploader",
-  "RequestType": "POST",
   "RequestURL": "https://beeimg.com/api/upload/file/json/",
   "FileFormName": "image",
   "Arguments": {
     "apikey": "API_KEY_GOES_HERE"
-   },
-  "ResponseType": "Text",
-  "URL": "$json:files.url$",
-  "ThumbnailURL": "$json:files.thumbnail_url$",
+  },
+  "URL": "https:$json:files.url$",
+  "ThumbnailURL": "https:$json:files.thumbnail_url$",
   "DeletionURL": "$json:files.delete_url$"
 }
