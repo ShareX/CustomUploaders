@@ -1,0 +1,13 @@
+﻿{
+  "DestinationType": "URLShortener",
+  "RequestURL": "https://9m.no/create",
+  "Arguments": {
+    "url": "$input$"
+  },
+  "ResponseType": "RedirectionURL",
+  "RegexList": [
+    "(%.{2})+"
+  ],
+  "URL": "https://9m.no/$regex:1$",
+  "ThumbnailURL": "https://9m.no/show/$regex:1$"
+}
