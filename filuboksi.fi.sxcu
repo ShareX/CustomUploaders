@@ -1,5 +1,5 @@
 {
-  "Name": "Filuboksi.fi",
+  "Name": "filuboksi.fi",
   "DestinationType": "None",
   "RequestType": "POST",
   "RequestURL": "https://filuboksi.fi/upload.php",
