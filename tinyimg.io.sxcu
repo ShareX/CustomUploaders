@@ -1,0 +1,6 @@
+﻿{
+  "DestinationType": "ImageUploader",
+  "RequestURL": "http://tinyimg.io/upload",
+  "FileFormName": "qqfile",
+  "URL": "http://tinyimg.io/i/$json:uploadName$"
+}

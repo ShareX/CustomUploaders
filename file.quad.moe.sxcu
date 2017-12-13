@@ -1,0 +1,6 @@
+﻿{
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://file.quad.moe",
+  "FileFormName": "file",
+  "URL": "$json:url$"
+}

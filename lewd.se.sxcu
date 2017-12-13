@@ -1,0 +1,9 @@
+﻿{
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://lewd.se/api.php?d=upload-tool",
+  "FileFormName": "file",
+  "Arguments": {
+    "name": "",
+    "randomname": ""
+  }
+}

@@ -1,0 +1,7 @@
+﻿{
+  "Name": "dropfile.to",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://d1.dropfile.to/upload",
+  "FileFormName": "file",
+  "URL": "$json:url$"
+}
