@@ -1,0 +1,6 @@
+﻿{
+  "Name": "Lewd.Cat",
+  "DestinationType": "ImageUploader",
+  "RequestURL": "http://lewd.cat/up.php",
+  "FileFormName": "file"
+}
