@@ -1,15 +1,11 @@
 ﻿{
   "Name": "bread.moe",
-  "DestinationType": "ImageUploader",
-  "RequestType": "POST",
-  "RequestURL": "https://bread.moe/upload.php",
-  "FileFormName": "sharex",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://upload.bread.moe",
+  "FileFormName": "fileform",
   "Arguments": {
-    "secret": "TOKEN_GOES_HERE"
+    "key": "insert_key_here",
+    "destination_url": "insert_ending_domain_here"
   },
-  "ResponseType": "Text",
-  "RegexList": [
-    ".*"
-  ],
-  "URL": "https://bread.moe/$regex:1$"
+  "URL": "$json:url$"
 }
