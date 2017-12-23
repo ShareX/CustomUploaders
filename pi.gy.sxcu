@@ -1,9 +1,6 @@
 ﻿{
-  "Name": "pi.gy",
   "DestinationType": "ImageUploader",
-  "RequestType": "POST",
   "RequestURL": "http://pi.gy/api/image",
   "FileFormName": "file",
-  "ResponseType": "Text",
   "URL": "$json:image.url$"
 }

@@ -1,7 +1,5 @@
-{
-  "Name": "magaimg.net",
+﻿{
   "DestinationType": "ImageUploader",
-  "RequestType": "POST",
   "RequestURL": "http://magaimg.net/",
   "FileFormName": "img[]",
   "ResponseType": "RedirectionURL"

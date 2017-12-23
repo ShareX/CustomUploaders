@@ -9,7 +9,6 @@
   "Headers": {
     "Authorization": "<API KEY HERE>"
   },
-  "ResponseType": "Text",
   "RegexList": [
     "(.+)"
   ],

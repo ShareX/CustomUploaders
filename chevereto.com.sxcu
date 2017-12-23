@@ -1,7 +1,5 @@
 ﻿{
   "Name": "chevereto.com",
-  "DestinationType": "None",
-  "RequestType": "POST",
   "RequestURL": "http://demo.chevereto.com/api/1/upload",
   "FileFormName": "source",
   "Arguments": {

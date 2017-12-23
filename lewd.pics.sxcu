@@ -1,11 +1,7 @@
 ﻿{
-  "Name": "lewd.pics",
-  "DestinationType": "None",
-  "RequestType": "POST",
   "RequestURL": "https://lewd.pics/p/",
   "FileFormName": "fileToUpload",
   "Arguments": {
     "curl2": "1"
-  },
-  "ResponseType": "Text"
+  }
 }

@@ -1,12 +1,10 @@
 ﻿{
   "Name": "nothing.domains (File uploader)",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestType": "POST",
   "RequestURL": "https://nothing.domains/api/upload/pomf",
   "FileFormName": "files[]",
   "Headers": {
     "Authorization": "<API KEY HERE>"
   },
-  "ResponseType": "Text",
   "URL": "https://<THE URL YOU WANT>/$json:files[0].url$"
 }

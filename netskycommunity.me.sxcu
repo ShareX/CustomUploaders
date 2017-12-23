@@ -1,13 +1,11 @@
-{
+﻿{
   "Name": "netskycommunity.me",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestType": "POST",
   "RequestURL": "https://upload.netskycommunity.me",
   "FileFormName": "fileform",
   "Arguments": {
     "key": "INSERT_KEY_HERE",
     "file_length": "5"
   },
-  "ResponseType": "Text",
   "URL": "$json:url$"
 }

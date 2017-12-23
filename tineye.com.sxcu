@@ -1,7 +1,5 @@
 ﻿{
-  "Name": "tineye.com",
   "DestinationType": "ImageUploader",
-  "RequestType": "POST",
   "RequestURL": "https://www.tineye.com/search",
   "FileFormName": "image",
   "ResponseType": "RedirectionURL"

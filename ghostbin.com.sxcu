@@ -1,7 +1,4 @@
 ﻿{
-  "Name": "ghostbin.com",
-  "DestinationType": "None",
-  "RequestType": "POST",
   "RequestURL": "https://ghostbin.com/paste/new",
   "Arguments": {
     "lang": "text",

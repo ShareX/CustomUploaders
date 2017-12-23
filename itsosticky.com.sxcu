@@ -1,7 +1,5 @@
 ﻿{
-  "Name": "itsosticky.com",
   "DestinationType": "ImageUploader",
-  "RequestType": "POST",
   "RequestURL": "https://itsosticky.com/resource/add_upload",
   "FileFormName": "upload",
   "Arguments": {
@@ -11,6 +9,5 @@
     "album_title": "",
     "album_ref": ""
   },
-  "ResponseType": "Text",
   "URL": "https://itsosticky.com/$json:ref$"
 }

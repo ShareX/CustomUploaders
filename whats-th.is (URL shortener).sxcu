@@ -7,6 +7,5 @@
     "apikey": "YOUR_API_KEY",
     "action": "shorten",
     "url": "$input$"
-  },
-  "ResponseType": "Text"
+  }
 }

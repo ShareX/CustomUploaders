@@ -1,13 +1,11 @@
 ﻿{
   "Name": "dtransfer.net (Anonymous)",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestType": "POST",
   "RequestURL": "http://dtransfer.net/en/api/upload",
   "FileFormName": "files[]",
   "Arguments": {
     "store_days": "14",
     "auto_renew": "1"
   },
-  "ResponseType": "Text",
   "URL": "$json:data.link$"
 }

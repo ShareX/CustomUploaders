@@ -1,7 +1,5 @@
 ﻿{
-  "Name": "unserialize.com",
   "DestinationType": "TextUploader",
-  "RequestType": "POST",
   "RequestURL": "http://www.unserialize.com/",
   "Arguments": {
     "input": "$input$",

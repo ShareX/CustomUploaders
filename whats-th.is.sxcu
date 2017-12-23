@@ -1,9 +1,7 @@
 ﻿{
   "Name": "whats-th.is",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestType": "POST",
   "RequestURL": "https://api.awau.moe/upload/pomf?key=YOUR_API_KEY",
   "FileFormName": "files[]",
-  "ResponseType": "Text",
   "URL": "https://owo.whats-th.is/$json:files[0].url$"
 }

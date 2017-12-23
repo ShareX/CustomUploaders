@@ -1,10 +1,7 @@
-{
-  "Name": "yabumi.cc",
+﻿{
   "DestinationType": "ImageUploader",
-  "RequestType": "POST",
   "RequestURL": "https://yabumi.cc/api/images.json",
   "FileFormName": "imagedata",
-  "ResponseType": "Text",
   "RegexList": [
     "\"url\": \"https://yabumi.cc/[0-9a-fA-F]{24}\\.(?<ext>png|jpg|gif|svg|psd|pdf)\","
   ],

@@ -1,12 +1,9 @@
 ﻿{
-  "Name": "cockfile.com",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestType": "POST",
   "RequestURL": "https://cockfile.com/api.php?d=upload-tool",
   "FileFormName": "file",
   "Arguments": {
     "name": "",
     "randomname": ""
-  },
-  "ResponseType": "Text"
+  }
 }

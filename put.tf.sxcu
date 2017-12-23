@@ -1,10 +1,8 @@
-{
-	"Name": "put.tf",
-	"DestinationType": "ImageUploader, TextUploader, FileUploader",
-	"RequestType": "POST",
-	"RequestURL": "https://api.put.tf/file",
-	"FileFormName": "file",
-	"ResponseType": "Text",
-	"URL": "$json:data.url$",
-	"DeletionURL": "$json:data.deletion_url$"
+﻿{
+  "Name": "put.tf",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://api.put.tf/file",
+  "FileFormName": "file",
+  "URL": "$json:data.url$",
+  "DeletionURL": "$json:data.deletion_url$"
 }

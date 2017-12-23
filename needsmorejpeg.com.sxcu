@@ -1,7 +1,4 @@
 ﻿{
-  "Name": "needsmorejpeg.com",
-  "DestinationType": "None",
-  "RequestType": "POST",
   "RequestURL": "http://needsmorejpeg.com/upload",
   "FileFormName": "image",
   "ResponseType": "RedirectionURL",

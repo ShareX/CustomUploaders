@@ -1,9 +1,7 @@
 ﻿{
   "Name": "ratelimited.me (Random)",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestType": "POST",
   "RequestURL": "https://api.ratelimited.me/api/upload/pomf?key=YOUR_API_KEY",
   "FileFormName": "files[]",
-  "ResponseType": "Text",
   "URL": "https://$random:ratelimited.me|is-me.me|wearenumberone.club|service-banned.me|threw-the-ban-hammer-at.me|prntsc.me|is-a-perv-and-watches.me|watches-ani.me|please-fuck.me|will-never-love.me|took-my-blobs-away-from.me|takes-pictures-of.me|dabbit-pri.me|got-lost-in.space|is-in.space|smoked-weed-in.space|owns-this.space|got-lost-in-hyper.space|got-lost-in-cyber.space|is-at-a.party|wumpus.club|my-me.me|dabbit-loves.me|dabbit-hates.me|needs-to-stop-following.me|wants-to-kill.me|cant-even-touch.me|plsfuk.me|is-too-sexy-for.me|just-hugged.me$/$json:files[0].url$"
 }

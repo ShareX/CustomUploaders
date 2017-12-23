@@ -1,7 +1,4 @@
 ﻿{
-  "Name": "framapic.org",
-  "DestinationType": "None",
-  "RequestType": "POST",
   "RequestURL": "https://framapic.org/",
   "FileFormName": "file",
   "Arguments": {
@@ -11,7 +8,6 @@
     "crypt": "0",
     "keep-exif": "0"
   },
-  "ResponseType": "Text",
   "URL": "https://framapic.org/$json:msg.short$",
   "DeletionURL": "https://framapic.org/d/$json:msg.real_short$/$json:msg.token$"
 }

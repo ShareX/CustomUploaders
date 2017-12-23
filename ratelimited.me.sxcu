@@ -1,9 +1,7 @@
 ﻿{
   "Name": "ratelimited.me",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestType": "POST",
   "RequestURL": "https://api.ratelimited.me/api/upload/pomf?key=YOUR_API_KEY",
   "FileFormName": "files[]",
-  "ResponseType": "Text",
   "URL": "https://ratelimited.me/$json:files[0].url$"
 }

@@ -1,10 +1,6 @@
 ﻿{
-  "Name": "hizliresim.com",
-  "DestinationType": "None",
-  "RequestType": "POST",
   "RequestURL": "http://hizliresim.com/upload.php",
   "FileFormName": "local_files[]",
-  "ResponseType": "Text",
   "RegexList": [
     "\\[img\\](?<url>.+)\\[/img\\]\\[/url\\]\">"
   ],

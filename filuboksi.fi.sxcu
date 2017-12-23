@@ -1,9 +1,6 @@
-{
-  "Name": "filuboksi.fi",
+﻿{
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestType": "POST",
   "RequestURL": "https://filuboksi.fi/upload.php",
   "FileFormName": "files[]",
-  "ResponseType": "Text",
   "URL": "https://f.filuboksi.fi/$json:files[0].url$"
 }
