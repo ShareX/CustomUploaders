@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Yellow Host",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://upload.yellowhost.xyz/upload.php",
+  "FileFormName": "sharex",
+  "Arguments": {
+    "secret": "YOUR_KEY_HERE"
+  },
+  "ResponseType": "Text",
+  "URL": "https://yellowhost.xyz/i/$json:url$"
+}
