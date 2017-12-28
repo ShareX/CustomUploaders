@@ -1,5 +1,5 @@
 ﻿{
-  "Name": "Yellow Host",
+  "Name": "yellowhost.xyz",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestType": "POST",
   "RequestURL": "https://upload.yellowhost.xyz/upload.php",
