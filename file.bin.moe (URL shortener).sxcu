@@ -1,5 +1,5 @@
 {
-  "Name": "file-bin url shortner",
+  "Name": "file.bin.moe (URL shortener)",
   "DestinationType": "URLShortener",
   "RequestURL": "http://file.bin.moe/api/objects/shorten",
   "Arguments": {
