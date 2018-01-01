@@ -4,8 +4,5 @@
   "Arguments": {
     "url": "$input$"
   },
-  "RegexList": [
-    "([a-zA-Z0-9]+)"
-  ],
-  "URL": "https://nofla.me/$regex:1$"
+  "URL": "https://nofla.me/$response$"
 }
