@@ -1,0 +1,11 @@
+{
+  "DestinationType": "URLShortener",
+  "RequestURL": "https://nofla.me/_/create",
+  "Arguments": {
+    "url": "$input$"
+  },
+  "RegexList": [
+    "([a-zA-Z0-9]+)"
+  ],
+  "URL": "https://nofla.me/$regex:1$"
+}
