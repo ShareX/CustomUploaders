@@ -1,0 +1,10 @@
+{
+  "Name": "file.bin.moe (Image uploader)",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "http://file.bin.moe/api/objects/upload",
+  "FileFormName": "file",
+  "Headers": {
+    "baka_token": "YOUR_TOKEN_HERE"
+  },
+  "URL": "http://binned.me/$json:full_result_id$"
+}

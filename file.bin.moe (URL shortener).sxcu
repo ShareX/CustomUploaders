@@ -1,0 +1,10 @@
+{
+  "Name": "file.bin.moe (URL shortener)",
+  "DestinationType": "URLShortener",
+  "RequestURL": "http://file.bin.moe/api/objects/shorten",
+  "Arguments": {
+    "token": "YOUR_TOKEN_HERE",
+    "url": "$input$"
+  },
+  "URL": "http://binned.me/$json:o.result_id$"
+}
