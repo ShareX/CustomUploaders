@@ -1,8 +1,9 @@
 {
   "Name": "screenshot.pizza",
   "DestinationType": "ImageUploader",
-  "RequestURL": "https://screenshot.pizza/upload.php",
+  "RequestURL": "https://screenshot.pizza/upload",
   "FileFormName": "sharex",
   "Arguments": {
     "secret": "8ufLPswPPSeMbMiF37fehoNJTLlbXRbtK1nhxE6aPhqR78LV7W8XdonOvsRp9lS9",
   }
+}
