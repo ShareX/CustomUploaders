@@ -6,5 +6,5 @@
     "token": "YOUR_TOKEN_HERE",
     "url": "$input$"
   },
-  "URL": "http://binned.me/$json:o.result_id$"
+  "URL": "http://i1.tf/$json:o.result_id$"
 }
