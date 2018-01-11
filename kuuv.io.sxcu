@@ -1,4 +1,4 @@
 ﻿{
-  "RequestURL": "http://kuuv.io/upload.php",
+  "RequestURL": "https://kuuv.io/upload.php",
   "FileFormName": "upl"
 }
