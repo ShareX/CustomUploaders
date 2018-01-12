@@ -1,0 +1,9 @@
+﻿{
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "http://put.nu/py/main.py",
+  "FileFormName": "file",
+  "RegexList": [
+    "href=\"(.+)\""
+  ],
+  "URL": "$regex:1,1$"
+}
