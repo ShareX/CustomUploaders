@@ -1,9 +1,0 @@
-﻿{
-  "Name": "cuve.co",
-  "RequestURL": "https://api.cuve.co/upload",
-  "FileFormName": "Data",
-  "Arguments": {
-    "AuthKey": "YOUR API KEY"
-  },
-  "URL": "$json:url$"
-}
