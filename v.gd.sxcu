@@ -1,8 +1,0 @@
-﻿{
-  "DestinationType": "URLShortener",
-  "RequestURL": "https://v.gd/create.php",
-  "Arguments": {
-    "url": "$input$",
-    "format": "simple"
-  }
-}
