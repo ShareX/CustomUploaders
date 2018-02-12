@@ -7,9 +7,6 @@
     "body": "$input$"
   },
   "ResponseType": "RedirectionURL",
-  "RegexList": [
-    ".+"
-  ],
-  "URL": "$regex:1$",
-  "ThumbnailURL": "$regex:1$txt/"
+  "URL": "$response$",
+  "ThumbnailURL": "$response$txt/"
 }
