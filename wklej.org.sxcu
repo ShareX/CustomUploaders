@@ -1,0 +1,15 @@
+﻿{
+  "DestinationType": "TextUploader",
+  "RequestURL": "http://wklej.org/",
+  "Arguments": {
+    "syntax": "text",
+    "is_private": "on",
+    "body": "$input$"
+  },
+  "ResponseType": "RedirectionURL",
+  "RegexList": [
+    ".+"
+  ],
+  "URL": "$regex:1$",
+  "ThumbnailURL": "$regex:1$txt/"
+}
