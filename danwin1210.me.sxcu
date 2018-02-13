@@ -1,0 +1,9 @@
+﻿{
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://danwin1210.me/upload.php",
+  "FileFormName": "file[]",
+  "RegexList": [
+    "(?<=Clearnet: <a href=\").+?(?=\">)"
+  ],
+  "URL": "$regex:1$"
+}
