@@ -1,0 +1,11 @@
+﻿{
+  "Name": "kuvien.io",
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://api.kuvien.io/image/upload",
+  "FileFormName": "file",
+  "Headers": {
+    "x-app-key": "YOUR API KEY HERE"
+  },
+  "URL": "$json:file.url$",
+  "ThumbnailURL": "$json:file.thumbnail$"
+}
