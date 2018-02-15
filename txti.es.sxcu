@@ -1,0 +1,15 @@
+﻿{
+  "DestinationType": "TextUploader",
+  "RequestURL": "http://txti.es/",
+  "Arguments": {
+    "content": "$input$",
+    "submit": "Save and done"
+  },
+  "RegexList": [
+    "(?<=<h2>The link to your page is here:<\\/h2>\\n<a href=\").+?(?=\">)",
+    "(?<=<h2>Edit your page here:<\\/h2>\\n<a href=\").+?(?=\">)",
+    "(?<=<p>Your edit code: <strong>).+?(?=<\\/strong>)"
+  ],
+  "URL": "$regex:1$",
+  "DeletionURL": "$regex:2$ (Edit code: $regex:3$)"
+}
