@@ -1,0 +1,6 @@
+{
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://bonlikes.men/upload.php",
+  "FileFormName": "files[]",
+  "URL": "https://bonlikes.men/$json:files[0].url$"
+}
