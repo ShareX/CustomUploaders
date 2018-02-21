@@ -1,0 +1,11 @@
+{
+  "Name": "img.danielgray.me",
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://img.danielgray.me/upload/api",
+  "FileFormName": "image",
+  "Arguments": {
+    "key": "My key",
+    "domain": "selecteddomain"
+  },
+  "URL": "$json:url$"
+}

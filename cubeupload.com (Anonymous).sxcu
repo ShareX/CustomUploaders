@@ -1,11 +1,12 @@
 ﻿{
   "Name": "cubeupload.com (Anonymous)",
-  "RequestURL": "http://cubeupload.com/upload_json.php",
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://cubeupload.com/upload_json.php",
   "FileFormName": "fileinput[0]",
   "Arguments": {
     "userHash": "false",
     "userID": "false"
   },
-  "URL": "http://i.cubeupload.com/$json:file_name$",
-  "ThumbnailURL": "http://i.cubeupload.com/t/$json:file_name$"
+  "URL": "https://i.cubeupload.com/$json:file_name$",
+  "ThumbnailURL": "https://i.cubeupload.com/t/$json:file_name$"
 }

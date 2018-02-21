@@ -1,11 +1,12 @@
 ﻿{
   "Name": "cubeupload.com (User)",
-  "RequestURL": "http://cubeupload.com/upload_json.php",
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://cubeupload.com/upload_json.php",
   "FileFormName": "fileinput[0]",
   "Arguments": {
     "userHash": "Your user hash here",
     "userID": "Your user ID here"
   },
-  "URL": "http://u.cubeupload.com/$json:user_name$/$json:file_name$",
-  "ThumbnailURL": "http://u.cubeupload.com/$json:user_name$/t/$json:file_name$"
+  "URL": "https://u.cubeupload.com/$json:user_name$/$json:file_name$",
+  "ThumbnailURL": "https://u.cubeupload.com/$json:user_name$/t/$json:file_name$"
 }
