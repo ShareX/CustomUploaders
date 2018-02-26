@@ -1,0 +1,6 @@
+{
+    "Name": "weed.moe Image Uploader",
+    "DestinationType": "ImageUploader",
+    "RequestURL": "https://weed.moe",
+    "FileFormName": "file"
+}
