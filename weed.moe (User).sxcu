@@ -1,5 +1,5 @@
 {
-    "Name": "weed.moe Auth (full)",
+    "Name": "weed.moe (User)",
     "DestinationType": "ImageUploader, TextUploader, FileUploader",
     "RequestURL": "https://weed.moe",
     "FileFormName": "file",
