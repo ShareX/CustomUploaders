@@ -1,5 +1,5 @@
 {
-    "Name": "weed.moe Image Uploader",
+    "Name": "weed.moe Unauth (img Only)",
     "DestinationType": "ImageUploader",
     "RequestURL": "https://weed.moe",
     "FileFormName": "file"
