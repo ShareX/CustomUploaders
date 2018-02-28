@@ -1,0 +1,9 @@
+{
+    "Name": "weed.moe (User)",
+    "DestinationType": "ImageUploader, TextUploader, FileUploader",
+    "RequestURL": "https://weed.moe",
+    "FileFormName": "file",
+    "Headers": {
+        "token": "TOKEN-HERE (GET ONE AT https://weed.moe)"
+    }
+}
