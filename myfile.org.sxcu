@@ -1,0 +1,6 @@
+﻿{
+  "DestinationType": "FileUploader",
+  "RequestURL": "https://myfile.org/api/upload",
+  "FileFormName": "file",
+  "URL": "$json:data.file.url.short$"
+}
