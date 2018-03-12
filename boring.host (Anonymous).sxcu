@@ -1,0 +1,7 @@
+{
+  "Name": "i.boring.host",
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://api.boring.host/api/upload",
+  "FileFormName": "file",
+  "URL": "https://i.boring.host/$json:data.code$.$json:data.extension$"
+}
