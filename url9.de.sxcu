@@ -1,0 +1,11 @@
+﻿{
+  "DestinationType": "URLShortener",
+  "RequestURL": "http://url9.de/",
+  "Arguments": {
+    "longurl": "$input$"
+  },
+  "RegexList": [
+    "(?<=<input style='color:blue; width:80%;' type='text' value=').*?(?=' readonly>)"
+  ],
+  "URL": "$regex:1,1$"
+}
