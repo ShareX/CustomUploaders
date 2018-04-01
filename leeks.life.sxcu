@@ -1,5 +1,4 @@
 {
-    "Name": "Leeks (leeks.life)",
     "DestinationType": "ImageUploader, FileUploader",
     "RequestURL": "https:\/\/leeks.life\/upload",
     "FileFormName": "file",
