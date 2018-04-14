@@ -1,9 +1,0 @@
-﻿{
-  "Name": "vid.me",
-  "RequestURL": "https://api.vid.me/video/upload",
-  "FileFormName": "filedata",
-  "Arguments": {
-    "private": "true"
-  },
-  "URL": "$json:url$"
-}
