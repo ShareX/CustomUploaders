@@ -4,7 +4,8 @@
   "RequestURL": "Webhook URL",
   "FileFormName": "file",
   "Arguments": {
-    "content": "**[ShareX](https://getsharex.com)**"
+    "username": "ShareX",
+    "avatar_url": "https://getsharex.com/img/ShareX_Logo.png"
   },
   "URL": "$json:attachments[0].url$"
 }
