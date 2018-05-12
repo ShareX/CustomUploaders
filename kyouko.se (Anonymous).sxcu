@@ -1,5 +1,5 @@
 {
-  "Name": "Kyouko",
+  "Name": "kyouko.se (Anonymous)",
   "DestinationType": "ImageUploader, FileUploader",
   "RequestURL": "https://api.kyouko.se/v2/upload",
   "FileFormName": "upload",
