@@ -6,8 +6,5 @@
   "Headers": {
     "Authorization": "Basic YW5vbnltb3VzOg=="
   },
-  "RegexList": [
-    "\\\"newName\\\":\\\"(?:.+\\\\\\\\/)?(.*?)\\\""
-  ],
-  "URL": "https://a.kyouko.se/$1,1$"
+  "URL": "$json:message.link$"
 }
