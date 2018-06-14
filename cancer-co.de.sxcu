@@ -1,0 +1,10 @@
+{
+  "DestinationType": "TextUploader",
+  "RequestURL": "https://cancer-co.de/upload.php",
+  "Arguments": {
+    "text": "$input$",
+    "key": "API_KEY_HERE"
+  },
+  "URL": "$json:url$",
+  "DeletionURL": "$json:del_url$"
+}
