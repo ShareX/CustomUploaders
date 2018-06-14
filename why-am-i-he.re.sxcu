@@ -1,0 +1,10 @@
+{
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://why-am-i-he.re/upload",
+  "FileFormName": "image",
+  "Arguments": {
+    "key": "YOUR_UPLOAD_KEY"
+  },
+  "URL": "$json:url$",
+  "DeletionURL": "$json:del_url$"
+}
