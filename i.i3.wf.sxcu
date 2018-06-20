@@ -1,0 +1,8 @@
+{
+  "Name": "i.i3.wf",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://i.i3.wf/",
+  "FileFormName": "file",
+  "ResponseType": "Text"
+}

@@ -1,0 +1,8 @@
+{
+  "Name": "big.animetitti.es",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://big.animetitti.es/",
+  "FileFormName": "file",
+  "ResponseType": "Text"
+}
