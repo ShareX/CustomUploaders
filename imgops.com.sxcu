@@ -1,0 +1,6 @@
+﻿{
+  "DestinationType": "ImageUploader",
+  "RequestURL": "http://imgops.com/upload/uploadPhoto-action.asp",
+  "FileFormName": "photo",
+  "ResponseType": "RedirectionURL"
+}
