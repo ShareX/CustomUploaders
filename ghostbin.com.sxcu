@@ -1,5 +1,5 @@
 ﻿{
-  "RequestURL": "https://ghostbin.com/paste/new",
+  "RequestURL": "http://142.93.29.43:8080/",
   "Arguments": {
     "lang": "text",
     "text": "$input$",
