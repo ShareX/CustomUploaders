@@ -1,0 +1,10 @@
+{
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestURL": "https://share.dmca.gripe/api/upload",
+  "FileFormName": "files[]",
+  "Headers": {
+    "token": "6faBilpN6I8xl7ClDjdT6R2sKQdFGX0ge9WFGAHocmAFrdgRXx3kqJyWEh6g4iXR"
+  },
+  "URL": "$json:files[0].url$",
+  "ThumbnailURL": "$json:files[0].url$"
+}
