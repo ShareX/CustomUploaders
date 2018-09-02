@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Rokket.space",
+  "DestinationType": "FileUploader",
+  "RequestURL": "https://rokket.space/upload",
+  "FileFormName": "files[]",
+  "Headers": {
+    "X-Requested-With": "XMLHttpRequest",
+    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0"
+  },
+  "URL": "$json:files[0].url$"
+}
