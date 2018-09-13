@@ -1,5 +1,4 @@
 {
-  "Name": "Capella",
   "DestinationType": "ImageUploader",
   "RequestURL": "https://capella.pics/upload",
   "FileFormName": "file",
