@@ -1,0 +1,6 @@
+{
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://capella.pics/upload",
+  "FileFormName": "file",
+  "URL": "$json:url$"
+}
