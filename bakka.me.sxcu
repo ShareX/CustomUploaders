@@ -4,5 +4,5 @@
   "RegexList": [
     "\"url\":\"(?:.+\\\\/)?(.*?)\""
   ],
-  "URL": "https://a.bakka.me/$1,1$"
+  "URL": "https://a.bakka.me/$regex:1,1$"
 }

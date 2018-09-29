@@ -7,5 +7,5 @@
   "RegexList": [
     "\"indent\"><b>(http://.+?)</b><div"
   ],
-  "URL": "$1,1$"
+  "URL": "$regex:1,1$"
 }

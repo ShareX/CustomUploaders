@@ -2,8 +2,5 @@
   "RequestURL": "http://needsmorejpeg.com/upload",
   "FileFormName": "image",
   "ResponseType": "RedirectionURL",
-  "RegexList": [
-    ".+"
-  ],
-  "URL": "$regex:1$.jpeg"
+  "URL": "$response$.jpeg"
 }

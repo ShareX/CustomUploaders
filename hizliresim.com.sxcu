@@ -4,5 +4,5 @@
   "RegexList": [
     "\\[img\\](?<url>.+)\\[/img\\]\\[/url\\]\">"
   ],
-  "URL": "$1,url$"
+  "URL": "$regex:1,url$"
 }

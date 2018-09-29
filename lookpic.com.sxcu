@@ -4,6 +4,6 @@
   "RegexList": [
     "value='<a href=\"(.+?)\".+<img src=\"(.+?)\""
   ],
-  "URL": "$1,1$",
-  "ThumbnailURL": "$1,2$"
+  "URL": "$regex:1,1$",
+  "ThumbnailURL": "$regex:1,2$"
 }

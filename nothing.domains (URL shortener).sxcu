@@ -9,8 +9,5 @@
   "Headers": {
     "Authorization": "<API KEY HERE>"
   },
-  "RegexList": [
-    "(.+)"
-  ],
-  "URL": "https://<YOUR DOMAIN>/$regex:1,1$"
+  "URL": "https://<YOUR DOMAIN>/$response$"
 }

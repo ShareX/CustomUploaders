@@ -1,10 +1,8 @@
 ﻿{
-  "RequestURL": "http://git.io/create",
+  "DestinationType": "URLShortener",
+  "RequestURL": "https://git.io/create",
   "Arguments": {
     "url": "$input$"
   },
-  "RegexList": [
-    ".+"
-  ],
-  "URL": "http://git.io/$1$"
+  "URL": "https://git.io/$response$"
 }
