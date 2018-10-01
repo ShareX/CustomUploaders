@@ -1,0 +1,12 @@
+{
+  "Name": "Very Legit Link",
+  "DestinationType": "URLShortener",
+  "RequestURL": "https://verylegit.link/sketchify",
+  "Arguments": {
+    "long_url": "$input$"
+  },
+  "RegexList": [
+    "(?:https?:\\/\\/)?(.+)"
+  ],
+  "URL": "http://$regex:1,1$"
+}
