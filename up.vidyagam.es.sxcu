@@ -1,0 +1,6 @@
+﻿{
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://up.vidyagam.es",
+  "FileFormName": "file",
+  "URL": "$json:url$"
+}
