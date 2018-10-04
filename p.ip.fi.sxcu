@@ -1,0 +1,7 @@
+﻿{
+  "DestinationType": "TextUploader",
+  "RequestURL": "http://p.ip.fi/",
+  "Arguments": {
+    "paste": "$input$"
+  }
+}
