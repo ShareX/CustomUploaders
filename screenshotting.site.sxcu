@@ -1,0 +1,6 @@
+﻿{
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://screenshotting.site/upload",
+  "FileFormName": "img",
+  "URL": "$json:url$"
+}
