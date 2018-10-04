@@ -1,5 +1,4 @@
 ﻿{
-  "Name": "Screenshotting.Site",
   "DestinationType": "ImageUploader",
   "RequestURL": "https://screenshotting.site/upload",
   "FileFormName": "img",
