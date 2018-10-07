@@ -1,0 +1,15 @@
+﻿{
+  "DestinationType": "FileUploader",
+  "RequestURL": "https://tmpfiles.org/?upload",
+  "FileFormName": "input_file",
+  "Arguments": {
+    "max_views": "10",
+    "max_minutes": "60",
+    "upl": "Upload"
+  },
+  "ResponseType": "RedirectionURL",
+  "RegexList": [
+    "^.+?download\\/(.+)$"
+  ],
+  "URL": "https://tmpfiles.org/dl/$regex:1,1$"
+}
