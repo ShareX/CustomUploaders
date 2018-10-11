@@ -1,7 +1,7 @@
-﻿{
+{
   "Name": "whats-th.is (Random)",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestURL": "https://api.awau.moe/upload/pomf?key=YOUR_API_KEY",
   "FileFormName": "files[]",
-  "URL": "https://$random:bad-me.me|buttsare.sexy|can-i-ask-dean-on-a.date|cat.girlsare.life|discord.coffee|fox.girlsare.life|file.z0ne.moe|how-about-th.at|i.am-a.ninja|i-hate.dabbot.org|i-was-scammed-by.dabbot.org|im.not.ovh|i.stole-a-me.me|i-need.discord.cards|kotline-for.life|light-theme-hurts.my-ey.es|link.z0ne.moe|nyanyanya.moe|owo.whats-th.is|owo.sh|paste.dabbot.org|pantsu.review|quak.ovh|requires.discord.gold|take-me-on-a.date|test.deam.pro|totally-not.a-sketchy.site|woah.this-is-a.site|o.lol-sa.me$/$json:files[0].url$"
+  "URL": "https://$random:bad-me.me|buttsare.sexy|can-i-ask-dean-on-a.date|cat.girlsare.life|chito.ge|discord.coffee|fox.girlsare.life|file.z0ne.moe|how-about-th.at|i.am-a.ninja|i-hate.dabbot.org|i-was-scammed-by.dabbot.org|im.not.ovh|i.stole-a-me.me|i-need.discord.cards|kotline-for.life|light-theme-hurts.my-ey.es|link.z0ne.moe|nyanyanya.moe|owo.whats-th.is|owo.sh|paste.dabbot.org|pantsu.review|quak.ovh|requires.discord.gold|take-me-on-a.date|test.deam.pro|thats-a.link|totally-not.a-sketchy.site|woah.this-is-a.site|o.lol-sa.me$/$json:files[0].url$"
 }
