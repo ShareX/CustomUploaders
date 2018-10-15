@@ -1,0 +1,10 @@
+{
+  "Name": "kutt",
+  "DestinationType": "URLShortener",
+  "RequestURL": "https://kutt.it/api/url/sharex",
+  "Headers": {
+    "X-API-Key": "yourapikeyhere",
+    "Target": "{\"target\":\"$input$\"}"
+  },
+  "URL": "$json:shortUrl$"
+}
