@@ -1,0 +1,10 @@
+{
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://elixi.re/api/upload",
+  "FileFormName": "f",
+  "Headers": {
+    "Authorization": "UPLOADER-TOKEN-GOES-HERE (GET YOURS AT https://elixi.re/account.html)"
+  },
+  "URL": "$json:url$",
+  "DeletionURL": "$json:delete_url$?token=UPLOADER-TOKEN-GOES-HERE"
+}
