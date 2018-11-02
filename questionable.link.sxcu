@@ -1,0 +1,10 @@
+{
+  "DestinationType": "URLShortener",
+  "RequestURL": "https://questionable.link/shorten",
+  "RequestType": "POST",
+  "Arguments": {
+    "url": "$input$"
+  },
+  "URL": "$json:url$",
+  "DeletionURL": "$json:del_url$"
+}
