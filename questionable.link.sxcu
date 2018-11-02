@@ -1,5 +1,4 @@
 {
-  "Name": "(sxcu.net url shortener) questionable.link",
   "DestinationType": "URLShortener",
   "RequestURL": "https://questionable.link/shorten",
   "RequestType": "POST",
