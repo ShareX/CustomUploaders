@@ -3,6 +3,6 @@
   "DestinationType": "URLSharingService",
   "RequestURL": "Webhook URL",
   "Arguments": {
-    "payload_json": "{\"embeds\":[{\"author\":{\"name\":\"ShareX\",\"url\":\"https://getsharex.com\",\"icon_url\":\"https://getsharex.com/img/ShareX_Logo_64.png\"},\"image\":{\"url\":\"$input$\"}}]}"
+    "payload_json": "{\"username\":\"ShareX\",\"avatar_url\":\"https://getsharex.com/img/ShareX_Logo.png\",\"embeds\":[{\"title\":\"$input$\",\"image\":{\"url\":\"$input$\"}}]}"
   }
 }

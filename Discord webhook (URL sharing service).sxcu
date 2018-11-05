@@ -3,6 +3,8 @@
   "DestinationType": "URLSharingService",
   "RequestURL": "Webhook URL",
   "Arguments": {
-    "content": "$input$"
+    "content": "$input$",
+    "username": "ShareX",
+    "avatar_url": "https://getsharex.com/img/ShareX_Logo.png"
   }
 }
