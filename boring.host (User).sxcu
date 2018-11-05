@@ -1,10 +1,10 @@
-{
-"Name": "i.boring.host",
-"DestinationType": "ImageUploader",
-"RequestURL": "https://api.boring.host/api/upload",
-"FileFormName": "file",
-"Arguments": {
-  "token": "<your_api_token>"
-},
+﻿{
+  "Name": "boring.host (User)",
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://api.boring.host/api/upload",
+  "FileFormName": "file",
+  "Arguments": {
+    "token": "<your_api_token>"
+  },
   "URL": "https://i.boring.host/$json:data.code$.$json:data.extension$"
 }

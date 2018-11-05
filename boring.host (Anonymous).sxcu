@@ -1,5 +1,5 @@
-{
-  "Name": "i.boring.host",
+﻿{
+  "Name": "boring.host (Anonymous)",
   "DestinationType": "ImageUploader",
   "RequestURL": "https://api.boring.host/api/upload",
   "FileFormName": "file",

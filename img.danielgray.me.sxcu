@@ -1,5 +1,4 @@
-{
-  "Name": "img.danielgray.me",
+﻿{
   "DestinationType": "ImageUploader",
   "RequestURL": "https://img.danielgray.me/upload/api",
   "FileFormName": "image",

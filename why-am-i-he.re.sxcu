@@ -1,4 +1,4 @@
-{
+﻿{
   "DestinationType": "ImageUploader",
   "RequestURL": "https://why-am-i-he.re/upload",
   "FileFormName": "image",

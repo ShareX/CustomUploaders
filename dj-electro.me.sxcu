@@ -1,4 +1,4 @@
-{
+﻿{
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestURL": "https://dj-electro.me/upload/[KEY]",
   "FileFormName": "file",

@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "file.bin.moe (Image uploader)",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestURL": "http://file.bin.moe/api/objects/upload",

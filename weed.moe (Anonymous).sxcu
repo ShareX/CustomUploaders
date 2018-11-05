@@ -1,6 +1,6 @@
-{
-    "Name": "weed.moe (Anonymous)",
-    "DestinationType": "ImageUploader",
-    "RequestURL": "https://weed.moe",
-    "FileFormName": "file"
+﻿{
+  "Name": "weed.moe (Anonymous)",
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://weed.moe",
+  "FileFormName": "file"
 }

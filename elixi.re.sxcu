@@ -1,4 +1,4 @@
-{
+﻿{
   "DestinationType": "ImageUploader",
   "RequestURL": "https://elixi.re/api/upload",
   "FileFormName": "f",

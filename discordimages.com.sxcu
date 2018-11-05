@@ -1,13 +1,10 @@
-{
-  "Name": "discordimages.com",
+﻿{
   "DestinationType": "ImageUploader, FileUploader",
-  "RequestType": "POST",
   "RequestURL": "https://discordimages.com/api/upload",
   "FileFormName": "files[]",
   "Headers": {
     "token": ""
   },
-  "ResponseType": "Text",
   "URL": "$json:files[0].url$",
   "ThumbnailURL": "$json:files[0].url$"
 }

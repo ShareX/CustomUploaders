@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "whats-th.is (Random)",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestURL": "https://api.awau.moe/upload/pomf?key=YOUR_API_KEY",

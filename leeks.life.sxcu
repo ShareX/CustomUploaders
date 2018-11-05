@@ -1,11 +1,11 @@
-{
-    "DestinationType": "ImageUploader, FileUploader",
-    "RequestURL": "https:\/\/leeks.life\/upload",
-    "FileFormName": "file",
-    "Arguments": {
-        "key": "INSERT KEY HERE",
-        "domain": "leeks.life"
-    },
-    "URL": "$json:file.url_domain$",
-    "DeletionURL": "$json:file.delete_url$"
+﻿{
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestURL": "https://leeks.life/upload",
+  "FileFormName": "file",
+  "Arguments": {
+    "key": "INSERT KEY HERE",
+    "domain": "leeks.life"
+  },
+  "URL": "$json:file.url_domain$",
+  "DeletionURL": "$json:file.delete_url$"
 }

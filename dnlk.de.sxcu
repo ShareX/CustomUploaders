@@ -1,7 +1,7 @@
-{
+﻿{
   "Name": "dnlk.de",
   "DestinationType": "ImageUploader",
   "RequestURL": "https://api.dnlk.de/",
   "FileFormName": "file",
-  "URL": "$json:url$",
+  "URL": "$json:url$"
 }

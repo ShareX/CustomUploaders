@@ -1,4 +1,4 @@
-{
+﻿{
   "DestinationType": "TextUploader",
   "RequestURL": "https://cancer-co.de/upload",
   "Arguments": {
