@@ -5,5 +5,8 @@
     "url": "$input$",
     "doNotTrack": "true"
   },
+  "Headers": {
+    "Authorization": "Basic $base64:YOUR_USERNAME_HERE:YOUR_TOKEN_HERE$"
+  },
   "URL": "$json:result.shortUrl$"
 }

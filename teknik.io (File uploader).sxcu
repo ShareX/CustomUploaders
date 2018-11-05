@@ -3,7 +3,11 @@
   "RequestURL": "https://api.teknik.io/v1/Upload",
   "FileFormName": "file",
   "Arguments": {
-    "genDeletionKey": "true"
+    "genDeletionKey": "true",
+    "doNotTrack": "true"
+  },
+  "Headers": {
+    "Authorization": "Basic $base64:YOUR_USERNAME_HERE:YOUR_TOKEN_HERE$"
   },
   "URL": "$json:result.url$",
   "DeletionURL": "$json:result.url$/$json:result.deletionKey$"
