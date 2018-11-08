@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Up2Sha.re (User)",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://api.up2sha.re/files",
+  "FileFormName": "file",
+  "Arguments": {
+    "visibility": "private",
+    "description": "Uploaded by ShareX."
+  },
+  "Headers": {
+    "Accept": "application/vnd.u2s.v1+json",
+    "X-Api-Key": "S8Y0c7PIbj5RvJNMY5yrgFgeDSzDhoiy"
+  },
+  "URL": "$json:public_url$"
+}
