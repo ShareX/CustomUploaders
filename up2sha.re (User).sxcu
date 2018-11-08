@@ -9,7 +9,7 @@
   },
   "Headers": {
     "Accept": "application/vnd.u2s.v1+json",
-    "X-Api-Key": "S8Y0c7PIbj5RvJNMY5yrgFgeDSzDhoiy"
+    "X-Api-Key": "your_api_key"
   },
   "URL": "$json:public_url$"
 }
