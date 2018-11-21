@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Firebase Dynamic Links",
+  "DestinationType": "URLShortener",
+  "RequestURL": "https://firebasedynamiclinks.googleapis.com/v1/shortLinks",
+  "RequestFormat": "JSON",
+  "Data": "{\n  \"dynamicLinkInfo\": {\n    \"dynamicLinkDomain\": \"\",\n    \"link\": \"$input$\"\n  },\n  \"suffix\": {\n    \"option\": \"UNGUESSABLE\"\n  }\n}",
+  "Arguments": {
+    "key": ""
+  },
+  "URL": "$json:shortLink$"
+}
