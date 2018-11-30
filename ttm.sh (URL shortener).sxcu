@@ -1,0 +1,8 @@
+﻿{
+  "Name": "ttm.sh (URL shortener)",
+  "DestinationType": "URLShortener",
+  "RequestURL": "https://ttm.sh",
+  "Arguments": {
+    "shorten": "$input$"
+  }
+}

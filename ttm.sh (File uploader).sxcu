@@ -1,0 +1,6 @@
+﻿{
+  "Name": "ttm.sh (File uploader)",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://ttm.sh",
+  "FileFormName": "file"
+}
