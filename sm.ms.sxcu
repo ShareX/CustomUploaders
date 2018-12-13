@@ -1,9 +1,10 @@
-﻿{
+{
+  "Name": "SM.MS",
+  "DestinationType": "ImageUploader",
   "RequestURL": "https://sm.ms/api/upload",
-  "FileFormName": "smfile",
+  "RequestFormat": "Binary",
   "Arguments": {
-    "ssl": "false",
-    "format": "json"
+    "smfile": ""
   },
   "URL": "$json:data.url$",
   "DeletionURL": "$json:data.delete$"
