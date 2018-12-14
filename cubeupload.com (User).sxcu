@@ -1,7 +1,8 @@
-﻿{
+{
   "Name": "cubeupload.com (User)",
   "DestinationType": "ImageUploader",
   "RequestURL": "https://cubeupload.com/upload_json.php",
+  "RequestFormat": "MultipartFormData",
   "FileFormName": "fileinput[0]",
   "Arguments": {
     "userHash": "Your user hash here",
