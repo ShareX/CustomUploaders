@@ -1,0 +1,12 @@
+{
+    "Name": "Torrage",
+    "RequestType": "POST",
+    "RequestURL": "http://torrage.info/upload.php",
+    "FileFormName": "torrent",
+    "Arguments": {},
+    "ResponseType": "Text",
+    "RegexList": [],
+    "URL": "",
+    "ThumbnailURL": "",
+    "DeletionURL": ""
+  }
