@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Pepperoni.Ninja",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://pepperoni.ninja/upload.php",
+  "FileFormName": "sharex",
+  "Arguments": {
+    "secret": "seal12345"
+  },
+  "ResponseType": "Text"
+}
