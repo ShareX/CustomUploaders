@@ -1,6 +1,6 @@
 {
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestURL": "https://yuu.sh/api/upload.php",
+  "RequestURL": "https://yuu.sh/api/upload",
   "FileFormName": "upload[]",
   "URL": "$json:items[0].url$",
   "ThumbnailURL": "$json:items[0].url$"
