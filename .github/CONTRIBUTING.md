@@ -1,4 +1,4 @@
-# Contribution rules
+## Contribution rules
 
 Please use current custom uploader naming format for consistency. The file name and name should be just domain with lowercase:
 
