@@ -1,7 +1,6 @@
 {
-        "Name": "Discord Fun",
-        "DestinationType": "ImageUploader, FileUploader",
-        "RequestURL": "https://discord.fun/api",
-        "FileFormName": "image",
-        "URL": "https://discord.fun/$json:filename$"
-      }
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestURL": "https://discord.fun/api",
+  "FileFormName": "image",
+  "URL": "https://discord.fun/$json:filename$"
+}

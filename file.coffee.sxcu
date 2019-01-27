@@ -1,7 +1,6 @@
 {
-        "Name": "File Coffee",
-        "DestinationType": "ImageUploader, FileUploader",
-        "RequestURL": "https://file.coffee/api",
-        "FileFormName": "image",
-        "URL": "https://file.coffee/$json:filename$"
-      }
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestURL": "https://file.coffee/api",
+  "FileFormName": "image",
+  "URL": "https://file.coffee/$json:filename$"
+}
