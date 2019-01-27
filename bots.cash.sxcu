@@ -1,0 +1,7 @@
+{
+        "Name": "Bots Cash",
+        "DestinationType": "ImageUploader, FileUploader",
+        "RequestURL": "https://bots.cash/api",
+        "FileFormName": "image",
+        "URL": "https://bots.cash/$json:filename$"
+      }
