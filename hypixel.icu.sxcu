@@ -1,5 +1,5 @@
 {
-  "DestinationType": "ImageUploader, FileUploader",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestURL": "https://hypixel.icu/api",
   "FileFormName": "image",
   "URL": "https://hypixel.icu/$json:filename$"
