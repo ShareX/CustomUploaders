@@ -1,0 +1,11 @@
+﻿{
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://codebin.us/i/upload.php",
+  "FileFormName": "image",
+  "Arguments": {
+    "endpoint": "upload",
+    "token": "1234b"
+  },
+  "URL": "$json:url$",
+  "DeletionURL": "$json:deletion_url$"
+}
