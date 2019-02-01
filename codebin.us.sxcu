@@ -1,6 +1,6 @@
 ﻿{
   "DestinationType": "ImageUploader",
-  "RequestURL": "https://CodeBin.us/i/upload.php",
+  "RequestURL": "https://codebin.us/i/upload.php",
   "FileFormName": "image",
   "Arguments": {
     "endpoint": "upload",
