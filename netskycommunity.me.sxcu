@@ -1,11 +1,14 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "netskycommunity.me",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://upload.netskycommunity.me",
-  "FileFormName": "fileform",
+  "Body": "MultipartFormData",
   "Arguments": {
     "key": "INSERT_KEY_HERE",
     "file_length": "5"
   },
+  "FileFormName": "fileform",
   "URL": "$json:url$"
 }

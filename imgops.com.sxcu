@@ -1,6 +1,9 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "http://imgops.com/upload/uploadPhoto-action.asp",
+  "Body": "MultipartFormData",
   "FileFormName": "photo",
-  "ResponseType": "RedirectionURL"
+  "URL": "$responseurl$"
 }

@@ -1,5 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://epvpimg.com/upload/",
+  "Body": "MultipartFormData",
   "FileFormName": "files",
   "URL": "$json:[0].url$",
   "ThumbnailURL": "$json:[0].thumbnail_url$",

@@ -1,9 +1,12 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "http://thehosters.xyz:2052/api/upload",
-  "FileFormName": "sharex",
   "Headers": {
     "token": "[add your token here]"
   },
+  "Body": "MultipartFormData",
+  "FileFormName": "sharex",
   "URL": "$json:url$"
 }

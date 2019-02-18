@@ -1,5 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://killr.io",
+  "Body": "MultipartFormData",
   "Arguments": {
     "code": "$input$"
   },

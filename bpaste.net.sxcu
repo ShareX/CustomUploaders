@@ -1,9 +1,12 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://bpaste.net/",
+  "Body": "MultipartFormData",
   "Arguments": {
     "code": "$input$",
     "lexer": "text",
     "expiry": "never"
   },
-  "ResponseType": "RedirectionURL"
+  "URL": "$responseurl$"
 }

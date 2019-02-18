@@ -1,7 +1,10 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "ipfs.io",
   "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "http://localhost:5001/api/v0/add",
+  "Body": "MultipartFormData",
   "FileFormName": "file",
   "URL": "https://ipfs.io/ipfs/$json:Hash$"
 }

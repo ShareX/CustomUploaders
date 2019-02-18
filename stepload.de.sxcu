@@ -1,5 +1,8 @@
 ﻿{
-  "RequestURL": "stepload.de",
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
+  "RequestURL": "http://stepload.de",
+  "Body": "MultipartFormData",
   "FileFormName": "files",
   "URL": "$json:url$"
 }

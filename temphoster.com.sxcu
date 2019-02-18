@@ -1,11 +1,14 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://temphoster.com/index.php",
-  "FileFormName": "file",
+  "Body": "MultipartFormData",
   "Arguments": {
     "album": "0",
     "agree": "1"
   },
+  "FileFormName": "file",
   "RegexList": [
     "1(?<url>.+)"
   ],

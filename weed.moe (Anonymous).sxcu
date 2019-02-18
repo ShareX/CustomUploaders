@@ -1,6 +1,9 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "weed.moe (Anonymous)",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://weed.moe",
+  "Body": "MultipartFormData",
   "FileFormName": "file"
 }

@@ -1,7 +1,8 @@
 ﻿{
-  "RequestType": "GET",
+  "Version": "12.4.0",
+  "RequestMethod": "GET",
   "RequestURL": "https://coinurl.com/api.php",
-  "Arguments": {
+  "Parameters": {
     "uuid": "YOUR_UUID_HERE",
     "url": "$input$"
   }

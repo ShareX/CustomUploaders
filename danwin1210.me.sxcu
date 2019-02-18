@@ -1,6 +1,9 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://danwin1210.me/upload.php",
+  "Body": "MultipartFormData",
   "FileFormName": "file[]",
   "RegexList": [
     "(?<=Clearnet: <a href=\").+?(?=\">)"

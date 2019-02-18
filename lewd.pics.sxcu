@@ -1,7 +1,10 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://lewd.pics/p/",
-  "FileFormName": "fileToUpload",
+  "Body": "MultipartFormData",
   "Arguments": {
     "curl2": "1"
-  }
+  },
+  "FileFormName": "fileToUpload"
 }

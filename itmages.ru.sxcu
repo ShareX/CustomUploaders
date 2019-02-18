@@ -1,5 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "http://itmages.ru/api/v3/pictures",
+  "Body": "MultipartFormData",
   "FileFormName": "file",
   "URL": "http://$json:success.storage$.static.itmages.ru/$json:success.picture$",
   "ThumbnailURL": "http://$json:success.storage$.static.itmages.ru/$json:success.thumbnail$"

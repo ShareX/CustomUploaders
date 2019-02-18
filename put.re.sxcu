@@ -1,6 +1,9 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "put.re",
+  "RequestMethod": "POST",
   "RequestURL": "https://api.put.re/upload",
+  "Body": "MultipartFormData",
   "FileFormName": "file",
   "URL": "$json:data.link$",
   "ThumbnailURL": "$json:data.thumbnailLink$",

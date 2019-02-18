@@ -1,12 +1,14 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "TextUploader",
+  "RequestMethod": "POST",
   "RequestURL": "http://wklej.org/",
+  "Body": "MultipartFormData",
   "Arguments": {
     "syntax": "text",
     "is_private": "on",
     "body": "$input$"
   },
-  "ResponseType": "RedirectionURL",
-  "URL": "$response$",
-  "ThumbnailURL": "$response$txt/"
+  "URL": "$responseurl$",
+  "ThumbnailURL": "$responseurl$txt/"
 }

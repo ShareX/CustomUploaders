@@ -1,5 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "http://dpaste.com/api/v2/",
+  "Body": "MultipartFormData",
   "Arguments": {
     "content": "$input$",
     "expiry_days": "365"

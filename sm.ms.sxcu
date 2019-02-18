@@ -1,10 +1,13 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://sm.ms/api/upload",
-  "FileFormName": "smfile",
+  "Body": "MultipartFormData",
   "Arguments": {
     "ssl": "false",
     "format": "json"
   },
+  "FileFormName": "smfile",
   "URL": "$json:data.url$",
   "DeletionURL": "$json:data.delete$"
 }

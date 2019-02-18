@@ -1,10 +1,13 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://puush.me/api/up",
-  "FileFormName": "f",
+  "Body": "MultipartFormData",
   "Arguments": {
     "k": "YOUR API KEY",
     "z": "poop"
   },
+  "FileFormName": "f",
   "RegexList": [
     "(?<=,)(.+?)(?=,)"
   ],

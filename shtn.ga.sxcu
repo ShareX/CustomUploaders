@@ -1,9 +1,9 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "URLShortener",
-  "RequestType": "GET",
+  "RequestMethod": "GET",
   "RequestURL": "http://shtn.ga/api/index.php",
-  "FileFormName": "url",
-  "Arguments": {
+  "Parameters": {
     "url": "$input$"
   }
 }

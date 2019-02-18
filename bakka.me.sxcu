@@ -1,5 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://bakka.me/upload.php",
+  "Body": "MultipartFormData",
   "FileFormName": "files[]",
   "RegexList": [
     "\"url\":\"(?:.+\\\\/)?(.*?)\""

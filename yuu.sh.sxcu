@@ -1,6 +1,9 @@
-{
+﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://yuu.sh/api/upload",
+  "Body": "MultipartFormData",
   "FileFormName": "upload[]",
   "URL": "$json:items[0].url$",
   "ThumbnailURL": "$json:items[0].url$"

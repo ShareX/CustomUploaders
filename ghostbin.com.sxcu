@@ -1,9 +1,12 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://ghostbin.com/paste/new",
+  "Body": "MultipartFormData",
   "Arguments": {
     "lang": "text",
     "text": "$input$",
     "expire": "-1"
   },
-  "ResponseType": "RedirectionURL"
+  "URL": "$responseurl$"
 }

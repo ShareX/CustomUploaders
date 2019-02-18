@@ -1,10 +1,13 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://img.danielgray.me/upload/api",
-  "FileFormName": "image",
+  "Body": "MultipartFormData",
   "Arguments": {
     "key": "My key",
     "domain": "selecteddomain"
   },
+  "FileFormName": "image",
   "URL": "$json:url$"
 }

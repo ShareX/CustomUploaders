@@ -1,6 +1,9 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "paste.kde.org (Sticky Notes)",
+  "RequestMethod": "POST",
   "RequestURL": "https://paste.kde.org/api/json/create",
+  "Body": "MultipartFormData",
   "Arguments": {
     "data": "$input$",
     "language": "text",

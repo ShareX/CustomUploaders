@@ -1,5 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "http://lookpic.com/upload.php",
+  "Body": "MultipartFormData",
   "FileFormName": "image",
   "RegexList": [
     "value='<a href=\"(.+?)\".+<img src=\"(.+?)\""

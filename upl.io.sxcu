@@ -1,4 +1,7 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://upl.io",
+  "Body": "MultipartFormData",
   "FileFormName": "file"
 }

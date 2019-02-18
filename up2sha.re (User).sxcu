@@ -1,15 +1,18 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "up2sha.re (User)",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://api.up2sha.re/files",
-  "FileFormName": "file",
-  "Arguments": {
-    "visibility": "private",
-    "description": "Uploaded by ShareX."
-  },
   "Headers": {
     "Accept": "application/vnd.u2s.v1+json",
     "X-Api-Key": "your_api_key"
   },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "visibility": "private",
+    "description": "Uploaded by ShareX."
+  },
+  "FileFormName": "file",
   "URL": "$json:public_url$"
 }

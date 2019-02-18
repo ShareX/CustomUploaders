@@ -1,6 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://lut.im/",
-  "FileFormName": "file",
+  "Body": "MultipartFormData",
   "Arguments": {
     "format": "json",
     "delete-day": "0",
@@ -8,6 +10,7 @@
     "crypt": "0",
     "keep-exif": "0"
   },
+  "FileFormName": "file",
   "URL": "https://lut.im/$json:msg.short$",
   "DeletionURL": "https://lut.im/d/$json:msg.real_short$/$json:msg.token$"
 }

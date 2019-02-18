@@ -1,7 +1,10 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "Discord webhook (URL sharing service)",
   "DestinationType": "URLSharingService",
+  "RequestMethod": "POST",
   "RequestURL": "Webhook URL",
+  "Body": "MultipartFormData",
   "Arguments": {
     "content": "$input$",
     "username": "ShareX",

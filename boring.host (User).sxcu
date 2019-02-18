@@ -1,10 +1,13 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "boring.host (User)",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://api.boring.host/api/upload",
-  "FileFormName": "file",
+  "Body": "MultipartFormData",
   "Arguments": {
     "token": "<your_api_token>"
   },
+  "FileFormName": "file",
   "URL": "https://i.boring.host/$json:data.code$.$json:data.extension$"
 }

@@ -1,6 +1,12 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "teknik.io (Text uploader)",
+  "RequestMethod": "POST",
   "RequestURL": "https://api.teknik.io/v1/Paste",
+  "Headers": {
+    "Authorization": "Basic $base64:YOUR_USERNAME_HERE:YOUR_TOKEN_HERE$"
+  },
+  "Body": "MultipartFormData",
   "Arguments": {
     "code": "$input$",
     "title": "",
@@ -9,9 +15,6 @@
     "password": "",
     "hide": "true",
     "doNotTrack": "true"
-  },
-  "Headers": {
-    "Authorization": "Basic $base64:YOUR_USERNAME_HERE:YOUR_TOKEN_HERE$"
   },
   "URL": "$json:result.url$"
 }

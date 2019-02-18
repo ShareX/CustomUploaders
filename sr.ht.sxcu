@@ -1,8 +1,11 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://sr.ht/api/upload",
-  "FileFormName": "file",
+  "Body": "MultipartFormData",
   "Arguments": {
     "key": "Your API key here"
   },
+  "FileFormName": "file",
   "URL": "$json:url$"
 }

@@ -1,5 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "http://imgur.com/upload",
+  "Body": "MultipartFormData",
   "FileFormName": "Filedata",
   "URL": "http://imgur.com/$json:data.hash$"
 }

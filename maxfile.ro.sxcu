@@ -1,5 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://maxfile.ro/static/upload.php",
+  "Body": "MultipartFormData",
   "FileFormName": "files[]",
   "URL": "https://d.maxfile.ro/$json:files[0].url$"
 }

@@ -1,6 +1,9 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "TextUploader",
+  "RequestMethod": "POST",
   "RequestURL": "http://txti.es/",
+  "Body": "MultipartFormData",
   "Arguments": {
     "content": "$input$",
     "submit": "Save and done"

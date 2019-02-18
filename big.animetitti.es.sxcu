@@ -1,5 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://big.animetitti.es/",
+  "Body": "MultipartFormData",
   "FileFormName": "file"
 }

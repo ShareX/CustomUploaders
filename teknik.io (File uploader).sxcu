@@ -1,14 +1,17 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "teknik.io (File uploader)",
+  "RequestMethod": "POST",
   "RequestURL": "https://api.teknik.io/v1/Upload",
-  "FileFormName": "file",
+  "Headers": {
+    "Authorization": "Basic $base64:YOUR_USERNAME_HERE:YOUR_TOKEN_HERE$"
+  },
+  "Body": "MultipartFormData",
   "Arguments": {
     "genDeletionKey": "true",
     "doNotTrack": "true"
   },
-  "Headers": {
-    "Authorization": "Basic $base64:YOUR_USERNAME_HERE:YOUR_TOKEN_HERE$"
-  },
+  "FileFormName": "file",
   "URL": "$json:result.url$",
   "DeletionURL": "$json:result.url$/$json:result.deletionKey$"
 }

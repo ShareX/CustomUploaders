@@ -1,4 +1,7 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "http://ix.io",
+  "Body": "MultipartFormData",
   "FileFormName": "f:1"
 }

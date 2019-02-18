@@ -1,10 +1,13 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://discordimages.com/api/upload",
-  "FileFormName": "files[]",
   "Headers": {
     "token": ""
   },
+  "Body": "MultipartFormData",
+  "FileFormName": "files[]",
   "URL": "$json:files[0].url$",
   "ThumbnailURL": "$json:files[0].url$"
 }

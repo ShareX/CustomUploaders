@@ -1,5 +1,11 @@
 ﻿{
-  "RequestURL": "https://file.io/?expires=1w",
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
+  "RequestURL": "https://file.io/",
+  "Parameters": {
+    "expires": "1w"
+  },
+  "Body": "MultipartFormData",
   "FileFormName": "file",
   "URL": "$json:link$"
 }

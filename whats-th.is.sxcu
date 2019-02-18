@@ -1,7 +1,13 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "whats-th.is",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestURL": "https://api.awau.moe/upload/pomf?key=YOUR_API_KEY",
+  "RequestMethod": "POST",
+  "RequestURL": "https://api.awau.moe/upload/pomf",
+  "Parameters": {
+    "key": "YOUR_API_KEY"
+  },
+  "Body": "MultipartFormData",
   "FileFormName": "files[]",
   "URL": "https://owo.whats-th.is/$json:files[0].url$"
 }

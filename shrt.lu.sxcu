@@ -1,7 +1,8 @@
 ﻿{
-  "RequestType": "GET",
+  "Version": "12.4.0",
+  "RequestMethod": "GET",
   "RequestURL": "http://shrt.lu/api/create",
-  "Arguments": {
+  "Parameters": {
     "format": "text",
     "url": "$input$"
   }

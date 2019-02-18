@@ -1,7 +1,8 @@
 ﻿{
-  "RequestType": "GET",
+  "Version": "12.4.0",
+  "RequestMethod": "GET",
   "RequestURL": "http://tinyurl.com/create.php",
-  "Arguments": {
+  "Parameters": {
     "url": "$input$"
   },
   "RegexList": [

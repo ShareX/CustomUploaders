@@ -1,5 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "http://pomf.se/upload.php",
+  "Body": "MultipartFormData",
   "FileFormName": "files[]",
   "URL": "$json:files[0].url$"
 }

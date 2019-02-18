@@ -1,13 +1,14 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
   "RequestURL": "https://9m.no/create",
+  "Body": "MultipartFormData",
   "Arguments": {
     "url": "$input$"
   },
-  "ResponseType": "RedirectionURL",
   "RegexList": [
-    "(%.{2})+"
+    "\"shortenedUrl\"><a href=\"(.+)\">"
   ],
-  "URL": "https://9m.no/$regex:1$",
-  "ThumbnailURL": "https://9m.no/show/$regex:1$"
+  "URL": "$regex:1|1$"
 }

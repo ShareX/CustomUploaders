@@ -1,6 +1,8 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "http://needsmorejpeg.com/upload",
+  "Body": "MultipartFormData",
   "FileFormName": "image",
-  "ResponseType": "RedirectionURL",
-  "URL": "$response$.jpeg"
+  "URL": "$responseurl$.jpeg"
 }

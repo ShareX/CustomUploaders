@@ -1,9 +1,12 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://ptpimg.me/upload.php",
-  "FileFormName": "file-upload[0]",
+  "Body": "MultipartFormData",
   "Arguments": {
     "api_key": "YOUR API KEY HERE"
   },
+  "FileFormName": "file-upload[0]",
   "URL": "https://ptpimg.me/$json:[0].code$.$json:[0].ext$"
 }

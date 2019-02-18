@@ -1,11 +1,14 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://codebin.us/i/upload.php",
-  "FileFormName": "image",
+  "Body": "MultipartFormData",
   "Arguments": {
     "endpoint": "upload",
     "token": "1234b"
   },
+  "FileFormName": "image",
   "URL": "$json:url$",
   "DeletionURL": "$json:deletion_url$"
 }

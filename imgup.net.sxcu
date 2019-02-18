@@ -1,12 +1,15 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "http://imgup.net/upload",
-  "FileFormName": "image[image][]",
-  "Arguments": {
-    "_method": "put"
-  },
   "Headers": {
     "Accept": "application/json"
   },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "_method": "put"
+  },
+  "FileFormName": "image[image][]",
   "URL": "$json:direct_link$",
   "ThumbnailURL": "$json:thumb_link$"
 }

@@ -1,9 +1,12 @@
 ﻿{
+  "Version": "12.4.0",
+  "RequestMethod": "POST",
   "RequestURL": "https://paste.ubuntu.com/",
+  "Body": "MultipartFormData",
   "Arguments": {
     "poster": "ShareX",
     "syntax": "text",
     "content": "$input$"
   },
-  "ResponseType": "RedirectionURL"
+  "URL": "$responseurl$"
 }

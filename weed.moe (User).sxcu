@@ -1,9 +1,12 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "weed.moe (User)",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://weed.moe",
-  "FileFormName": "file",
   "Headers": {
     "token": "TOKEN-HERE (GET ONE AT https://weed.moe)"
-  }
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "file"
 }

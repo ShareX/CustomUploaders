@@ -1,9 +1,15 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestURL": "https://0x0f.su/api.php?d=upload-tool",
-  "FileFormName": "file",
+  "RequestMethod": "POST",
+  "RequestURL": "https://0x0f.su/api.php",
+  "Parameters": {
+    "d": "upload-tool"
+  },
+  "Body": "MultipartFormData",
   "Arguments": {
     "name": "",
     "randomname": ""
-  }
+  },
+  "FileFormName": "file"
 }

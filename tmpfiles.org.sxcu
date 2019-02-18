@@ -1,15 +1,20 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "FileUploader",
-  "RequestURL": "https://tmpfiles.org/?upload",
-  "FileFormName": "input_file",
+  "RequestMethod": "POST",
+  "RequestURL": "https://tmpfiles.org/",
+  "Parameters": {
+    "upload": ""
+  },
+  "Body": "MultipartFormData",
   "Arguments": {
-    "max_views": "10",
+    "max_views": "0",
     "max_minutes": "60",
     "upl": "Upload"
   },
-  "ResponseType": "RedirectionURL",
+  "FileFormName": "input_file",
   "RegexList": [
-    "^.+?download\\/(.+)$"
+    "\"img_preview\" src=\"(.+)\""
   ],
-  "URL": "https://tmpfiles.org/dl/$regex:1,1$"
+  "URL": "https://tmpfiles.org$regex:1|1$"
 }

@@ -1,7 +1,10 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "dropfile.to",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://$random:d1|d2|d3$.dropfile.to/upload",
+  "Body": "MultipartFormData",
   "FileFormName": "file",
   "URL": "$json:url$"
 }

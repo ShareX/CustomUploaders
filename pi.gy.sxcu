@@ -1,6 +1,9 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "http://pi.gy/api/image",
+  "Body": "MultipartFormData",
   "FileFormName": "file",
   "URL": "$json:image.url$"
 }

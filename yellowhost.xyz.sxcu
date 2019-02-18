@@ -1,10 +1,13 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "yellowhost.xyz",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://upload.yellowhost.xyz/upload.php",
-  "FileFormName": "sharex",
+  "Body": "MultipartFormData",
   "Arguments": {
     "secret": "YOUR_KEY_HERE"
   },
+  "FileFormName": "sharex",
   "URL": "https://yellowhost.xyz/i/$json:url$"
 }

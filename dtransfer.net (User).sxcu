@@ -1,12 +1,15 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "dtransfer.net (User)",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "http://dtransfer.net/en/api/upload",
-  "FileFormName": "files[]",
+  "Body": "MultipartFormData",
   "Arguments": {
     "api_token": "",
     "store_days": "14",
     "auto_renew": "1"
   },
+  "FileFormName": "files[]",
   "URL": "$json:data.link$"
 }

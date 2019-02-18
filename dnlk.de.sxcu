@@ -1,7 +1,10 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "dnlk.de",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://api.dnlk.de/",
+  "Body": "MultipartFormData",
   "FileFormName": "file",
   "URL": "$json:url$"
 }

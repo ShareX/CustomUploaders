@@ -1,12 +1,15 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "Discord webhook (Image uploader)",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "Webhook URL",
-  "FileFormName": "file",
+  "Body": "MultipartFormData",
   "Arguments": {
     "content": "**$filename$**",
     "username": "ShareX",
     "avatar_url": "https://getsharex.com/img/ShareX_Logo.png"
   },
+  "FileFormName": "file",
   "URL": "$json:attachments[0].url$"
 }

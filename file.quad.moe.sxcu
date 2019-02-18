@@ -1,6 +1,9 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://file.quad.moe",
+  "Body": "MultipartFormData",
   "FileFormName": "file",
   "URL": "$json:url$"
 }

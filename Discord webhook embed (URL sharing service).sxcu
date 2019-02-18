@@ -1,7 +1,10 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "Discord webhook embed (URL sharing service)",
   "DestinationType": "URLSharingService",
+  "RequestMethod": "POST",
   "RequestURL": "Webhook URL",
+  "Body": "MultipartFormData",
   "Arguments": {
     "payload_json": "{\"username\":\"ShareX\",\"avatar_url\":\"https://getsharex.com/img/ShareX_Logo.png\",\"embeds\":[{\"title\":\"$input$\",\"image\":{\"url\":\"$input$\"}}]}"
   }

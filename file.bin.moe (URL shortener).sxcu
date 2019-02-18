@@ -1,7 +1,10 @@
 ﻿{
+  "Version": "12.4.0",
   "Name": "file.bin.moe (URL shortener)",
   "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
   "RequestURL": "http://file.bin.moe/api/objects/shorten",
+  "Body": "MultipartFormData",
   "Arguments": {
     "token": "YOUR_TOKEN_HERE",
     "url": "$input$"

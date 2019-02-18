@@ -1,10 +1,13 @@
 ﻿{
+  "Version": "12.4.0",
   "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
   "RequestURL": "https://elixi.re/api/upload",
-  "FileFormName": "f",
   "Headers": {
     "Authorization": "UPLOADER-TOKEN-GOES-HERE (GET YOURS AT https://elixi.re/account.html)"
   },
+  "Body": "MultipartFormData",
+  "FileFormName": "f",
   "URL": "$json:url$",
   "DeletionURL": "$json:delete_url$?token=UPLOADER-TOKEN-GOES-HERE"
 }
