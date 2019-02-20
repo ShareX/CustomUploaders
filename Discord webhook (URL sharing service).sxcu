@@ -4,10 +4,6 @@
   "DestinationType": "URLSharingService",
   "RequestMethod": "POST",
   "RequestURL": "Webhook URL",
-  "Body": "MultipartFormData",
-  "Arguments": {
-    "content": "$input$",
-    "username": "ShareX",
-    "avatar_url": "https://getsharex.com/img/ShareX_Logo.png"
-  }
+  "Body": "JSON",
+  "Data": "{\n  \"content\": \"$input$\",\n  \"username\": \"ShareX\",\n  \"avatar_url\": \"https://getsharex.com/img/ShareX_Logo.png\",\n  \"tts\": false\n}"
 }

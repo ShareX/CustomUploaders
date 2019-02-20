@@ -8,7 +8,8 @@
   "Arguments": {
     "content": "**$filename$**",
     "username": "ShareX",
-    "avatar_url": "https://getsharex.com/img/ShareX_Logo.png"
+    "avatar_url": "https://getsharex.com/img/ShareX_Logo.png",
+    "tts": "false"
   },
   "FileFormName": "file",
   "URL": "$json:attachments[0].url$"
