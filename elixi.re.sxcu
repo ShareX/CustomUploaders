@@ -9,5 +9,5 @@
   "Body": "MultipartFormData",
   "FileFormName": "f",
   "URL": "$json:url$",
-  "DeletionURL": "$json:delete_url$?token=UPLOADER-TOKEN-GOES-HERE"
+  "DeletionURL": "https://elixi.re/api/delete/$json:shortname$?token=YOUR_TOKEN"
 }
