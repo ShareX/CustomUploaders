@@ -1,0 +1,13 @@
+﻿{
+  "Version": "12.4.1",
+  "Name": "rebrandly.com",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://api.rebrandly.com/v1/links",
+  "Headers": {
+    "apikey": "YOUR_API_KEY"
+  },
+  "Body": "JSON",
+  "Data": "{\n  \"destination\": \"$input$\"\n}",
+  "URL": "https://$json:shortUrl$"
+}
