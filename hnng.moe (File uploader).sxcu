@@ -1,5 +1,5 @@
 ﻿{
-  "Version": "12.4.0",
+  "Version": "12.4.1",
   "Name": "hnng.moe (File uploader)",
   "RequestMethod": "POST",
   "RequestURL": "http://www.hnng.moe/upload_d.php",

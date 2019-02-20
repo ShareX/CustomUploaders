@@ -1,5 +1,5 @@
 ﻿{
-  "Version": "12.4.0",
+  "Version": "12.4.1",
   "Name": "Discord webhook (Image uploader)",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",

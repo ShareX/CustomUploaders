@@ -1,5 +1,5 @@
 ﻿{
-  "Version": "12.4.0",
+  "Version": "12.4.1",
   "Name": "waa.ai",
   "RequestMethod": "POST",
   "RequestURL": "https://api.waa.ai/shorten",

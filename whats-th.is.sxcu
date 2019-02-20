@@ -1,5 +1,5 @@
 ﻿{
-  "Version": "12.4.0",
+  "Version": "12.4.1",
   "Name": "whats-th.is",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",

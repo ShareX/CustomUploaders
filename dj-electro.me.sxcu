@@ -1,5 +1,5 @@
 ﻿{
-  "Version": "12.4.0",
+  "Version": "12.4.1",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://dj-electro.me/upload/[KEY]",

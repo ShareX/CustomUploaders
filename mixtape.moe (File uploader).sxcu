@@ -1,5 +1,5 @@
 ﻿{
-  "Version": "12.4.0",
+  "Version": "12.4.1",
   "Name": "mixtape.moe (File uploader)",
   "RequestMethod": "POST",
   "RequestURL": "https://mixtape.moe/upload.php",
