@@ -3,5 +3,9 @@
   "RequestMethod": "POST",
   "RequestURL": "http://0x0.st",
   "Body": "MultipartFormData",
-  "FileFormName": "file"
+  "FileFormName": "file",
+  "RegexList": [
+    "(.+)\\n?"
+  ],
+  "URL": "$regex:1|1$"
 }
