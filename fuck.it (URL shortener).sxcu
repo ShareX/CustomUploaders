@@ -2,6 +2,10 @@
   "Version": "12.4.1",
   "DestinationType": "URLShortener",
   "RequestMethod": "GET",
-  "RequestURL": "https://fuck.it/api/?key=YOURKEYHERE&url=$input$",
+  "RequestURL": "https://fuck.it/api/",
+  "Parameters": {
+    "key": "YOUR KEY HERE",
+    "url": "$input$"
+  },
   "URL": "$json:short$"
 }
