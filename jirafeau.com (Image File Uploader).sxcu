@@ -11,9 +11,8 @@
   },
   "FileFormName": "file",
   "RegexList": [
-    "(.+)\\n?",
-    "^.*\\r?\\n(.*)"
+    "(.+)\\n(.+)"
   ],
   "URL": "http://jirafeau_domain_address/f.php?h=$regex:1|1$&p=1",
-  "DeletionURL": "https://jirafeau_domain_address/f.php?h=$regex:1|1$&d=$regex:2|1$"
+  "DeletionURL": "https://jirafeau_domain_address/f.php?h=$regex:1|1$&d=$regex:1|2$"
 }
