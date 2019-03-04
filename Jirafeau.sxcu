@@ -1,6 +1,6 @@
 {
   "Version": "12.4.1",
-  "Name": "jirafeau",
+  "Name": "Jirafeau",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://jirafeau_domain_address/script.php",
