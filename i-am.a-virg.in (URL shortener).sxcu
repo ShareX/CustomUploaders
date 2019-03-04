@@ -1,0 +1,11 @@
+{
+  "Version": "12.4.1",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://i-am.a-virg.in/api/shorten",
+  "Parameters": {
+    "link": "$input$"
+  },
+  "Body": "MultipartFormData",
+  "URL": "$json:url$"
+}
