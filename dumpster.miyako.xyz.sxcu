@@ -5,5 +5,5 @@
   "RequestURL": "https://dumpster.miyako.xyz/upload",
   "Body": "MultipartFormData",
   "FileFormName": "file",
-  "URL": "https://dumpster.miyako.xyz/$json:data.items[0].id$"
+  "URL": "https://dumpster.miyako.xyz/download/$json:data.items[0].id$"
 }
