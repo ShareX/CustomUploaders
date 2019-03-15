@@ -1,0 +1,8 @@
+{
+  "Name": "doxspace.xyz",
+  "RequestType": "POST",
+  "RequestURL": "https://doxspace.xyz/upload",
+  "FileFormName": "files[]",
+  "ResponseType": "Text",
+  "URL": "https://doxspace.xyz/$json:files[0].url$"
+}
