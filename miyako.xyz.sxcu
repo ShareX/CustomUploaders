@@ -1,9 +1,9 @@
-﻿{
+{
   "Version": "12.4.1",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://dumpster.miyako.xyz/upload",
+  "RequestURL": "https://miyako.xyz/upload",
   "Body": "MultipartFormData",
   "FileFormName": "file",
-  "URL": "https://dumpster.miyako.xyz/download/$json:data.items[0].id$"
+  "URL": "https://miyako.xyz/download/$json:data.items[0].id$"
 }
