@@ -1,0 +1,14 @@
+{
+  "Version": "12.4.1",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://vee.gg/",
+  "Body": "FormURLEncoded",
+  "Arguments": {
+    "link": "$input$"
+  },
+  "RegexList": [
+    "\\\"https:\\/\\/vee\\.gg\\/(.*)\\\""
+  ],
+  "URL": "https://vee.gg/$regex:1|1$"
+}
