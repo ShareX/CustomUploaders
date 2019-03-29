@@ -1,0 +1,11 @@
+﻿{
+  "Version": "12.4.1",
+  "Name": "aboo.se",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://api.aboo.se/upload",
+  "Body": "MultipartFormData",
+  "FileFormName": "File",
+  "URL": "$json:data.file.url.full$",
+  "ThumbnailURL": "$json:data.file.url.direct$"
+}
