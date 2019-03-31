@@ -1,0 +1,9 @@
+{
+  "Version": "12.4.1",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://file.wine/upload.php",
+  "Body": "MultipartFormData",
+  "FileFormName": "file",
+  "URL": "https://file.wine/$json:file$"
+}
