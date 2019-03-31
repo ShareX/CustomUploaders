@@ -1,0 +1,9 @@
+{
+  "Version": "12.4.1",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://$random:depressive.club|xpross.center|hypixel.party|send-me-more.cash|niggers.group|fuck-your.party|sharex.host|niggers.farm|niggers.cool|skidding-for.life|png.party|doxing.services|mojang.sucks|discord.sucks|pls-kill.me|hitler.cool|ariana-gran.de|wrist-sl.it|rape.horse|niggers.life|buy-a-nig.ga|hitler.ooo|dont-dox.me$/upload.php",
+  "Body": "MultipartFormData",
+  "FileFormName": "file",
+  "URL": "https://$json:responseurl$/$json:file$"
+}
