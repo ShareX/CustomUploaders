@@ -1,0 +1,15 @@
+﻿{
+  "Version": "12.4.0",
+  "Name": "URL_Shortener",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "http://[YOUR_DOMAIN]/api/shortener",
+  "Headers": {
+    "url": "$input$"
+  },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "YOUR_PASSWORD"
+  },
+  "FileFormName": "fdata"
+}

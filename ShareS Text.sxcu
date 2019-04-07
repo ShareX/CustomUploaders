@@ -1,0 +1,12 @@
+﻿{
+  "Version": "12.4.0",
+  "Name": "Text",
+  "DestinationType": "TextUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "http://[YOUR_DOMAIN]/api/paste",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "YOUR_PASSWORD"
+  },
+  "FileFormName": "fdata"
+}

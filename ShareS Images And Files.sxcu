@@ -1,0 +1,12 @@
+﻿{
+  "Version": "12.4.0",
+  "Name": "Images_and_Files",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "http://[YOUR_DOMAIN]/api/files",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "YOUR_PASSWORD"
+  },
+  "FileFormName": "fdata"
+}
