@@ -1,6 +1,5 @@
 ﻿{
   "Version": "12.4.1",
-  "Name": "Instantupload",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://instantupload.de/api/1/upload",
