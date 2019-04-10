@@ -1,0 +1,14 @@
+﻿{
+  "Version": "12.4.1",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://instantupload.de/api/1/upload",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "3dd95fc7f179ef672fdc7f34923c8bad",
+    "format": "redirect",
+    "source": "%input"
+  },
+  "FileFormName": "source",
+  "URL": "$responseurl$"
+}
