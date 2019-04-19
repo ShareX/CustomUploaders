@@ -3,7 +3,7 @@
   "Name": "ratelimited.me",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://api.ratelimited.me/api/upload/pomf",
+  "RequestURL": "https://api.ratelimited.me/upload/pomf",
   "Parameters": {
     "key": "YOUR_API_KEY"
   },
