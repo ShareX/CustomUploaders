@@ -1,0 +1,16 @@
+{
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://oshi.at/",
+  "Parameters": {
+    "randomizefn": "1",
+    "shorturl": "1",
+    "expire": "129600"
+  },
+  "Headers": {
+    "X-Requested-With": "XMLHttpRequest"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "f[]",
+  "URL": "$json:files[0].url$"
+}
