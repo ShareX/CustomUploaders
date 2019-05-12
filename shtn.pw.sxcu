@@ -1,8 +1,8 @@
-﻿{
+{
   "Version": "12.4.1",
   "DestinationType": "URLShortener",
   "RequestMethod": "GET",
-  "RequestURL": "http://shtn.ga/api/index.php",
+  "RequestURL": "https://shtn.pw/api/generate",
   "Parameters": {
     "url": "$input$"
   }
