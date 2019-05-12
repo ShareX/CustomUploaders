@@ -1,6 +1,5 @@
 {
   "Version": "12.4.1",
-  "Name": "Shtn.pw",
   "DestinationType": "URLShortener",
   "RequestMethod": "GET",
   "RequestURL": "https://shtn.pw/api/generate",
