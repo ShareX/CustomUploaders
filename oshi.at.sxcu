@@ -1,4 +1,5 @@
-{
+﻿{
+  "Version": "13.0.0",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://oshi.at/",
