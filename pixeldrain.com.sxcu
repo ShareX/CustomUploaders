@@ -1,0 +1,10 @@
+{
+  "Version": "12.4.1",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://pixeldrain.com/api/file",
+  "Body": "MultipartFormData",
+  "FileFormName": "file",
+  "URL": "https://pixeldrain.com/u/$json:id$",
+  "ThumbnailURL": "https://pixeldrain.com/api/file/$json:id$/thumbnail"
+}
