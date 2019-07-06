@@ -1,6 +1,6 @@
 {
   "Version": "13.0.0",
-  "Name": "0x0.st (Link Shortner)",
+  "Name": "0x0.st (URL shortener)",
   "DestinationType": "URLShortener",
   "RequestMethod": "POST",
   "RequestURL": "https://0x0.st",
