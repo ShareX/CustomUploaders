@@ -1,6 +1,5 @@
-﻿{
+{
   "Version": "12.4.1",
-  "Name": "URLify.dev",
   "DestinationType": "URLShortener",
   "RequestMethod": "POST",
   "RequestURL": "https://urlify.dev/api/",
@@ -8,6 +7,5 @@
     "url": "$input$",
     "method": "json"
   },
-  "Body": "JSON",
   "URL": "$json:short$"
 }
