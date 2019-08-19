@@ -1,9 +1,0 @@
-﻿{
-  "Version": "12.4.1",
-  "Name": "mixtape.moe (File uploader)",
-  "RequestMethod": "POST",
-  "RequestURL": "https://mixtape.moe/upload.php",
-  "Body": "MultipartFormData",
-  "FileFormName": "files[]",
-  "URL": "$json:files[0].url$"
-}
