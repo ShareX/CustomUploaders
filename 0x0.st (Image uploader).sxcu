@@ -1,5 +1,6 @@
 ﻿{
   "Version": "12.4.1",
+  "Name": "0x0.st (Image uploader)",
   "RequestMethod": "POST",
   "RequestURL": "http://0x0.st",
   "Body": "MultipartFormData",
