@@ -1,0 +1,23 @@
+﻿{
+  "Version": "13.0.0",
+  "DestinationType": "TextUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://httpbin.org/anything",
+  "Parameters": {
+    "Arg1": "Value1",
+    "Arg2": "Value2",
+    "Arg3": "Value3"
+  },
+  "Headers": {
+    "Header1": "Value1",
+    "Header2": "Value2",
+    "Header3": "Value3"
+  },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "Form1": "Value1",
+    "Form2": "Value2",
+    "Form3": "Value3"
+  },
+  "FileFormName": "file"
+}
