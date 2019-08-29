@@ -1,0 +1,14 @@
+{
+  "Version": "12.4.1",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://freeimage.host/api/1/upload",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "6d207e02198a847aa98d0a2a901485a5",
+    "format": "redirect",
+    "source": "%input"
+  },
+  "FileFormName": "source",
+  "URL": "$responseurl$"
+}
