@@ -1,0 +1,15 @@
+    {
+      "Version": "13.0.1",
+      "Name": "data.roki.ovh public uploader",
+      "DestinationType": "ImageUploader",
+      "RequestMethod": "POST",
+      "RequestURL": "http://roki.ovh:3854/upload",
+      "Body": "MultipartFormData",
+      "Arguments": {
+        "key": "public_WP1pOEEmF07jorYbW2UjvCVmZigeLVYmIZF2l5op2oncpB2zEieRury0eG7rdtm45RPslMtXNV8UxeE59k6JuY2JST"
+      },
+      "FileFormName": "file",
+      "URL": "$json:file.url$",
+      "ThumbnailURL": null,
+      "DeletionURL": ""
+    }
