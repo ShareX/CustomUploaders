@@ -8,7 +8,7 @@ If you need help while making custom uploader you can check here:
 
 https://getsharex.com/docs/custom-uploader
 
-But easiest way to learn is checking other example custom uploaders to see how those work.
+The easiest way to learn is checking other example custom uploaders to see how those work.
 
 ## Contribution rules
 
