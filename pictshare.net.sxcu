@@ -1,7 +1,7 @@
 ﻿{
-  "Version": "12.4.1",
+  "Version": "12.4.2",
   "RequestMethod": "POST",
-  "RequestURL": "https://www.pictshare.net/backend.php",
+  "RequestURL": "https://pictshare.net/api/upload.php",
   "Body": "MultipartFormData",
   "FileFormName": "postimage",
   "URL": "http://www.pictshare.net/$json:hash$",
