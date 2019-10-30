@@ -1,9 +1,0 @@
-﻿{
-  "Version": "12.4.1",
-  "RequestMethod": "GET",
-  "RequestURL": "http://shrt.lu/api/create",
-  "Parameters": {
-    "format": "text",
-    "url": "$input$"
-  }
-}
