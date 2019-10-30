@@ -1,6 +1,6 @@
 {
   "Version": "12.4.1",
-  "Name": "JBCDN.net",
+  "Name": "jbcdn.net",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://STORAGEBOXSLUG.jbcdn.net/YOURFILEPATH/$filename$",
