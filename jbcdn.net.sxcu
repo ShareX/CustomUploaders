@@ -1,0 +1,14 @@
+{
+  "Version": "12.4.1",
+  "Name": "JBCDN.net",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://STORAGEBOXSLUG.jbcdn.net/YOURFILEPATH/$filename$",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "upkey": "YOURAPIKEY"
+  },
+  "FileFormName": "file",
+  "URL": "$json:result.URL$",
+  "ThumbnailURL": "$json:result.URL$"
+}
