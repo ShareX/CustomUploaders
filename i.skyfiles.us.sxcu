@@ -1,0 +1,9 @@
+{
+  "Version": "13.0.1",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://i.skyfiles.us/upload",
+  "Body": "MultipartFormData",
+  "FileFormName": "file",
+  "URL": "$responseurl$"
+}
