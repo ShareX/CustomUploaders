@@ -1,0 +1,14 @@
+﻿{
+  "Version": "13.0.2",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://yandex.com/images/search",
+  "Parameters": {
+    "rpt": "imageview",
+    "format": "json",
+    "request": "{\"blocks\":[{\"block\":\"b-page_type_search-by-image__link\"}]}"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "upfile",
+  "URL": "https://yandex.com/images/search?$json:blocks[0].params.url$"
+}
