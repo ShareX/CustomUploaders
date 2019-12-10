@@ -1,0 +1,10 @@
+{
+  "Name": "is-inside.me",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestURL": "https://<YOUR_USERNAME>.is-inside.me/upload",
+  "FileFormName": "file",
+  "Headers": {
+    "key": "<YOUR_KEY>"
+  },
+  "URL": "$json:url$"
+}
