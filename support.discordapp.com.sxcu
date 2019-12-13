@@ -1,5 +1,6 @@
 {
   "Version": "13.0.1",
+  "Name": "support.discordapp.com",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://hammerandchisel.zendesk.com/api/v2/uploads.json",
