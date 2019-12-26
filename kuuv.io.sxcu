@@ -1,7 +1,0 @@
-﻿{
-  "Version": "12.4.1",
-  "RequestMethod": "POST",
-  "RequestURL": "https://kuuv.io/upload.php",
-  "Body": "MultipartFormData",
-  "FileFormName": "upl"
-}
