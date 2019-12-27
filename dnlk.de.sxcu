@@ -1,4 +1,4 @@
-﻿{
+{
   "Version": "12.4.1",
   "Name": "dnlk.de",
   "DestinationType": "ImageUploader",
@@ -6,5 +6,6 @@
   "RequestURL": "https://api.dnlk.de/",
   "Body": "MultipartFormData",
   "FileFormName": "file",
-  "URL": "$json:url$"
+  "URL": "$json:url$",
+  "DeletionURL": "$json:delete$"
 }
