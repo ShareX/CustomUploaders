@@ -1,0 +1,13 @@
+{
+  "Version": "13.0.1",
+  "Name": "Mirage File Uploader (Random)",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://api.mirage.re/upload",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "YOUR KEY HERE",
+    "host": "$random:2b2t.vet|a-virg.in|commit-suici.de|devrole.today|discord-banned.me|exploits.biz|exploits.sale|exploits.systems|fitmc.icu|meth.dev|mirage.rocks|mirage.wtf|rape.observer|rape.services|rape.stream|rape.supplies|rape.support|valve-banned.me|zalloc.dev|ccccccccccccccccccccccccccccccccccccccccccc.cc|cccccccccccccccccccccccccccccccccccccccccccccccccccccccc.cc|discock.gg|elixire.rocks|stole-my.bike|ipgrabber.link|rape.ovh|voidless.me|whitenamehate.group|niggers.forsale|nigger.africa|thot.moe|dou.bt.it"
+  },
+  "FileFormName": "file"
+}
