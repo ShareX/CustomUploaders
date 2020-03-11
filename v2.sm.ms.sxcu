@@ -1,0 +1,16 @@
+{
+    "Version": "13.0.1",
+    "Name": "sm.ms v2",
+    "DestinationType": "ImageUploader",
+    "RequestMethod": "POST",
+    "RequestURL": "https://sm.ms/api/v2/upload",
+    "Headers": {
+        "Authorization": "这里写后台面板的API Token"
+    },
+    "Body": "MultipartFormData",
+    "Arguments": {
+        "format": "json"
+    },
+    "FileFormName": "smfile",
+    "URL": "$json:data.url$"
+}
