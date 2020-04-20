@@ -1,0 +1,12 @@
+{
+  "Name": "MEDIA-UPLOAD.NET",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://media-upload.net/php/uploadscreenshot.php",
+  "FileFormName": "sharex",
+  "Arguments": {
+    "secret": "u86iaGe7780L{8O4dSYzMb9>B~8JO~="
+  },
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}
