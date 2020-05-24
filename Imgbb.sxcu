@@ -1,0 +1,12 @@
+{
+  "Version": "13.1.0",
+  "Name": "Imgbb",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://api.imgbb.com/1/upload",
+  "Parameters": {
+    "key": "___PLACE YOUR API KEY HERE (https://api.imgbb.com/)___"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "image"
+}
