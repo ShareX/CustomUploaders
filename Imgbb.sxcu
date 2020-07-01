@@ -5,8 +5,11 @@
   "RequestMethod": "POST",
   "RequestURL": "https://api.imgbb.com/1/upload",
   "Parameters": {
-    "key": "___PLACE YOUR API KEY HERE (https://api.imgbb.com/)___"
+    "key": "<API KEY HERE (https://api.imgbb.com/)>"
   },
   "Body": "MultipartFormData",
-  "FileFormName": "image"
+  "FileFormName": "image",
+  "URL": "$json:data.url$",
+  "ThumbnailURL": "$json:data.thumb.url$",
+  "DeletionURL": "$json:data.delete_url$"
 }
