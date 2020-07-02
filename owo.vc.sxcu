@@ -1,0 +1,9 @@
+{
+  "Version": "13.1.0",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://owo.vc/generate",
+  "Body": "JSON",
+  "Data": "{\n  \"link\": \"$input$\",\n  \"generator\": \"owo\",\n  \"preventScrape\": false,\n  \"owoify\": false\n}",
+  "URL": "$json:result$"
+}
