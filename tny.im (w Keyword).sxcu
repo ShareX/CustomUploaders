@@ -1,7 +1,8 @@
 {
   "Version": "13.1.0",
+  "Name": "tny.im (w Keyword)",
   "DestinationType": "URLShortener",
-  "RequestMethod": "POST",
+  "RequestMethod": "GET",
   "RequestURL": "https://tny.im/yourls-api.php",
   "Parameters": {
     "action": "shorturl",
@@ -9,6 +10,5 @@
     "url": "$input$",
     "format": "json"
   },
-  "Body": "MultipartFormData",
   "URL": "$json:shorturl$"
 }
