@@ -1,0 +1,14 @@
+{
+  "Version": "13.1.0",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://tny.im/yourls-api.php",
+  "Parameters": {
+    "action": "shorturl",
+    "keyword": "$prompt$",
+    "url": "$input$",
+    "format": "json"
+  },
+  "Body": "MultipartFormData",
+  "URL": "$json:shorturl$"
+}
