@@ -1,0 +1,10 @@
+﻿{
+  "Version": "13.1.0",
+  "Name": "Alexcloud.cloud",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://alexcloud.cloud/ui",
+  "Body": "MultipartFormData",
+  "FileFormName": "photo",
+  "URL": "$responseurl$"
+}
