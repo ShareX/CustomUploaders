@@ -1,0 +1,13 @@
+{
+  "Version": "13.1.0",
+  "Name": "glot.io (User)",
+  "DestinationType": "TextUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://snippets.glot.io/snippets",
+  "Headers": {
+    "Authorization": "Token YOUR-TOKEN",
+    "Content-type": "application/json"
+  },
+  "Body": "JSON",
+  "Data": "{\"language\":\"plaintext\",\"title\":\"$filename$\",\"public\":false,\"files\":[{\"name\":\"$filename$\",\"content\":\"$input$\"}]}"
+}
