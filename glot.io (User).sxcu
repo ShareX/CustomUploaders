@@ -9,5 +9,6 @@
     "Content-type": "application/json"
   },
   "Body": "JSON",
-  "Data": "{\"language\":\"plaintext\",\"title\":\"$filename$\",\"public\":false,\"files\":[{\"name\":\"$filename$\",\"content\":\"$input$\"}]}"
+  "Data": "{\"language\":\"plaintext\",\"title\":\"$filename$\",\"public\":false,\"files\":[{\"name\":\"$filename$\",\"content\":\"$input$\"}]}",
+  "URL": "https://glot.io/snippets/$json:id$"
 }
