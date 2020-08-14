@@ -1,0 +1,10 @@
+﻿{
+  "Version": "13.1.0",
+  "Name": "dog.bin",
+  "DestinationType": "TextUploader, URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://del.dog/documents?frontend=true",
+  "Body": "JSON",
+  "Data": "{\n  \"content\": \"$input$\",\n  \"slug\": \"\"\n}",
+  "URL": "https://del.dog/$json:key$"
+}
