@@ -1,0 +1,14 @@
+{
+  "Version": "13.1.0",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://api.imgbb.com/1/upload",
+  "Parameters": {
+    "key": "<API KEY HERE (https://api.imgbb.com/)>"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "image",
+  "URL": "$json:data.url$",
+  "ThumbnailURL": "$json:data.thumb.url$",
+  "DeletionURL": "$json:data.delete_url$"
+}
