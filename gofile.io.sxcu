@@ -4,9 +4,6 @@
   "DestinationType": "FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://srv-store2.gofile.io/uploadFile",
-  "Parameters": {
-    "file": "$input$"
-  },
   "Body": "MultipartFormData",
   "FileFormName": "file",
   "URL": "https://gofile.io/d/$json:data.code$"
