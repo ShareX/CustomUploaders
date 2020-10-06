@@ -1,0 +1,14 @@
+{
+    "Version": "0.1.0",
+    "DestinationType": "ImageUploader",
+    "RequestMethod": "POST",
+    "RequestURL": "https://weebs.xyz/upload",
+    "Headers": {
+      "user": "YourUsername",
+      "embed": "true",
+      "color": "#4a7de2",
+      "timezone": "Europe/London"
+    },
+    "URL": "$json:url$",
+    "FileFormName": "file"
+}
