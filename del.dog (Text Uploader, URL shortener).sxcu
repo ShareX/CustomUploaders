@@ -1,6 +1,6 @@
 ﻿{
   "Version": "13.1.0",
-  "Name": "dog.bin",
+  "Name": "del.dog",
   "DestinationType": "TextUploader, URLShortener",
   "RequestMethod": "POST",
   "RequestURL": "https://del.dog/documents?frontend=true",
