@@ -1,0 +1,10 @@
+{
+  "Version": "13.2.1",
+  "Name": "sadder.wtf",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://img.sadder.wtf/upload",
+  "Body": "MultipartFormData",
+  "FileFormName": "image",
+  "URL": "$json:url$"
+}
