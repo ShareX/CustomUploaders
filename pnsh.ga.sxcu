@@ -1,0 +1,12 @@
+{
+  "Version": "12.4.1",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://pnsh.ga/api/v2/short",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "link": "$input$",
+    "domain": "pnsh.ga"
+  },
+  "URL": "https://pnsh.ga/$json:link$"
+}
