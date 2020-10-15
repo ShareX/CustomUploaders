@@ -1,6 +1,5 @@
 {
   "Version": "12.4.1",
-  "Name": "Pastefy.ga",
   "DestinationType": "TextUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://pastefy.ga/create:paste",
