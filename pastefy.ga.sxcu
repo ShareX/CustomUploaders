@@ -1,0 +1,12 @@
+{
+  "Version": "12.4.1",
+  "DestinationType": "TextUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://pastefy.ga/create:paste",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "content": "$input$",
+    "title": "$filename$"
+  },
+  "URL": "https://pastefy.ga/$json:id$"
+}
