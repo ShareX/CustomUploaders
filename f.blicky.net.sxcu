@@ -1,0 +1,19 @@
+﻿{
+  "Version": "13.2.1",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://f.blicky.net/script.php",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "time": "none",
+    "key": null,
+    "one_time_download": null
+  },
+  "FileFormName": "file",
+  "RegexList": [
+    "(.*)\\n(.*)\\n"
+  ],
+  "URL": "https://f.blicky.net/f.php?h=$regex:1|1$",
+  "ThumbnailURL": "https://f.blicky.net/f.php?h=$regex:1|1$&p=1",
+  "DeletionURL": "https://f.blicky.net/f.php?h=$regex:1|1$&d=$regex:1|2$"
+}
