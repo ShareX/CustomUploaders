@@ -1,5 +1,6 @@
 {
   "Version": "13.1.0",
+  "Name": "imgbb.com",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://api.imgbb.com/1/upload",
