@@ -1,0 +1,11 @@
+{
+  "Version": "13.3.0",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://sleepingcats.party/api/upload",
+  "Parameters": {
+    "auth_token": "your_token_here"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "file"
+}
