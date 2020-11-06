@@ -1,4 +1,4 @@
-﻿{
+{
   "Version": "12.4.1",
   "Name": "Discord webhook embed (URL sharing service)",
   "DestinationType": "URLSharingService",

@@ -1,4 +1,4 @@
-﻿{
+{
   "Version": "13.0.1",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",

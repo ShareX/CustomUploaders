@@ -1,4 +1,4 @@
-﻿{
+{
   "Version": "13.3.0",
   "Name": "Example",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
