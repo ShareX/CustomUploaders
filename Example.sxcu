@@ -1,0 +1,28 @@
+﻿{
+  "Version": "13.3.0",
+  "Name": "Example",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://example.com",
+  "Parameters": {
+    "Parameter1": "Value1",
+    "Parameter2": "Value2",
+    "Parameter3": "Value3"
+  },
+  "Headers": {
+    "Header1": "Value1",
+    "Header2": "Value2",
+    "Header3": "Value3"
+  },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "Argument1": "Value1",
+    "Argument2": "Value2",
+    "Argument3": "Value3"
+  },
+  "FileFormName": "file",
+  "URL": "$json:url$",
+  "ThumbnailURL": "$json:thumbnailurl$",
+  "DeletionURL": "$json:deletionurl$",
+  "ErrorMessage": "$json:error$"
+}
