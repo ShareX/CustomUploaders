@@ -1,15 +1,9 @@
-{
+﻿{
   "Version": "12.4.1",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://cockfile.com/api.php",
-  "Parameters": {
-    "d": "upload-tool"
-  },
+  "RequestURL": "https://cockfile.com/upload.php",
   "Body": "MultipartFormData",
-  "Arguments": {
-    "name": "",
-    "randomname": "1"
-  },
-  "FileFormName": "file"
+  "FileFormName": "files[]",
+  "URL": "$json:files[0].url$"
 }
