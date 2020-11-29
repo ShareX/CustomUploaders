@@ -1,0 +1,13 @@
+﻿{
+  "Version": "13.0.1",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://api.imgchest.com/v1/post",
+  "Headers": {
+    "Authorization": "Bearer "
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "images[]",
+  "URL": "https://imgchest.com/p/$json:data.id$",
+  "DeletionURL": "https://imgchest.com/p/$json:data.delete_slug$"
+}
