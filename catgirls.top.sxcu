@@ -1,0 +1,14 @@
+﻿{
+  "Version": "13.3.0",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://catgirls.top/upload",
+  "Headers": {
+    "token": "JunkMeal_L1B8TSTQA"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "file",
+  "URL": "$json:response$",
+  "DeletionURL": "$json:delurl$",
+  "ErrorMessage": "$json:error$"
+}
