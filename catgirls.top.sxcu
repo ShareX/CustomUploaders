@@ -4,7 +4,7 @@
   "RequestMethod": "POST",
   "RequestURL": "https://catgirls.top/upload",
   "Headers": {
-    "token": "JunkMeal_L1B8TSTQA"
+    "token": "[insert user token here]"
   },
   "Body": "MultipartFormData",
   "FileFormName": "file",
