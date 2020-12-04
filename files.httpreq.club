@@ -1,0 +1,12 @@
+{
+  "Version": "13.2.1",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://files.httpreq.club/api/upload",
+  "Headers": {
+    "authorization": ""
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "file",
+  "URL": "https://files.httpreq.club$json:address$"
+}
