@@ -1,0 +1,12 @@
+{
+  "Version": "12.4.1",
+  "Name": "catgirls.wtf",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://$random:catgirl.pictures|catgirls.life|catgirls.live|catgirls.win|catgirls.wtf|discord.fail|drain.fail|esex.pro|esex.tech|infants.trade|nigga.eu|uwu.deals$/upload",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "[INSERT KEY HERE]"
+  },
+  "FileFormName": "sharex"
+}
