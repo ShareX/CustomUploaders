@@ -1,0 +1,10 @@
+{
+  "Version": "13.3.0",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "GET",
+  "RequestURL": "https://**LessnMore Instance URL**/-/",
+  "Parameters": {
+    "api": "**API KEY**",
+    "url": "$input$"
+  }
+}
