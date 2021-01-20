@@ -1,0 +1,14 @@
+﻿{
+  "Version": "13.2.1",
+  "Name": "ConfigHub.HOST",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://confighub.host/upload",
+  "Parameters": {
+    "secret": "obtain one in discord.gg/images"
+  },
+  "Body": "Binary",
+  "URL": "$json:imageUrl$",
+  "ThumbnailURL": "$json:thumbnailUrl$",
+  "DeletionURL": "$json:deleteUrl$"
+}
