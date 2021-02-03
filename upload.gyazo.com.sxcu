@@ -1,0 +1,12 @@
+{
+  "Version": "13.4.0",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://upload.gyazo.com/api/upload",
+  "Parameters": {
+    "access_token": "YOUR ACCESS TOKEN HERE | 1) Go to https://gyazo.com/api 2) Click 'Register applications' > 'New Application' 3) Set name to 'ShareX' and callback to 'http://example.com' and submit 4) Click the application name (not edit), generate an access token and paste it here"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "imagedata",
+  "URL": "$json:url$"
+}
