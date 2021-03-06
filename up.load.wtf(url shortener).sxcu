@@ -1,0 +1,15 @@
+﻿{
+  "Version": "12.4.1",
+  "Name": "URL_Shortener",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://up.load.wtf/api/shortener",
+  "Headers": {
+    "url": "$input$"
+  },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "whatisapassword"
+  },
+  "FileFormName": "fdata"
+}
