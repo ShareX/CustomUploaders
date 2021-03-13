@@ -1,0 +1,16 @@
+{
+  "Version": "13.3.0",
+  "Name": "starfiles.co",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://api.starfiles.co/upload/upload_file",
+  "Parameters": {
+    "profile": "private key (remove this line if you dont have one)"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "upload",
+  "URL": "https://starfiles.co/file/$json:file$",
+  "ThumbnailURL": "https://api.starfiles.co/direct/$json:file$",
+  "DeletionURL": "https://api.starfiles.co/file/delete?file=$json:file$",
+  "ErrorMessage":"$json:error$"
+}
