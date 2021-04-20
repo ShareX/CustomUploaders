@@ -1,10 +1,11 @@
 {
-  "Version": "13.1.0",
-  "Name": "gofile.io",
+  "Version": "13.2.1",
+  "Name": "Gofile",
   "DestinationType": "FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://srv-store2.gofile.io/uploadFile",
   "Body": "MultipartFormData",
   "FileFormName": "file",
-  "URL": "https://gofile.io/d/$json:data.code$"
+  "URL": "https://gofile.io/d/$json:data.code$",
+  "DeletionURL": "https://api.gofile.io/deleteUpload?ac=$json:data.adminCode$&c=$json:data.code$"
 }
