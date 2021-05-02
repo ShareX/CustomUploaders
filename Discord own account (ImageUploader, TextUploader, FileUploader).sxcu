@@ -1,0 +1,18 @@
+{
+   "Version":"13.4.0",
+   "Name":"DiscordSelf",
+   "DestinationType":"ImageUploader, TextUploader, FileUploader",
+   "RequestMethod":"POST",
+   "RequestURL":"https://discord.com/api/v9/channels/[INSERT YOUR CHANNEL ID HERE]/messages",
+   "Headers":{
+      "authorization":"[INSERT YOUR DISCORD TOKEN HERE]"
+   },
+   "Body":"MultipartFormData",
+   "Arguments":{
+      "Content":null,
+      "tts":"false"
+   },
+   "FileFormName":"file",
+   "URL":"$json:['attachments'][0]['url']$",
+   "ThumbnailURL":"$json:['attachments'][0]['url']$"
+}
