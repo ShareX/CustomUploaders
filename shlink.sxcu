@@ -1,0 +1,12 @@
+{
+  "Version": "12.4.1",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://your-shlink.server/rest/v2/short-urls",
+  "Headers": {
+    "X-Api-Key": "your-shlink-api-key"
+  },
+  "Body": "JSON",
+  "Data": "{\"longUrl\":\"$input$\"}",
+  "URL": "$json:shortUrl$"
+}
