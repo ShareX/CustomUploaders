@@ -1,5 +1,6 @@
-﻿{
+{
   "Version": "13.0.1",
+  "Name": "imgchest.com",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://api.imgchest.com/v1/post",

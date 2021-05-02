@@ -1,10 +1,11 @@
 {
   "Version": "13.3.0",
+  "Name": "LessnMore",
   "DestinationType": "URLShortener",
   "RequestMethod": "GET",
-  "RequestURL": "https://**LessnMore Instance URL**/-/",
+  "RequestURL": "https://[LessnMore instance URL]/-/",
   "Parameters": {
-    "api": "**API KEY**",
+    "api": "[API KEY]",
     "url": "$input$"
   }
 }
