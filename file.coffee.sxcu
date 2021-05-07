@@ -1,6 +1,5 @@
 {
   "Version": "13.0.1",
-  "Name": "file.coffee",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://file.coffee/api/file/upload",
