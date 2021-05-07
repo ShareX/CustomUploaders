@@ -1,9 +1,9 @@
 {
-  "Version": "12.4.1",
+  "Version": "13.0.1",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://file.coffee/api",
+  "RequestURL": "https://file.coffee/api/file/upload",
   "Body": "MultipartFormData",
-  "FileFormName": "image",
-  "URL": "https://file.coffee/$json:filename$"
+  "FileFormName": "file",
+  "URL": "$json:url$"
 }
