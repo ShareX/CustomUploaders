@@ -1,0 +1,10 @@
+{
+  "Version": "1.0",
+  "Name": "aaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com (URL lengthener)",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "GET",
+  "RequestURL": "https://api.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com/a",
+  "Parameters": {
+    "url": "$input$"
+  }
+}
