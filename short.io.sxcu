@@ -1,13 +1,14 @@
 {
   "Version": "12.4.1",
-  "Name": "short.cm",
+  "Name": "short.io",
   "DestinationType": "URLShortener",
   "RequestMethod": "POST",
-  "RequestURL": "https://api.short.cm/links",
+  "RequestURL": "https://api.short.io/links",
   "Headers": {
     "Authorization": "YOUR_API_KEY"
   },
   "Body": "JSON",
   "Data": "{\n  \"domain\": \"YOUR_DOMAIN\",\n  \"originalURL\": \"$input$\"\n}",
-  "URL": "$json:shortURL$"
+  "URL": "$json:shortURL$",
+  "ErrorMessage": "$json:error$"
 }
