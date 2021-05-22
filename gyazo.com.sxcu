@@ -1,0 +1,14 @@
+{
+  "Version": "13.4.0",
+  "Name": "gyazo.com",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://upload.gyazo.com/api/upload",
+  "Parameters": {
+    "access_token": "<acces_token_here>"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "imagedata",
+  "URL": "$json:permalink_url$",
+  "ThumbnailURL": "$json:thumb_url$"
+}
