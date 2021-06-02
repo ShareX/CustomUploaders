@@ -1,0 +1,19 @@
+{
+  "Version": "13.3.0",
+  "Name": "iplogger.xyz",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://unrestricted.host/upload",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "user_key",
+    "color": "181818",
+    "title": "embed title",
+    "descriptions": "embed description",
+    "topdescription": "lil description",
+    "domain": "https://unrestricted.host"
+  },
+  "FileFormName": "file",
+  "URL": "$json:file.url$",
+  "DeletionURL": "$json:file.delete_url$"
+}
