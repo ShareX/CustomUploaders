@@ -1,6 +1,5 @@
 {
   "Version": "13.3.0",
-  "Name": "iplogger.xyz",
   "DestinationType": "ImageUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://unrestricted.host/upload",
