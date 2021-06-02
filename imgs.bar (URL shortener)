@@ -1,0 +1,14 @@
+{
+  "Name": "imgs.bar shortener",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://api.imgs.bar/shortener",
+  "Headers": {
+    "key": "username_key"
+  },
+  "Body": "JSON",
+  "Data": "{\"url\":\"$input$\"}",
+  "URL": "$json:shortendUrl$",
+  "DeletionURL": "$json:deletionUrl$",
+  "ErrorMessage": "$json:error$"
+}
