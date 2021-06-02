@@ -6,7 +6,7 @@
   "FileFormName": "file",
   "Body": "MultipartFormData",
   "Headers": {
-    "key": "USERNAME_RANDOM-LETTERS"
+    "key": "username_key"
   },
   "URL": "$json:imageUrl$",
   "DeletionURL": "$json:deletionUrl$",
