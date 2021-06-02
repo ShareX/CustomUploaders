@@ -9,6 +9,6 @@
   },
   "Body": "JSON",
   "Data": "{\n  \"domain\": \"YOUR_DOMAIN\",\n  \"originalURL\": \"$input$\"\n}",
-  "URL": "$json:shortURL$",
+  "URL": "$json:secureShortURL$",
   "ErrorMessage": "$json:error$"
 }
