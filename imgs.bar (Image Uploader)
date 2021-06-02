@@ -1,0 +1,14 @@
+{
+  "Name": "imgs.bar file uploader",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://api.imgs.bar/files",
+  "FileFormName": "file",
+  "Body": "MultipartFormData",
+  "Headers": {
+    "key": "USERNAME_RANDOM-LETTERS"
+  },
+  "URL": "$json:imageUrl$",
+  "DeletionURL": "$json:deletionUrl$",
+  "ErrorMessage": "$json:error$"
+}
