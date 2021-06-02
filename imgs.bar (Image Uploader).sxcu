@@ -1,5 +1,4 @@
 {
-  "Name": "imgs.bar file uploader",
   "DestinationType": "ImageUploader, FileUploader",
   "RequestType": "POST",
   "RequestURL": "https://api.imgs.bar/files",
