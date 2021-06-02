@@ -1,0 +1,12 @@
+{
+  "Name": "retard.liveV2",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://retard.live/api.php",
+  "FileFormName": "file",
+  "Arguments": {
+    "key": "user_key"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}

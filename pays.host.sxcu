@@ -1,0 +1,13 @@
+{
+  "Version": "13.4.0",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://pays.host/api/images/upload",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "username_key"
+  },
+  "FileFormName": "file",
+  "URL": "$json:url$",
+  "ErrorMessage": "$json:message$"
+}
