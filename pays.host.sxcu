@@ -1,6 +1,5 @@
 {
   "Version": "13.4.0",
-  "Name": "pays.host",
   "DestinationType": "ImageUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://pays.host/api/images/upload",
