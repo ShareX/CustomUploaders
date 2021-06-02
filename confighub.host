@@ -1,6 +1,5 @@
 {
   "Version": "13.2.1",
-  "Name": "ConfigHub.HOST",
   "DestinationType": "ImageUploader, FileUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://confighub.host/upload",
