@@ -3,7 +3,7 @@
   "RequestMethod": "POST",
   "RequestURL": "https://pictshare.net/api/upload.php",
   "Body": "MultipartFormData",
-  "FileFormName": "postimage",
+  "FileFormName": "file",
   "URL": "http://www.pictshare.net/$json:hash$",
   "ThumbnailURL": "http://www.pictshare.net/300x300/$json:hash$"
 }
