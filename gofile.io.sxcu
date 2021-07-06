@@ -1,9 +1,9 @@
 {
-  "Version": "13.1.0",
+  "Version": "13.4.0",
   "Name": "gofile.io",
   "DestinationType": "FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://srv-store2.gofile.io/uploadFile",
+  "RequestURL": "https://store9.gofile.io/uploadFile",
   "Body": "MultipartFormData",
   "FileFormName": "file",
   "URL": "https://gofile.io/d/$json:data.code$",
