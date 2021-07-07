@@ -1,0 +1,1 @@
+{"Version":"13.4.0","Name":"pays.host","DestinationType":"ImageUploader, FileUploader","RequestMethod":"POST","RequestURL":"https://pays.host/api/images/upload","Body":"MultipartFormData","Arguments":{"key":"insert key here, get it at pays.host, needs invite, they drop it at their discord"},"FileFormName":"file","URL":"$json:url$","ErrorMessage":"$json:message$"}
