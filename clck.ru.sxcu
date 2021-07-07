@@ -1,0 +1,11 @@
+{
+  "Version": "13.5.0",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://clck.ru/--",
+  "Parameters": {
+    "url": "$input$"
+  },
+  "Body": "JSON",
+  "URL": "$response$"
+}
