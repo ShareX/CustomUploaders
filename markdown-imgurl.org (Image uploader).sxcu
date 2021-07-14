@@ -1,0 +1,10 @@
+﻿{
+  "Version": "13.5.0",
+  "Name": "markdown-imgurl.org (Image uploader)",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://imgurl.org/upload/ftp",
+  "Body": "MultipartFormData",
+  "FileFormName": "file",
+  "URL": "![]($json:url$)"
+}
