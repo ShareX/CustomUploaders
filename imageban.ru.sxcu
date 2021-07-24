@@ -1,0 +1,18 @@
+{
+  "Version": "13.5.0",
+  "Name": "ImageBan.ru",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://api.imageban.ru/v1",
+  "Headers": {
+    "Authorization": "Token YOUR_CLIENT_ID"
+  },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "name": "$filename$",
+    "secret_key": "YOUR_SECRET_KEY"
+  },
+  "FileFormName": "image",
+  "URL": "$json:data.link$",
+  "ErrorMessage": "$json:error.message$"
+}
