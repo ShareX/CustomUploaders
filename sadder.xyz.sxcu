@@ -3,7 +3,7 @@
   "Name": "sadder.wtf",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://img.sadder.wtf/upload",
+  "RequestURL": "https://img.sadder.xyz/upload",
   "Body": "MultipartFormData",
   "FileFormName": "image",
   "URL": "$json:url$"
