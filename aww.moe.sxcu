@@ -1,8 +1,0 @@
-{
-  "Version": "12.4.1",
-  "RequestMethod": "POST",
-  "RequestURL": "https://aww.moe/upload.php",
-  "Body": "MultipartFormData",
-  "FileFormName": "files[]",
-  "URL": "https://aww.moe/$json:files[0].url$"
-}
