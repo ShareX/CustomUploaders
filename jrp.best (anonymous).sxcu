@@ -1,0 +1,16 @@
+{
+    "Version": "13.6.1",
+    "Name": "jrp.best (anonymous)",
+    "DestinationType": "ImageUploader",
+    "RequestMethod": "POST",
+    "RequestURL": "https://sharex.jrp.best/upload.php",
+    "Body": "MultipartFormData",
+    "FileFormName": "sharex",
+    "Arguments": {
+      "secret": "jrpbestsharexuploadersecretbecauseicantmakeitworkwithoutit"
+    },
+    "URL": "",
+    "ThumbnailURL": "",
+    "DeletionURL": "",
+    "ErrorMessage": ""
+}
