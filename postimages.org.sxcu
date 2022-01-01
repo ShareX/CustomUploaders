@@ -1,0 +1,24 @@
+{
+  "Version": "13.6.1",
+  "Name": "postimages.org",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://postimg.cc/json?q=a",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "token": "61aa06d6116f7331ad7b2ba9c7fb707ec9b182e8",
+    "upload_session": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "numfiles": "1",
+    "gallery": null,
+    "adult": null,
+    "ui": null,
+    "optsize": null,
+    "upload_referer": "https://www.phpbb.com",
+    "mode": null,
+    "lang": null,
+    "content": null,
+    "forumurl": null
+  },
+  "FileFormName": "file",
+  "URL": "$json:url$"
+}
