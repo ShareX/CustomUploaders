@@ -1,6 +1,5 @@
 {
   "Version": "13.6.1",
-  "Name": "postimages.org",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://postimg.cc/json?q=a",
