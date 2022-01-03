@@ -1,0 +1,14 @@
+{
+  "Version": "13.0.0",
+  "Name": "rustypaste-url",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://[your instance's url]",
+  "Headers": {
+    "Authorization": "[your instance's auth token]"
+  },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "url": "$input$"
+  }
+}
