@@ -1,0 +1,13 @@
+{
+  "Version": "13.0.0",
+  "Name": "rustypaste-img",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://[your instance's url]",
+  "Headers": {
+    "Authorization": "[your instance's auth token]"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "file"
+}
+
