@@ -22,3 +22,5 @@ or
 `example.com (User).sxcu`
 
 If you are going to pull request only one service then there won't be conflict, and there must not be any brackets.
+
+Please note that `.sxcu` file must be exported from latest version of ShareX and not made manually using text editor.
