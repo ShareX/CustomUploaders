@@ -10,7 +10,7 @@ https://getsharex.com/docs/custom-uploader
 
 The easiest way to learn is checking other example custom uploaders to see how those work.
 
-## Contribution Rules
+## Contribution rules
 
 Before submitting a pull request, please check [contributing](https://github.com/ShareX/CustomUploaders/blob/master/.github/CONTRIBUTING.md) page.
 
