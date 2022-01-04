@@ -1,6 +1,6 @@
 {
   "Version": "13.6.1",
-  "Name": "sharex.jrp.best",
+  "Name": "jrp.best",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://sharex.jrp.best/upload.php",
@@ -9,3 +9,4 @@
     "secret": "jrpbestsharexuploadersecretbecauseicantmakeitworkwithoutit"
   },
   "FileFormName": "sharex"
+}
