@@ -1,23 +1,24 @@
 ## Contribution rules
 
-Please use current custom uploader naming format for consistency. The file name and name should be just domain with lowercase:
+Please use the custom uploader naming format enforced below for consistency, otherwise your pull request will not be accepted.
 
-```
-example.com.sxcu
-```
+The file name and custom uploader name should be just domain with lowercase:
 
-Because ShareX automatically uses request URL domain when the name field is empty, it is recommended to keep name field empty.
+File name: `example.com.sxcu`  
+Custom uploader name field: `example.com`
 
-If one domain has more than one service or profile then append that info within brackets as below:
+Because ShareX automatically uses `Request URL` domain when the name field is empty, generally name field should be just kept empty.
 
-```
-example.com (Image uploader).sxcu
-example.com (URL shortener).sxcu
-```
+Both file name and custom uploader name field output should be identical.
+
+If you are going to pull request one host with multiple services then append that info within brackets as below to avoid conflict:
+
+`example.com (Image uploader).sxcu`  
+`example.com (URL shortener).sxcu`
 
 or
 
-```
-example.com (Anonymous).sxcu
-example.com (User).sxcu
-```
+`example.com (Anonymous).sxcu`  
+`example.com (User).sxcu`
+
+If you are going to pull request only one service then there won't be conflict, and there must not be any brackets.
