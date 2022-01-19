@@ -1,0 +1,1 @@
+{"Version":"13.4.0","Name":"upload.systems - Pastes","DestinationType":"TextUploader","RequestMethod":"POST","RequestURL":"https://api.upload.systems/pastes/new","Body":"JSON","Data":"{\"key\":\"LYcz4iLRUz1TsdXEtnpQ6XOROO7MwCOq\", \"body\": \"$input$\"}","URL":"$json:pasteUrl$","ErrorMessage":"$json:displayMessage$"}
