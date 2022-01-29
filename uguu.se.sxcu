@@ -1,15 +1,11 @@
 {
   "Version": "12.4.1",
-  "DestinationType": "FileUploader",
+  "DestinationType": "FileUploader, ImageUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://uguu.se/api.php",
+  "RequestURL": "https://uguu.se/upload.php",
   "Parameters": {
-    "d": "upload-tool"
+    "output": "text"
   },
   "Body": "MultipartFormData",
-  "Arguments": {
-    "name": "",
-    "randomname": "on"
-  },
-  "FileFormName": "file"
+  "FileFormName": "files[]"
 }
